@@ -16,7 +16,7 @@ fn_ranges = {
 }
 
 # Open MPI runtimes
-with open('mom6_scorep_barrier_timings.yaml', 'r') as timings_file:
+with open('mom6_scorep_timings.yaml', 'r') as timings_file:
     timings = yaml.load(timings_file)
 
 runtimes = defaultdict(list)

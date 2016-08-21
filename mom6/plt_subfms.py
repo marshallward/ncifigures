@@ -31,8 +31,11 @@ for model in models:
         for run in timings[model][expt]:
             npes = timings[model][expt][run]['npes']
             for key in timings[model][expt][run]['runtimes']:
-                rt = timings[model][expt][run]['runtimes'][key]
-                runtimes[model][key].append((npes, rt))
+                rt_min = timings[model][expt][run]['runtimes'][key]['min']
+                rt_avg = timings[model][expt][run]['runtimes'][key]['avg']
+                rt_max = timings[model][expt][run]['runtimes'][key]['max']
+                rt_std = timings[model][expt][run]['runtimes'][key]['std']
+                runtimes[model][key].append((npes, rt_avg, rt_min, rt_max, rt_std))
 
 ref = {
     'mom5': 240,
@@ -80,7 +83,7 @@ for fn_name in runtimes['mom6']:
     ax_rt.set_yscale('log')
     ax_rt.set_title('10-day runtime')
 
-    for model in models:
+    for model in ('mom6',):
 
         rt = runtimes[model][fn_name]
 
@@ -111,7 +114,7 @@ for fn_name in runtimes['mom6']:
             ax_eff.plot(pt[0], t_min * p_ref / pt[0] / pt[1], 'o', color=mark[model])
 
         for fmt in formats:
-            plt.savefig('{}.{}'.format(fn_name, fmt),
+            plt.savefig('figs/{}.{}'.format(fn_name, fmt),
                         facecolor='none', bbox_inches='tight')
 
     plt.close()
