@@ -1,0 +1,859 @@
+om4noblock/om4_120nb:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl: 248.395405
+      final: 3.812297
+      ice: 134.031274
+      init: 11.857861
+      init_ice: 1.383958
+      init_ocn: 5.788358
+      loop: 2985.414038
+      ocn: 2725.513533
+      total: 3001.092898
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl: 228.852216
+      final: 1.618818
+      ice: 133.998397
+      init: 10.51029
+      init_ice: 0.680913
+      init_ocn: 5.912393
+      loop: 2968.037265
+      ocn: 2727.888289
+      total: 2980.175823
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl: 235.971287
+      final: 1.265063
+      ice: 133.683151
+      init: 8.418963
+      init_ice: 0.367176
+      init_ocn: 5.104927
+      loop: 2974.33846
+      ocn: 2726.550889
+      total: 2984.032715
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl: 246.701453
+      final: 1.659011
+      ice: 133.89165
+      init: 8.608133
+      init_ice: 0.328159
+      init_ocn: 5.486892
+      loop: 2977.938795
+      ocn: 2720.113009
+      total: 2988.234501
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl: 237.418176
+      final: 1.540067
+      ice: 133.786253
+      init: 10.505291
+      init_ice: 0.421449
+      init_ocn: 6.267267
+      loop: 2975.548079
+      ocn: 2726.420296
+      total: 2987.622052
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl: 247.885774
+      final: 1.721268
+      ice: 133.979974
+      init: 12.31213
+      init_ice: 1.531932
+      init_ocn: 6.07576
+      loop: 2984.754742
+      ocn: 2724.778087
+      total: 2998.83828
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl: 249.552517
+      final: 1.738634
+      ice: 134.249846
+      init: 12.630169
+      init_ice: 1.312482
+      init_ocn: 6.123411
+      loop: 2983.625695
+      ocn: 2722.342148
+      total: 2998.003783
+om4noblock/om4_15360nb: {}
+om4noblock/om4_1920nb:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl: 24.45929
+      final: 16.052272
+      ice: 12.651789
+      init: 23.601787
+      init_ice: 2.213487
+      init_ocn: 7.32448
+      loop: 271.36202
+      ocn: 242.440569
+      total: 311.057413
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl: 22.883404
+      final: 15.329584
+      ice: 12.325493
+      init: 20.7899
+      init_ice: 1.817785
+      init_ocn: 6.917801
+      loop: 269.233106
+      ocn: 242.182771
+      total: 305.385438
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl: 30.029629
+      final: 16.447928
+      ice: 12.626407
+      init: 22.352329
+      init_ice: 1.845538
+      init_ocn: 6.970695
+      loop: 279.781559
+      ocn: 245.255069
+      total: 318.643444
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl: 26.531016
+      final: 16.079023
+      ice: 15.134884
+      init: 22.458952
+      init_ice: 1.925783
+      init_ocn: 8.509208
+      loop: 283.687594
+      ocn: 250.316782
+      total: 322.513115
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl: 32.195779
+      final: 15.627763
+      ice: 13.123219
+      init: 25.949896
+      init_ice: 2.365442
+      init_ocn: 7.950987
+      loop: 283.441849
+      ocn: 243.907231
+      total: 325.055691
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl: 25.877316
+      final: 15.717395
+      ice: 12.995003
+      init: 22.784256
+      init_ice: 2.334361
+      init_ocn: 7.033831
+      loop: 273.012765
+      ocn: 243.107197
+      total: 311.537018
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl: 44.053939
+      final: 15.066846
+      ice: 13.353299
+      init: 22.85333
+      init_ice: 1.821356
+      init_ocn: 7.938768
+      loop: 294.869781
+      ocn: 245.452449
+      total: 332.850498
+om4noblock/om4_240nb:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl: 137.245468
+      final: 1.2244
+      ice: 67.933152
+      init: 11.401283
+      init_ice: 1.06816
+      init_ocn: 5.540216
+      loop: 1521.354517
+      ocn: 1377.051157
+      total: 1534.016212
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl: 115.455316
+      final: 3.172383
+      ice: 67.603508
+      init: 8.60701
+      init_ice: 0.698807
+      init_ocn: 4.943413
+      loop: 1499.914182
+      ocn: 1376.564223
+      total: 1511.706445
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl: 121.896533
+      final: 1.635973
+      ice: 67.66641
+      init: 10.003571
+      init_ice: 0.790616
+      init_ocn: 5.050806
+      loop: 1508.666439
+      ocn: 1378.775195
+      total: 1520.314954
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl: 117.331338
+      final: 1.566263
+      ice: 67.600338
+      init: 8.852905
+      init_ice: 0.747883
+      init_ocn: 4.809227
+      loop: 1500.94231
+      ocn: 1376.868904
+      total: 1511.369544
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl: 129.553238
+      final: 1.192586
+      ice: 67.660673
+      init: 11.594651
+      init_ice: 1.158952
+      init_ocn: 5.060574
+      loop: 1515.948844
+      ocn: 1379.183338
+      total: 1528.744882
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl: 116.655192
+      final: 2.789047
+      ice: 67.752804
+      init: 9.859438
+      init_ice: 0.722047
+      init_ocn: 5.141249
+      loop: 1503.130067
+      ocn: 1378.687729
+      total: 1515.818549
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl: 119.410349
+      final: 1.284039
+      ice: 67.777927
+      init: 9.811116
+      init_ice: 0.429202
+      init_ocn: 4.530782
+      loop: 1504.151473
+      ocn: 1377.39057
+      total: 1515.260494
+om4noblock/om4_30nb: {}
+om4noblock/om4_3840nb:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl: 19.990635
+      final: 5.170217
+      ice: 10.421216
+      init: 47.599215
+      init_ice: 2.592742
+      init_ocn: 20.972442
+      loop: 165.088405
+      ocn: 139.790232
+      total: 218.006934
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl: 19.507876
+      final: 5.344561
+      ice: 10.726624
+      init: 44.342179
+      init_ice: 2.23985
+      init_ocn: 17.479809
+      loop: 163.912403
+      ocn: 139.651977
+      total: 213.707928
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl: 24.59175
+      final: 5.275263
+      ice: 10.644842
+      init: 43.674997
+      init_ice: 1.793498
+      init_ocn: 19.552258
+      loop: 175.586147
+      ocn: 146.642632
+      total: 224.637305
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl: 37.908441
+      final: 6.268854
+      ice: 10.891007
+      init: 47.380156
+      init_ice: 2.322007
+      init_ocn: 22.476285
+      loop: 181.504235
+      ocn: 138.979765
+      total: 235.239348
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl: 39.930765
+      final: 5.061161
+      ice: 10.237095
+      init: 39.380398
+      init_ice: 2.28754
+      init_ocn: 16.827063
+      loop: 186.866003
+      ocn: 142.490591
+      total: 231.368952
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl: 17.310718
+      final: 8.440502
+      ice: 10.971762
+      init: 49.316377
+      init_ice: 2.349026
+      init_ocn: 21.13284
+      loop: 160.167235
+      ocn: 138.979594
+      total: 217.986481
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl: 30.13398
+      final: 5.054788
+      ice: 9.670392
+      init: 37.578938
+      init_ice: 1.511331
+      init_ocn: 14.965695
+      loop: 171.2761
+      ocn: 137.802397
+      total: 213.939928
+om4noblock/om4_480nb:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl: 76.863524
+      final: 13.574098
+      ice: 37.855883
+      init: 12.11644
+      init_ice: 1.045592
+      init_ocn: 5.086892
+      loop: 822.119428
+      ocn: 739.731576
+      total: 847.821999
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl: 63.990205
+      final: 17.052955
+      ice: 38.232292
+      init: 10.402671
+      init_ice: 0.758085
+      init_ocn: 5.14164
+      loop: 808.641629
+      ocn: 739.767636
+      total: 836.109261
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl: 74.260335
+      final: 13.068157
+      ice: 38.009813
+      init: 12.708044
+      init_ice: 1.001253
+      init_ocn: 5.593223
+      loop: 820.407691
+      ocn: 740.518691
+      total: 846.199175
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl: 62.324155
+      final: 13.246907
+      ice: 37.946525
+      init: 9.940203
+      init_ice: 0.74796
+      init_ocn: 4.754397
+      loop: 807.953588
+      ocn: 740.770819
+      total: 831.150665
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl: 67.886522
+      final: 13.530065
+      ice: 38.297737
+      init: 11.583476
+      init_ice: 0.844303
+      init_ocn: 5.311451
+      loop: 818.251188
+      ocn: 744.519401
+      total: 843.394658
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl: 67.339543
+      final: 13.267588
+      ice: 37.997929
+      init: 10.85141
+      init_ice: 1.347454
+      init_ocn: 4.985635
+      loop: 814.670116
+      ocn: 741.800299
+      total: 838.799809
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl: 64.544131
+      final: 13.026521
+      ice: 38.010399
+      init: 12.08904
+      init_ice: 1.141379
+      init_ocn: 4.922814
+      loop: 809.661847
+      ocn: 740.31885
+      total: 834.787982
+om4noblock/om4_60nb: {}
+om4noblock/om4_7680nb:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    runtimes:
+      cpl: 16.248843
+      final: 10.530413
+      ice: 8.085256
+      init: 82.495554
+      init_ice: 3.993386
+      init_ocn: 29.895538
+      loop: 107.790373
+      ocn: 86.866726
+      total: 200.986635
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    runtimes:
+      cpl: 19.547801
+      final: 10.974705
+      ice: 8.849258
+      init: 80.224424
+      init_ice: 4.779387
+      init_ocn: 28.763988
+      loop: 108.373878
+      ocn: 83.575636
+      total: 199.811745
+om4noblock/om4_960_noblock:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 96.19715
+      final: 13.168654
+      ice: 35.631593
+      init: 31.480973
+      init_ice: 2.717934
+      init_ocn: 9.026211
+      loop: 618.229759
+      ocn: 510.072561
+      total: 662.974733
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 74.467919
+      final: 12.652812
+      ice: 31.683706
+      init: 21.087635
+      init_ice: 2.388623
+      init_ocn: 6.222877
+      loop: 581.001817
+      ocn: 497.601405
+      total: 614.759273
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 56.458012
+      final: 14.343729
+      ice: 31.727503
+      init: 18.685014
+      init_ice: 1.445319
+      init_ocn: 5.947696
+      loop: 560.928795
+      ocn: 496.211382
+      total: 593.969058
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 59.893748
+      final: 13.478456
+      ice: 22.3103
+      init: 17.074663
+      init_ice: 2.158152
+      init_ocn: 6.212629
+      loop: 489.859036
+      ocn: 425.194245
+      total: 520.435616
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 59.992706
+      final: 13.368084
+      ice: 22.715956
+      init: 19.694509
+      init_ice: 3.365804
+      init_ocn: 6.818161
+      loop: 489.65494
+      ocn: 425.305805
+      total: 522.734765
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 57.112248
+      final: 13.181263
+      ice: 22.791914
+      init: 17.740179
+      init_ice: 1.70534
+      init_ocn: 7.719672
+      loop: 486.543523
+      ocn: 425.199939
+      total: 517.478028
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 59.155376
+      final: 12.644019
+      ice: 23.68239
+      init: 56.125212
+      init_ice: 7.188974
+      init_ocn: 17.676651
+      loop: 485.797266
+      ocn: 421.608341
+      total: 554.606301
+  output007:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 60.476617
+      final: 12.973782
+      ice: 22.262047
+      init: 17.44776
+      init_ice: 1.844696
+      init_ocn: 6.005273
+      loop: 486.508648
+      ocn: 421.508217
+      total: 516.947531
+  output008:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 53.891548
+      final: 13.876211
+      ice: 22.951564
+      init: 16.106033
+      init_ice: 1.732517
+      init_ocn: 5.646839
+      loop: 481.002898
+      ocn: 422.076804
+      total: 511.007094
+om4noblock/om4_960nb:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 36.161719
+      final: 22.964604
+      ice: 22.281641
+      init: 14.082135
+      init_ice: 1.193282
+      init_ocn: 5.207083
+      loop: 464.361804
+      ocn: 423.658876
+      total: 501.417383
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 41.719485
+      final: 14.697574
+      ice: 23.247936
+      init: 13.361375
+      init_ice: 1.149778
+      init_ocn: 5.203655
+      loop: 471.626364
+      ocn: 425.010362
+      total: 499.881958
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 44.202931
+      final: 13.576
+      ice: 22.907879
+      init: 15.99854
+      init_ice: 1.598975
+      init_ocn: 5.595407
+      loop: 476.571117
+      ocn: 426.918192
+      total: 506.35685
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 36.3198
+      final: 12.87713
+      ice: 22.881357
+      init: 14.345447
+      init_ice: 1.081736
+      init_ocn: 5.839339
+      loop: 469.472301
+      ocn: 427.755194
+      total: 496.723297
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 46.318081
+      final: 12.929693
+      ice: 22.994019
+      init: 14.974933
+      init_ice: 1.499261
+      init_ocn: 5.188908
+      loop: 477.021175
+      ocn: 426.021641
+      total: 504.948575
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 40.9469
+      final: 19.089917
+      ice: 22.544837
+      init: 13.691942
+      init_ice: 0.977804
+      init_ocn: 5.13924
+      loop: 469.656456
+      ocn: 423.812845
+      total: 502.468948
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl: 43.916677
+      final: 13.224367
+      ice: 23.091234
+      init: 13.919324
+      init_ice: 1.180354
+      init_ocn: 5.193016
+      loop: 472.490097
+      ocn: 424.054472
+      total: 499.655141

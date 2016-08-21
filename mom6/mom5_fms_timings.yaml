@@ -1,0 +1,2217 @@
+om25/om25_120:
+  output000:
+    ht: false
+    ice_layout:
+    - 8
+    - 15
+    ice_npes: 120
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    ocn_layout:
+    - 8
+    - 15
+    ocn_npes: 120
+    runtimes:
+      bihgen: 124.363368
+      compute_tmask_limit: 15.863457
+      cpl: 193.212385
+      eta_and_pbot_diagnose: 5.11586
+      final: 6.628269
+      flux_adjust: 0.716298
+      get_ocean_sbc: 12.45555
+      ice: 148.427005
+      init: 142.241273
+      init_ice: 6.28009
+      init_ocn: 65.52321
+      loop: 1705.470369
+      ocean_advection_velocity: 29.187914
+      ocean_barotropic_forcing: 3.066608
+      ocean_density_diag: 17.482612
+      ocean_diagnostics: 14.39156
+      ocean_eta_smooth: 17.159267
+      ocean_explicit_accel_a: 213.64631
+      ocean_explicit_accel_b: 22.084881
+      ocean_implicit_accel: 50.191536
+      ocn: 1506.571822
+      rho_dzt_tendency: 2.975318
+      submeso_restrat: 181.893906
+      sw_source: 33.377359
+      total: 1854.354301
+      update_ocean_barotropic: 123.823332
+      update_ocean_density: 61.750047
+      update_ocean_tracer: 334.0062
+      update_ocean_velocity_bgrid: 30.660295
+      update_tcell_thickness: 26.959334
+      update_ucell_thickness: 32.78564
+      vert_mix_coeff: 247.880239
+  output001:
+    ht: false
+    ice_layout:
+    - 8
+    - 15
+    ice_npes: 120
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    ocn_layout:
+    - 8
+    - 15
+    ocn_npes: 120
+    runtimes:
+      bihgen: 124.444244
+      compute_tmask_limit: 15.826512
+      cpl: 190.201201
+      eta_and_pbot_diagnose: 5.104975
+      final: 9.433691
+      flux_adjust: 0.667587
+      get_ocean_sbc: 12.238669
+      ice: 143.636627
+      init: 14.477183
+      init_ice: 0.24364
+      init_ocn: 8.475349
+      loop: 1701.38957
+      ocean_advection_velocity: 29.175678
+      ocean_barotropic_forcing: 3.014512
+      ocean_density_diag: 17.465454
+      ocean_diagnostics: 14.427833
+      ocean_eta_smooth: 17.331876
+      ocean_explicit_accel_a: 213.736411
+      ocean_explicit_accel_b: 22.093708
+      ocean_implicit_accel: 50.189223
+      ocn: 1505.541562
+      rho_dzt_tendency: 2.976133
+      submeso_restrat: 181.875748
+      sw_source: 33.367127
+      total: 1725.309994
+      update_ocean_barotropic: 123.600919
+      update_ocean_density: 61.747584
+      update_ocean_tracer: 333.979832
+      update_ocean_velocity_bgrid: 30.631929
+      update_tcell_thickness: 26.945564
+      update_ucell_thickness: 32.968159
+      vert_mix_coeff: 247.207698
+  output002:
+    ht: false
+    ice_layout:
+    - 8
+    - 15
+    ice_npes: 120
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    ocn_layout:
+    - 8
+    - 15
+    ocn_npes: 120
+    runtimes:
+      bihgen: 124.550512
+      compute_tmask_limit: 15.832192
+      cpl: 198.15964
+      eta_and_pbot_diagnose: 5.126204
+      final: 2.864718
+      flux_adjust: 0.763874
+      get_ocean_sbc: 12.476907
+      ice: 144.093344
+      init: 18.01708
+      init_ice: 0.390208
+      init_ocn: 12.018296
+      loop: 1709.930414
+      ocean_advection_velocity: 29.229664
+      ocean_barotropic_forcing: 2.93267
+      ocean_density_diag: 17.471337
+      ocean_diagnostics: 14.479387
+      ocean_eta_smooth: 17.147903
+      ocean_explicit_accel_a: 213.399962
+      ocean_explicit_accel_b: 22.083453
+      ocean_implicit_accel: 50.19284
+      ocn: 1506.26963
+      rho_dzt_tendency: 2.973508
+      submeso_restrat: 182.325251
+      sw_source: 33.429281
+      total: 1730.849417
+      update_ocean_barotropic: 123.72016
+      update_ocean_density: 61.754618
+      update_ocean_tracer: 333.800979
+      update_ocean_velocity_bgrid: 30.613583
+      update_tcell_thickness: 26.960453
+      update_ucell_thickness: 32.756292
+      vert_mix_coeff: 247.784414
+om25/om25_15360:
+  output000:
+    ht: true
+    ice_layout:
+    - 128
+    - 120
+    ice_npes: 15360
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    ocn_layout:
+    - 128
+    - 120
+    ocn_npes: 15360
+    runtimes:
+      bihgen: 1.565498
+      compute_tmask_limit: 0.139491
+      cpl: 78.971078
+      eta_and_pbot_diagnose: 0.710269
+      final: 25.933318
+      flux_adjust: 0.937578
+      get_ocean_sbc: 2.173932
+      ice: 34.585631
+      init: 807.161071
+      init_ice: 12.074799
+      init_ocn: 545.597361
+      loop: 113.326563
+      ocean_advection_velocity: 0.249699
+      ocean_barotropic_forcing: 0.161588
+      ocean_density_diag: 0.130319
+      ocean_diagnostics: 2.160762
+      ocean_eta_smooth: 2.481512
+      ocean_explicit_accel_a: 2.299695
+      ocean_explicit_accel_b: 0.080951
+      ocean_implicit_accel: 0.228368
+      ocn: 28.364757
+      rho_dzt_tendency: 0.020805
+      submeso_restrat: 2.296314
+      sw_source: 0.306253
+      total: 947.002848
+      update_ocean_barotropic: 6.039046
+      update_ocean_density: 0.308464
+      update_ocean_tracer: 3.958644
+      update_ocean_velocity_bgrid: 0.119202
+      update_tcell_thickness: 0.145068
+      update_ucell_thickness: 0.763346
+      vert_mix_coeff: 1.588648
+  output001:
+    ht: true
+    ice_layout:
+    - 128
+    - 120
+    ice_npes: 15360
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    ocn_layout:
+    - 128
+    - 120
+    ocn_npes: 15360
+    runtimes:
+      bihgen: 1.557213
+      compute_tmask_limit: 0.139423
+      cpl: 87.150527
+      eta_and_pbot_diagnose: 0.640778
+      final: 26.10814
+      flux_adjust: 0.842406
+      get_ocean_sbc: 1.309795
+      ice: 27.976287
+      init: 823.565494
+      init_ice: 12.302764
+      init_ocn: 559.050041
+      loop: 116.248753
+      ocean_advection_velocity: 0.236674
+      ocean_barotropic_forcing: 0.160912
+      ocean_density_diag: 0.12937
+      ocean_diagnostics: 0.923162
+      ocean_eta_smooth: 2.30576
+      ocean_explicit_accel_a: 2.289347
+      ocean_explicit_accel_b: 0.073323
+      ocean_implicit_accel: 0.22729
+      ocn: 24.975345
+      rho_dzt_tendency: 0.019019
+      submeso_restrat: 2.162284
+      sw_source: 0.216695
+      total: 966.919337
+      update_ocean_barotropic: 5.767666
+      update_ocean_density: 0.308424
+      update_ocean_tracer: 3.918692
+      update_ocean_velocity_bgrid: 0.119219
+      update_tcell_thickness: 0.130546
+      update_ucell_thickness: 0.66692
+      vert_mix_coeff: 1.467483
+  output002:
+    ht: true
+    ice_layout:
+    - 128
+    - 120
+    ice_npes: 15360
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    ocn_layout:
+    - 128
+    - 120
+    ocn_npes: 15360
+    runtimes:
+      bihgen: 1.523685
+      compute_tmask_limit: 0.139485
+      cpl: 88.519712
+      eta_and_pbot_diagnose: 0.684661
+      final: 25.265488
+      flux_adjust: 0.864989
+      get_ocean_sbc: 1.357586
+      ice: 28.403683
+      init: 814.993974
+      init_ice: 12.300699
+      init_ocn: 550.877026
+      loop: 118.10775
+      ocean_advection_velocity: 0.237552
+      ocean_barotropic_forcing: 0.155101
+      ocean_density_diag: 0.129043
+      ocean_diagnostics: 1.034197
+      ocean_eta_smooth: 2.239215
+      ocean_explicit_accel_a: 2.245918
+      ocean_explicit_accel_b: 0.073383
+      ocean_implicit_accel: 0.227308
+      ocn: 25.289477
+      rho_dzt_tendency: 0.019202
+      submeso_restrat: 2.173134
+      sw_source: 0.217788
+      total: 959.736047
+      update_ocean_barotropic: 5.74059
+      update_ocean_density: 0.308556
+      update_ocean_tracer: 4.118669
+      update_ocean_velocity_bgrid: 0.119214
+      update_tcell_thickness: 0.13158
+      update_ucell_thickness: 0.685416
+      vert_mix_coeff: 1.475988
+om25/om25_1920:
+  output000:
+    ht: false
+    ice_layout:
+    - 64
+    - 30
+    ice_npes: 1920
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    ocn_layout:
+    - 64
+    - 30
+    ocn_npes: 1920
+    runtimes:
+      bihgen: 9.489555
+      compute_tmask_limit: 0.996721
+      cpl: 23.07968
+      eta_and_pbot_diagnose: 0.575227
+      final: 3.33994
+      flux_adjust: 0.131684
+      get_ocean_sbc: 1.397196
+      ice: 12.985509
+      init: 40.443193
+      init_ice: 0.696579
+      init_ocn: 22.853233
+      loop: 111.706115
+      ocean_advection_velocity: 1.359661
+      ocean_barotropic_forcing: 0.395916
+      ocean_density_diag: 1.039619
+      ocean_diagnostics: 0.93773
+      ocean_eta_smooth: 3.097917
+      ocean_explicit_accel_a: 14.073703
+      ocean_explicit_accel_b: 0.604153
+      ocean_implicit_accel: 2.348634
+      ocn: 86.805543
+      rho_dzt_tendency: 0.22994
+      submeso_restrat: 10.295195
+      sw_source: 1.876845
+      total: 155.519824
+      update_ocean_barotropic: 7.496337
+      update_ocean_density: 2.576454
+      update_ocean_tracer: 18.422419
+      update_ocean_velocity_bgrid: 1.280798
+      update_tcell_thickness: 0.959834
+      update_ucell_thickness: 2.26145
+      vert_mix_coeff: 11.783522
+  output001:
+    ht: false
+    ice_layout:
+    - 64
+    - 30
+    ice_npes: 1920
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    ocn_layout:
+    - 64
+    - 30
+    ocn_npes: 1920
+    runtimes:
+      bihgen: 9.486117
+      compute_tmask_limit: 0.996436
+      cpl: 23.351815
+      eta_and_pbot_diagnose: 0.581404
+      final: 3.484685
+      flux_adjust: 0.243467
+      get_ocean_sbc: 1.319329
+      ice: 13.666337
+      init: 54.997423
+      init_ice: 2.046154
+      init_ocn: 29.784741
+      loop: 112.118637
+      ocean_advection_velocity: 1.357699
+      ocean_barotropic_forcing: 0.39563
+      ocean_density_diag: 1.040264
+      ocean_diagnostics: 0.907349
+      ocean_eta_smooth: 3.141357
+      ocean_explicit_accel_a: 14.07844
+      ocean_explicit_accel_b: 0.601822
+      ocean_implicit_accel: 2.346771
+      ocn: 86.797636
+      rho_dzt_tendency: 0.223406
+      submeso_restrat: 10.302802
+      sw_source: 1.876269
+      total: 170.641992
+      update_ocean_barotropic: 7.403746
+      update_ocean_density: 2.578852
+      update_ocean_tracer: 18.418876
+      update_ocean_velocity_bgrid: 1.279309
+      update_tcell_thickness: 0.955891
+      update_ucell_thickness: 2.295768
+      vert_mix_coeff: 11.781912
+  output002:
+    ht: false
+    ice_layout:
+    - 64
+    - 30
+    ice_npes: 1920
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    ocn_layout:
+    - 64
+    - 30
+    ocn_npes: 1920
+    runtimes:
+      bihgen: 9.531095
+      compute_tmask_limit: 0.996215
+      cpl: 28.558158
+      eta_and_pbot_diagnose: 0.614247
+      final: 5.849148
+      flux_adjust: 0.267684
+      get_ocean_sbc: 1.271074
+      ice: 14.400177
+      init: 164.694707
+      init_ice: 6.723604
+      init_ocn: 87.744071
+      loop: 117.642744
+      ocean_advection_velocity: 1.357795
+      ocean_barotropic_forcing: 0.395212
+      ocean_density_diag: 1.038637
+      ocean_diagnostics: 0.920464
+      ocean_eta_smooth: 3.278476
+      ocean_explicit_accel_a: 14.117877
+      ocean_explicit_accel_b: 0.600398
+      ocean_implicit_accel: 2.346898
+      ocn: 87.041508
+      rho_dzt_tendency: 0.218562
+      submeso_restrat: 10.280402
+      sw_source: 1.876837
+      total: 288.223773
+      update_ocean_barotropic: 7.413097
+      update_ocean_density: 2.5831
+      update_ocean_tracer: 18.504963
+      update_ocean_velocity_bgrid: 1.277974
+      update_tcell_thickness: 0.95421
+      update_ucell_thickness: 2.262397
+      vert_mix_coeff: 11.771529
+  output003:
+    ht: false
+    ice_layout:
+    - 64
+    - 30
+    ice_npes: 1920
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    ocn_layout:
+    - 64
+    - 30
+    ocn_npes: 1920
+    runtimes:
+      bihgen: 9.581721
+      compute_tmask_limit: 0.997018
+      cpl: 30.06332
+      eta_and_pbot_diagnose: 0.603477
+      final: 6.60028
+      flux_adjust: 0.459785
+      get_ocean_sbc: 1.330972
+      ice: 13.388248
+      init: 53.567462
+      init_ice: 0.783607
+      init_ocn: 28.00428
+      loop: 120.290853
+      ocean_advection_velocity: 1.364571
+      ocean_barotropic_forcing: 0.423316
+      ocean_density_diag: 1.03695
+      ocean_diagnostics: 0.939225
+      ocean_eta_smooth: 3.217889
+      ocean_explicit_accel_a: 14.216215
+      ocean_explicit_accel_b: 0.604217
+      ocean_implicit_accel: 2.347523
+      ocn: 88.109315
+      rho_dzt_tendency: 0.229262
+      submeso_restrat: 10.312986
+      sw_source: 1.878616
+      total: 180.50134
+      update_ocean_barotropic: 8.04424
+      update_ocean_density: 2.572566
+      update_ocean_tracer: 18.47587
+      update_ocean_velocity_bgrid: 1.276551
+      update_tcell_thickness: 0.957452
+      update_ucell_thickness: 2.311521
+      vert_mix_coeff: 11.789239
+  output004:
+    ht: false
+    ice_layout:
+    - 64
+    - 30
+    ice_npes: 1920
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    ocn_layout:
+    - 64
+    - 30
+    ocn_npes: 1920
+    runtimes:
+      bihgen: 9.594317
+      compute_tmask_limit: 0.996561
+      cpl: 52.9973
+      eta_and_pbot_diagnose: 0.688272
+      final: 15.412448
+      flux_adjust: 0.269689
+      get_ocean_sbc: 1.397864
+      ice: 24.040686
+      init: 278.710836
+      init_ice: 3.729878
+      init_ocn: 192.955979
+      loop: 142.965816
+      ocean_advection_velocity: 1.360567
+      ocean_barotropic_forcing: 0.422958
+      ocean_density_diag: 1.037879
+      ocean_diagnostics: 0.922174
+      ocean_eta_smooth: 3.181362
+      ocean_explicit_accel_a: 14.223535
+      ocean_explicit_accel_b: 0.598773
+      ocean_implicit_accel: 2.347854
+      ocn: 87.96595
+      rho_dzt_tendency: 0.225347
+      submeso_restrat: 10.374686
+      sw_source: 1.885921
+      total: 437.831924
+      update_ocean_barotropic: 7.706322
+      update_ocean_density: 2.577368
+      update_ocean_tracer: 18.649968
+      update_ocean_velocity_bgrid: 1.280799
+      update_tcell_thickness: 0.963036
+      update_ucell_thickness: 2.265038
+      vert_mix_coeff: 11.807708
+  output005:
+    ht: false
+    ice_layout:
+    - 64
+    - 30
+    ice_npes: 1920
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    ocn_layout:
+    - 64
+    - 30
+    ocn_npes: 1920
+    runtimes:
+      bihgen: 9.786098
+      compute_tmask_limit: 0.996737
+      cpl: 26.956336
+      eta_and_pbot_diagnose: 0.747887
+      final: 6.246335
+      flux_adjust: 0.349264
+      get_ocean_sbc: 1.340963
+      ice: 13.660332
+      init: 108.504659
+      init_ice: 5.656043
+      init_ocn: 51.408618
+      loop: 117.468271
+      ocean_advection_velocity: 1.361626
+      ocean_barotropic_forcing: 0.414354
+      ocean_density_diag: 1.035722
+      ocean_diagnostics: 1.049218
+      ocean_eta_smooth: 3.029033
+      ocean_explicit_accel_a: 14.422191
+      ocean_explicit_accel_b: 0.606066
+      ocean_implicit_accel: 2.350245
+      ocn: 88.343353
+      rho_dzt_tendency: 0.225996
+      submeso_restrat: 10.368772
+      sw_source: 1.880425
+      total: 232.294615
+      update_ocean_barotropic: 7.733378
+      update_ocean_density: 2.574286
+      update_ocean_tracer: 18.463521
+      update_ocean_velocity_bgrid: 1.278384
+      update_tcell_thickness: 0.957148
+      update_ucell_thickness: 2.26384
+      vert_mix_coeff: 11.78064
+  output006:
+    ht: false
+    ice_layout:
+    - 64
+    - 30
+    ice_npes: 1920
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    ocn_layout:
+    - 64
+    - 30
+    ocn_npes: 1920
+    runtimes:
+      bihgen: 9.583508
+      compute_tmask_limit: 0.996819
+      cpl: 45.341796
+      eta_and_pbot_diagnose: 0.681862
+      final: 8.838944
+      flux_adjust: 0.370586
+      get_ocean_sbc: 1.425238
+      ice: 19.01328
+      init: 266.029561
+      init_ice: 5.249258
+      init_ocn: 157.474163
+      loop: 135.506416
+      ocean_advection_velocity: 1.357393
+      ocean_barotropic_forcing: 0.416549
+      ocean_density_diag: 1.036305
+      ocean_diagnostics: 0.910888
+      ocean_eta_smooth: 3.180185
+      ocean_explicit_accel_a: 14.214357
+      ocean_explicit_accel_b: 0.601268
+      ocean_implicit_accel: 2.347832
+      ocn: 87.979338
+      rho_dzt_tendency: 0.221017
+      submeso_restrat: 10.335145
+      sw_source: 1.875563
+      total: 411.473279
+      update_ocean_barotropic: 7.728793
+      update_ocean_density: 2.579317
+      update_ocean_tracer: 18.68292
+      update_ocean_velocity_bgrid: 1.278898
+      update_tcell_thickness: 0.954844
+      update_ucell_thickness: 2.261201
+      vert_mix_coeff: 11.771913
+om25/om25_240:
+  output000:
+    ht: true
+    ice_layout:
+    - 16
+    - 15
+    ice_npes: 240
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    ocn_layout:
+    - 16
+    - 15
+    ocn_npes: 240
+    runtimes:
+      bihgen: 58.675575
+      compute_tmask_limit: 7.775931
+      cpl: 89.502272
+      eta_and_pbot_diagnose: 3.197111
+      final: 2.215279
+      flux_adjust: 0.361446
+      get_ocean_sbc: 6.042688
+      ice: 69.232223
+      init: 11.248144
+      init_ice: 0.294185
+      init_ocn: 5.983676
+      loop: 773.170523
+      ocean_advection_velocity: 10.696656
+      ocean_barotropic_forcing: 2.123651
+      ocean_density_diag: 8.631845
+      ocean_diagnostics: 6.860188
+      ocean_eta_smooth: 11.138425
+      ocean_explicit_accel_a: 101.011577
+      ocean_explicit_accel_b: 10.483837
+      ocean_implicit_accel: 24.563882
+      ocn: 680.916867
+      rho_dzt_tendency: 1.384183
+      submeso_restrat: 77.264183
+      sw_source: 15.873744
+      total: 786.644529
+      update_ocean_barotropic: 35.709914
+      update_ocean_density: 29.908622
+      update_ocean_tracer: 160.870635
+      update_ocean_velocity_bgrid: 14.852751
+      update_tcell_thickness: 10.164807
+      update_ucell_thickness: 14.108882
+      vert_mix_coeff: 112.569011
+  output001:
+    ht: true
+    ice_layout:
+    - 16
+    - 15
+    ice_npes: 240
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    ocn_layout:
+    - 16
+    - 15
+    ocn_npes: 240
+    runtimes:
+      bihgen: 58.398618
+      compute_tmask_limit: 7.778845
+      cpl: 85.113632
+      eta_and_pbot_diagnose: 3.177816
+      final: 5.423007
+      flux_adjust: 0.362338
+      get_ocean_sbc: 5.924472
+      ice: 69.688592
+      init: 11.104232
+      init_ice: 0.296263
+      init_ocn: 5.910788
+      loop: 770.434945
+      ocean_advection_velocity: 10.704322
+      ocean_barotropic_forcing: 2.063262
+      ocean_density_diag: 8.633665
+      ocean_diagnostics: 7.03579
+      ocean_eta_smooth: 10.932356
+      ocean_explicit_accel_a: 100.607915
+      ocean_explicit_accel_b: 10.474366
+      ocean_implicit_accel: 24.583237
+      ocn: 681.051836
+      rho_dzt_tendency: 1.387934
+      submeso_restrat: 78.50056
+      sw_source: 15.883018
+      total: 787.011468
+      update_ocean_barotropic: 35.178826
+      update_ocean_density: 29.928092
+      update_ocean_tracer: 160.4789
+      update_ocean_velocity_bgrid: 14.90269
+      update_tcell_thickness: 10.16966
+      update_ucell_thickness: 14.113362
+      vert_mix_coeff: 112.783577
+  output002:
+    ht: true
+    ice_layout:
+    - 16
+    - 15
+    ice_npes: 240
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    ocn_layout:
+    - 16
+    - 15
+    ocn_npes: 240
+    runtimes:
+      bihgen: 58.672199
+      compute_tmask_limit: 7.775291
+      cpl: 102.148222
+      eta_and_pbot_diagnose: 3.288782
+      final: 6.597449
+      flux_adjust: 0.365706
+      get_ocean_sbc: 6.090806
+      ice: 73.868223
+      init: 75.115671
+      init_ice: 2.687738
+      init_ocn: 32.741237
+      loop: 786.586373
+      ocean_advection_velocity: 10.699413
+      ocean_barotropic_forcing: 2.003559
+      ocean_density_diag: 8.634709
+      ocean_diagnostics: 6.863694
+      ocean_eta_smooth: 11.315312
+      ocean_explicit_accel_a: 101.08202
+      ocean_explicit_accel_b: 10.487812
+      ocean_implicit_accel: 24.574547
+      ocn: 681.741089
+      rho_dzt_tendency: 1.388752
+      submeso_restrat: 77.584479
+      sw_source: 15.856994
+      total: 868.3074
+      update_ocean_barotropic: 35.428687
+      update_ocean_density: 29.914533
+      update_ocean_tracer: 161.06331
+      update_ocean_velocity_bgrid: 14.864581
+      update_tcell_thickness: 10.175929
+      update_ucell_thickness: 14.245737
+      vert_mix_coeff: 112.663088
+  output003:
+    ht: true
+    ice_layout:
+    - 16
+    - 15
+    ice_npes: 240
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    ocn_layout:
+    - 16
+    - 15
+    ocn_npes: 240
+    runtimes:
+      bihgen: 58.763149
+      compute_tmask_limit: 7.777139
+      cpl: 92.184052
+      eta_and_pbot_diagnose: 3.245288
+      final: 2.261851
+      flux_adjust: 0.531014
+      get_ocean_sbc: 6.065695
+      ice: 69.996108
+      init: 20.30154
+      init_ice: 0.283656
+      init_ocn: 11.955968
+      loop: 776.537643
+      ocean_advection_velocity: 10.678844
+      ocean_barotropic_forcing: 2.124244
+      ocean_density_diag: 8.626522
+      ocean_diagnostics: 6.878017
+      ocean_eta_smooth: 11.16703
+      ocean_explicit_accel_a: 101.103868
+      ocean_explicit_accel_b: 10.483171
+      ocean_implicit_accel: 24.559027
+      ocn: 681.612964
+      rho_dzt_tendency: 1.383306
+      submeso_restrat: 77.160023
+      sw_source: 15.858342
+      total: 799.108508
+      update_ocean_barotropic: 36.103392
+      update_ocean_density: 29.879716
+      update_ocean_tracer: 160.875117
+      update_ocean_velocity_bgrid: 14.852533
+      update_tcell_thickness: 10.177059
+      update_ucell_thickness: 14.126998
+      vert_mix_coeff: 112.570444
+  output004:
+    ht: true
+    ice_layout:
+    - 16
+    - 15
+    ice_npes: 240
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    ocn_layout:
+    - 16
+    - 15
+    ocn_npes: 240
+    runtimes:
+      bihgen: 58.767082
+      compute_tmask_limit: 7.777233
+      cpl: 99.338075
+      eta_and_pbot_diagnose: 3.230581
+      final: 2.052885
+      flux_adjust: 0.413402
+      get_ocean_sbc: 6.126852
+      ice: 70.66501
+      init: 24.251627
+      init_ice: 0.402956
+      init_ocn: 15.372642
+      loop: 783.00136
+      ocean_advection_velocity: 10.673556
+      ocean_barotropic_forcing: 2.120194
+      ocean_density_diag: 8.625684
+      ocean_diagnostics: 6.925778
+      ocean_eta_smooth: 11.15287
+      ocean_explicit_accel_a: 101.103799
+      ocean_explicit_accel_b: 10.470871
+      ocean_implicit_accel: 24.555933
+      ocn: 680.983836
+      rho_dzt_tendency: 1.382084
+      submeso_restrat: 77.293989
+      sw_source: 15.86766
+      total: 809.321791
+      update_ocean_barotropic: 35.6233
+      update_ocean_density: 29.880521
+      update_ocean_tracer: 160.880999
+      update_ocean_velocity_bgrid: 14.846167
+      update_tcell_thickness: 10.162754
+      update_ucell_thickness: 14.064545
+      vert_mix_coeff: 112.461119
+  output005:
+    ht: true
+    ice_layout:
+    - 16
+    - 15
+    ice_npes: 240
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    ocn_layout:
+    - 16
+    - 15
+    ocn_npes: 240
+    runtimes:
+      bihgen: 58.573682
+      compute_tmask_limit: 7.77922
+      cpl: 89.399142
+      eta_and_pbot_diagnose: 3.195985
+      final: 3.200088
+      flux_adjust: 0.440207
+      get_ocean_sbc: 6.067725
+      ice: 69.661674
+      init: 12.430923
+      init_ice: 0.335212
+      init_ocn: 6.128506
+      loop: 773.663257
+      ocean_advection_velocity: 10.688552
+      ocean_barotropic_forcing: 2.094891
+      ocean_density_diag: 8.628234
+      ocean_diagnostics: 6.865242
+      ocean_eta_smooth: 10.968685
+      ocean_explicit_accel_a: 100.8288
+      ocean_explicit_accel_b: 10.474844
+      ocean_implicit_accel: 24.562968
+      ocn: 681.530936
+      rho_dzt_tendency: 1.383331
+      submeso_restrat: 77.572805
+      sw_source: 15.874834
+      total: 789.301686
+      update_ocean_barotropic: 36.051454
+      update_ocean_density: 29.91021
+      update_ocean_tracer: 160.955651
+      update_ocean_velocity_bgrid: 14.849792
+      update_tcell_thickness: 10.158455
+      update_ucell_thickness: 14.144328
+      vert_mix_coeff: 112.714546
+om25/om25_3840:
+  output000:
+    ht: true
+    ice_layout:
+    - 64
+    - 60
+    ice_npes: 3840
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    ocn_layout:
+    - 64
+    - 60
+    ocn_npes: 3840
+    runtimes:
+      bihgen: 4.578375
+      compute_tmask_limit: 0.469072
+      cpl: 24.810969
+      eta_and_pbot_diagnose: 0.355965
+      final: 7.054912
+      flux_adjust: 0.311907
+      get_ocean_sbc: 0.968469
+      ice: 17.650365
+      init: 80.044529
+      init_ice: 1.699273
+      init_ocn: 50.897489
+      loop: 72.975112
+      ocean_advection_velocity: 0.64517
+      ocean_barotropic_forcing: 0.244262
+      ocean_density_diag: 0.513786
+      ocean_diagnostics: 0.721678
+      ocean_eta_smooth: 1.960085
+      ocean_explicit_accel_a: 6.643331
+      ocean_explicit_accel_b: 0.216419
+      ocean_implicit_accel: 1.002921
+      ocn: 45.192809
+      rho_dzt_tendency: 0.096561
+      submeso_restrat: 5.252523
+      sw_source: 0.893011
+      total: 160.147124
+      update_ocean_barotropic: 5.722107
+      update_ocean_density: 1.038913
+      update_ocean_tracer: 9.086835
+      update_ocean_velocity_bgrid: 0.489324
+      update_tcell_thickness: 0.446002
+      update_ucell_thickness: 1.192121
+      vert_mix_coeff: 5.372716
+  output001:
+    ht: true
+    ice_layout:
+    - 64
+    - 60
+    ice_npes: 3840
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    ocn_layout:
+    - 64
+    - 60
+    ocn_npes: 3840
+    runtimes:
+      bihgen: 4.59383
+      compute_tmask_limit: 0.470108
+      cpl: 27.401571
+      eta_and_pbot_diagnose: 0.408495
+      final: 8.837907
+      flux_adjust: 0.421532
+      get_ocean_sbc: 1.131204
+      ice: 18.215207
+      init: 93.155031
+      init_ice: 1.608011
+      init_ocn: 60.019571
+      loop: 76.162437
+      ocean_advection_velocity: 0.648727
+      ocean_barotropic_forcing: 0.233434
+      ocean_density_diag: 0.509308
+      ocean_diagnostics: 0.645452
+      ocean_eta_smooth: 2.001618
+      ocean_explicit_accel_a: 6.63427
+      ocean_explicit_accel_b: 0.215776
+      ocean_implicit_accel: 1.005911
+      ocn: 45.563179
+      rho_dzt_tendency: 0.098779
+      submeso_restrat: 5.322368
+      sw_source: 0.899328
+      total: 178.995763
+      update_ocean_barotropic: 5.514531
+      update_ocean_density: 1.048382
+      update_ocean_tracer: 9.175999
+      update_ocean_velocity_bgrid: 0.493617
+      update_tcell_thickness: 0.449669
+      update_ucell_thickness: 1.222921
+      vert_mix_coeff: 5.399364
+  output002:
+    ht: true
+    ice_layout:
+    - 64
+    - 60
+    ice_npes: 3840
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    ocn_layout:
+    - 64
+    - 60
+    ocn_npes: 3840
+    runtimes:
+      bihgen: 4.535406
+      compute_tmask_limit: 0.46941
+      cpl: 34.6169
+      eta_and_pbot_diagnose: 0.366509
+      final: 10.566211
+      flux_adjust: 0.25293
+      get_ocean_sbc: 0.954796
+      ice: 15.039628
+      init: 186.815214
+      init_ice: 6.860004
+      init_ocn: 99.624609
+      loop: 81.066713
+      ocean_advection_velocity: 0.644404
+      ocean_barotropic_forcing: 0.224983
+      ocean_density_diag: 0.514031
+      ocean_diagnostics: 0.547923
+      ocean_eta_smooth: 1.947628
+      ocean_explicit_accel_a: 6.559224
+      ocean_explicit_accel_b: 0.213547
+      ocean_implicit_accel: 1.005171
+      ocn: 44.315075
+      rho_dzt_tendency: 0.093682
+      submeso_restrat: 5.206662
+      sw_source: 0.888361
+      total: 278.525826
+      update_ocean_barotropic: 5.262864
+      update_ocean_density: 1.047401
+      update_ocean_tracer: 9.11954
+      update_ocean_velocity_bgrid: 0.49161
+      update_tcell_thickness: 0.447614
+      update_ucell_thickness: 1.182026
+      vert_mix_coeff: 5.355205
+  output003:
+    ht: true
+    ice_layout:
+    - 64
+    - 60
+    ice_npes: 3840
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    ocn_layout:
+    - 64
+    - 60
+    ocn_npes: 3840
+    runtimes:
+      bihgen: 4.58522
+      compute_tmask_limit: 0.469186
+      cpl: 30.943312
+      eta_and_pbot_diagnose: 0.364728
+      final: 7.243342
+      flux_adjust: 0.254909
+      get_ocean_sbc: 1.007388
+      ice: 12.811917
+      init: 86.437588
+      init_ice: 1.590448
+      init_ocn: 50.974508
+      loop: 77.900207
+      ocean_advection_velocity: 0.643831
+      ocean_barotropic_forcing: 0.239868
+      ocean_density_diag: 0.512442
+      ocean_diagnostics: 0.578423
+      ocean_eta_smooth: 1.924812
+      ocean_explicit_accel_a: 6.63776
+      ocean_explicit_accel_b: 0.215322
+      ocean_implicit_accel: 1.006105
+      ocn: 44.791381
+      rho_dzt_tendency: 0.101273
+      submeso_restrat: 5.245355
+      sw_source: 0.887669
+      total: 171.671629
+      update_ocean_barotropic: 5.513882
+      update_ocean_density: 1.042446
+      update_ocean_tracer: 9.103526
+      update_ocean_velocity_bgrid: 0.493132
+      update_tcell_thickness: 0.451224
+      update_ucell_thickness: 1.186178
+      vert_mix_coeff: 5.364567
+  output004:
+    ht: true
+    ice_layout:
+    - 64
+    - 60
+    ice_npes: 3840
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    ocn_layout:
+    - 64
+    - 60
+    ocn_npes: 3840
+    runtimes:
+      bihgen: 6.72472
+      compute_tmask_limit: 0.470603
+      cpl: 49.081873
+      eta_and_pbot_diagnose: 1.450653
+      final: 27.011015
+      flux_adjust: 0.483079
+      get_ocean_sbc: 1.286205
+      ice: 25.008544
+      init: 392.956511
+      init_ice: 8.490036
+      init_ocn: 265.683351
+      loop: 106.747062
+      ocean_advection_velocity: 0.646749
+      ocean_barotropic_forcing: 0.317542
+      ocean_density_diag: 0.510738
+      ocean_diagnostics: 0.690831
+      ocean_eta_smooth: 2.503343
+      ocean_explicit_accel_a: 9.007047
+      ocean_explicit_accel_b: 0.21431
+      ocean_implicit_accel: 1.003711
+      ocn: 54.319288
+      rho_dzt_tendency: 0.092807
+      submeso_restrat: 5.496086
+      sw_source: 0.891895
+      total: 527.782863
+      update_ocean_barotropic: 6.443619
+      update_ocean_density: 1.043761
+      update_ocean_tracer: 9.646108
+      update_ocean_velocity_bgrid: 0.492595
+      update_tcell_thickness: 0.447535
+      update_ucell_thickness: 1.288314
+      vert_mix_coeff: 5.396892
+  output005:
+    ht: true
+    ice_layout:
+    - 64
+    - 60
+    ice_npes: 3840
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    ocn_layout:
+    - 64
+    - 60
+    ocn_npes: 3840
+    runtimes:
+      bihgen: 5.049671
+      compute_tmask_limit: 0.469878
+      cpl: 29.692165
+      eta_and_pbot_diagnose: 0.511145
+      final: 7.280336
+      flux_adjust: 0.276036
+      get_ocean_sbc: 0.952566
+      ice: 14.361646
+      init: 118.107796
+      init_ice: 1.565749
+      init_ocn: 75.514449
+      loop: 77.798536
+      ocean_advection_velocity: 0.644715
+      ocean_barotropic_forcing: 0.281754
+      ocean_density_diag: 0.51331
+      ocean_diagnostics: 0.599063
+      ocean_eta_smooth: 1.895827
+      ocean_explicit_accel_a: 7.224503
+      ocean_explicit_accel_b: 0.213571
+      ocean_implicit_accel: 1.007489
+      ocn: 45.975071
+      rho_dzt_tendency: 0.09648
+      submeso_restrat: 5.207576
+      sw_source: 0.890082
+      total: 203.265112
+      update_ocean_barotropic: 5.602734
+      update_ocean_density: 1.046681
+      update_ocean_tracer: 9.127013
+      update_ocean_velocity_bgrid: 0.492743
+      update_tcell_thickness: 0.449417
+      update_ucell_thickness: 1.166154
+      vert_mix_coeff: 5.36088
+  output006:
+    ht: true
+    ice_layout:
+    - 64
+    - 60
+    ice_npes: 3840
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    ocn_layout:
+    - 64
+    - 60
+    ocn_npes: 3840
+    runtimes:
+      bihgen: 4.56803
+      compute_tmask_limit: 0.471069
+      cpl: 33.558043
+      eta_and_pbot_diagnose: 0.36252
+      final: 16.806807
+      flux_adjust: 0.261649
+      get_ocean_sbc: 0.986165
+      ice: 12.102322
+      init: 486.888115
+      init_ice: 17.042486
+      init_ocn: 260.640578
+      loop: 80.564369
+      ocean_advection_velocity: 0.645323
+      ocean_barotropic_forcing: 0.234358
+      ocean_density_diag: 0.513718
+      ocean_diagnostics: 0.60885
+      ocean_eta_smooth: 2.013228
+      ocean_explicit_accel_a: 6.609037
+      ocean_explicit_accel_b: 0.214317
+      ocean_implicit_accel: 1.005102
+      ocn: 44.733164
+      rho_dzt_tendency: 0.093237
+      submeso_restrat: 5.232902
+      sw_source: 0.88696
+      total: 585.280032
+      update_ocean_barotropic: 5.387399
+      update_ocean_density: 1.045077
+      update_ocean_tracer: 9.107551
+      update_ocean_velocity_bgrid: 0.490437
+      update_tcell_thickness: 0.447739
+      update_ucell_thickness: 1.207099
+      vert_mix_coeff: 5.3669
+om25/om25_480:
+  output000:
+    ht: false
+    ice_layout:
+    - 16
+    - 30
+    ice_npes: 480
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    ocn_layout:
+    - 16
+    - 30
+    ocn_npes: 480
+    runtimes:
+      bihgen: 29.743799
+      compute_tmask_limit: 3.89096
+      cpl: 52.389861
+      eta_and_pbot_diagnose: 1.792498
+      final: 2.454041
+      flux_adjust: 0.302259
+      get_ocean_sbc: 3.166555
+      ice: 35.381049
+      init: 34.227731
+      init_ice: 2.014267
+      init_ocn: 15.338928
+      loop: 383.611909
+      ocean_advection_velocity: 4.825382
+      ocean_barotropic_forcing: 1.204461
+      ocean_density_diag: 4.251316
+      ocean_diagnostics: 3.490721
+      ocean_eta_smooth: 6.468782
+      ocean_explicit_accel_a: 49.999899
+      ocean_explicit_accel_b: 4.815864
+      ocean_implicit_accel: 11.959261
+      ocn: 328.6841
+      rho_dzt_tendency: 0.70395
+      submeso_restrat: 38.692435
+      sw_source: 7.584739
+      total: 420.302469
+      update_ocean_barotropic: 15.623574
+      update_ocean_density: 14.069125
+      update_ocean_tracer: 77.426365
+      update_ocean_velocity_bgrid: 6.774612
+      update_tcell_thickness: 4.204063
+      update_ucell_thickness: 6.909926
+      vert_mix_coeff: 52.42791
+  output001:
+    ht: false
+    ice_layout:
+    - 16
+    - 30
+    ice_npes: 480
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    ocn_layout:
+    - 16
+    - 30
+    ocn_npes: 480
+    runtimes:
+      bihgen: 29.908285
+      compute_tmask_limit: 3.890721
+      cpl: 50.622527
+      eta_and_pbot_diagnose: 1.83596
+      final: 2.438178
+      flux_adjust: 0.211011
+      get_ocean_sbc: 3.160727
+      ice: 34.998523
+      init: 14.416145
+      init_ice: 0.299013
+      init_ocn: 6.295995
+      loop: 381.127346
+      ocean_advection_velocity: 4.821125
+      ocean_barotropic_forcing: 1.283257
+      ocean_density_diag: 4.249721
+      ocean_diagnostics: 3.461996
+      ocean_eta_smooth: 6.265069
+      ocean_explicit_accel_a: 50.212277
+      ocean_explicit_accel_b: 4.811831
+      ocean_implicit_accel: 11.94572
+      ocn: 328.579957
+      rho_dzt_tendency: 0.703758
+      submeso_restrat: 38.56597
+      sw_source: 7.58449
+      total: 398.004193
+      update_ocean_barotropic: 15.802707
+      update_ocean_density: 14.035476
+      update_ocean_tracer: 77.373984
+      update_ocean_velocity_bgrid: 6.760159
+      update_tcell_thickness: 4.206942
+      update_ucell_thickness: 6.9221
+      vert_mix_coeff: 52.365574
+  output002:
+    ht: false
+    ice_layout:
+    - 16
+    - 30
+    ice_npes: 480
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    ocn_layout:
+    - 16
+    - 30
+    ocn_npes: 480
+    runtimes:
+      bihgen: 29.794798
+      compute_tmask_limit: 3.890667
+      cpl: 49.803871
+      eta_and_pbot_diagnose: 1.814394
+      final: 2.685914
+      flux_adjust: 0.292139
+      get_ocean_sbc: 3.199747
+      ice: 38.666836
+      init: 16.289034
+      init_ice: 0.30987
+      init_ocn: 8.670574
+      loop: 380.652877
+      ocean_advection_velocity: 4.817885
+      ocean_barotropic_forcing: 1.243783
+      ocean_density_diag: 4.249856
+      ocean_diagnostics: 3.37963
+      ocean_eta_smooth: 6.462267
+      ocean_explicit_accel_a: 50.067737
+      ocean_explicit_accel_b: 4.808151
+      ocean_implicit_accel: 11.949969
+      ocn: 328.672427
+      rho_dzt_tendency: 0.702642
+      submeso_restrat: 38.755369
+      sw_source: 7.583458
+      total: 399.64485
+      update_ocean_barotropic: 15.731806
+      update_ocean_density: 14.052226
+      update_ocean_tracer: 77.341368
+      update_ocean_velocity_bgrid: 6.75966
+      update_tcell_thickness: 4.206663
+      update_ucell_thickness: 6.926013
+      vert_mix_coeff: 52.381508
+  output003:
+    ht: false
+    ice_layout:
+    - 16
+    - 30
+    ice_npes: 480
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    ocn_layout:
+    - 16
+    - 30
+    ocn_npes: 480
+    runtimes:
+      bihgen: 29.726638
+      compute_tmask_limit: 3.892564
+      cpl: 53.536983
+      eta_and_pbot_diagnose: 1.802558
+      final: 4.518545
+      flux_adjust: 0.187501
+      get_ocean_sbc: 3.122431
+      ice: 35.935624
+      init: 42.359622
+      init_ice: 0.596277
+      init_ocn: 26.113942
+      loop: 383.329699
+      ocean_advection_velocity: 4.821637
+      ocean_barotropic_forcing: 1.227825
+      ocean_density_diag: 4.249598
+      ocean_diagnostics: 3.437356
+      ocean_eta_smooth: 6.29282
+      ocean_explicit_accel_a: 49.966001
+      ocean_explicit_accel_b: 4.810892
+      ocean_implicit_accel: 11.946379
+      ocn: 327.985323
+      rho_dzt_tendency: 0.703578
+      submeso_restrat: 38.557732
+      sw_source: 7.580144
+      total: 430.218269
+      update_ocean_barotropic: 15.671106
+      update_ocean_density: 14.038436
+      update_ocean_tracer: 77.33131
+      update_ocean_velocity_bgrid: 6.759933
+      update_tcell_thickness: 4.204349
+      update_ucell_thickness: 6.911641
+      vert_mix_coeff: 52.434613
+  output004:
+    ht: false
+    ice_layout:
+    - 16
+    - 30
+    ice_npes: 480
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    ocn_layout:
+    - 16
+    - 30
+    ocn_npes: 480
+    runtimes:
+      bihgen: 29.897671
+      compute_tmask_limit: 3.890323
+      cpl: 45.450876
+      eta_and_pbot_diagnose: 1.904623
+      final: 14.14418
+      flux_adjust: 0.284367
+      get_ocean_sbc: 3.079017
+      ice: 34.98945
+      init: 17.159159
+      init_ice: 0.280822
+      init_ocn: 9.873159
+      loop: 375.63805
+      ocean_advection_velocity: 4.81916
+      ocean_barotropic_forcing: 1.245111
+      ocean_density_diag: 4.250315
+      ocean_diagnostics: 3.36958
+      ocean_eta_smooth: 6.286851
+      ocean_explicit_accel_a: 50.153157
+      ocean_explicit_accel_b: 4.815555
+      ocean_implicit_accel: 11.950101
+      ocn: 328.461463
+      rho_dzt_tendency: 0.702678
+      submeso_restrat: 38.538146
+      sw_source: 7.57926
+      total: 406.982417
+      update_ocean_barotropic: 15.621237
+      update_ocean_density: 14.035258
+      update_ocean_tracer: 77.373836
+      update_ocean_velocity_bgrid: 6.76041
+      update_tcell_thickness: 4.206176
+      update_ucell_thickness: 6.909377
+      vert_mix_coeff: 52.327812
+  output005:
+    ht: false
+    ice_layout:
+    - 16
+    - 30
+    ice_npes: 480
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    ocn_layout:
+    - 16
+    - 30
+    ocn_npes: 480
+    runtimes:
+      bihgen: 29.860123
+      compute_tmask_limit: 3.892231
+      cpl: 62.490446
+      eta_and_pbot_diagnose: 1.898124
+      final: 3.190742
+      flux_adjust: 0.189508
+      get_ocean_sbc: 3.097564
+      ice: 40.718075
+      init: 211.345454
+      init_ice: 0.438048
+      init_ocn: 135.836862
+      loop: 392.718099
+      ocean_advection_velocity: 4.818076
+      ocean_barotropic_forcing: 1.249901
+      ocean_density_diag: 4.25032
+      ocean_diagnostics: 3.380047
+      ocean_eta_smooth: 6.245035
+      ocean_explicit_accel_a: 50.126365
+      ocean_explicit_accel_b: 4.812711
+      ocean_implicit_accel: 11.948271
+      ocn: 328.453632
+      rho_dzt_tendency: 0.703653
+      submeso_restrat: 38.574441
+      sw_source: 7.584099
+      total: 607.261983
+      update_ocean_barotropic: 15.796863
+      update_ocean_density: 14.055756
+      update_ocean_tracer: 77.436881
+      update_ocean_velocity_bgrid: 6.760715
+      update_tcell_thickness: 4.205354
+      update_ucell_thickness: 6.921698
+      vert_mix_coeff: 52.388436
+  output006:
+    ht: false
+    ice_layout:
+    - 16
+    - 30
+    ice_npes: 480
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    ocn_layout:
+    - 16
+    - 30
+    ocn_npes: 480
+    runtimes:
+      bihgen: 29.878497
+      compute_tmask_limit: 3.891025
+      cpl: 45.291209
+      eta_and_pbot_diagnose: 1.796408
+      final: 2.539047
+      flux_adjust: 0.18589
+      get_ocean_sbc: 3.147459
+      ice: 34.876608
+      init: 44.139215
+      init_ice: 0.30099
+      init_ocn: 35.850881
+      loop: 376.118387
+      ocean_advection_velocity: 4.818736
+      ocean_barotropic_forcing: 1.255601
+      ocean_density_diag: 4.249721
+      ocean_diagnostics: 3.363162
+      ocean_eta_smooth: 6.595854
+      ocean_explicit_accel_a: 50.171448
+      ocean_explicit_accel_b: 4.816825
+      ocean_implicit_accel: 11.953102
+      ocn: 328.900518
+      rho_dzt_tendency: 0.702591
+      submeso_restrat: 38.652963
+      sw_source: 7.57834
+      total: 422.805891
+      update_ocean_barotropic: 15.873667
+      update_ocean_density: 14.04235
+      update_ocean_tracer: 77.387362
+      update_ocean_velocity_bgrid: 6.761021
+      update_tcell_thickness: 4.206604
+      update_ucell_thickness: 6.923367
+      vert_mix_coeff: 52.454062
+om25/om25_7680:
+  output000:
+    ht: true
+    ice_layout:
+    - 128
+    - 60
+    ice_npes: 7680
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    ocn_layout:
+    - 128
+    - 60
+    ocn_npes: 7680
+    runtimes:
+      bihgen: 2.490132
+      compute_tmask_limit: 0.26012
+      cpl: 58.413407
+      eta_and_pbot_diagnose: 0.708096
+      final: 23.239646
+      flux_adjust: 0.426733
+      get_ocean_sbc: 0.982069
+      ice: 16.466746
+      init: 440.533591
+      init_ice: 5.687477
+      init_ocn: 272.309998
+      loop: 91.982576
+      ocean_advection_velocity: 0.421209
+      ocean_barotropic_forcing: 0.17758
+      ocean_density_diag: 0.259197
+      ocean_diagnostics: 0.524432
+      ocean_eta_smooth: 1.835525
+      ocean_explicit_accel_a: 3.702964
+      ocean_explicit_accel_b: 0.133774
+      ocean_implicit_accel: 0.510233
+      ocn: 30.754457
+      rho_dzt_tendency: 0.039695
+      submeso_restrat: 3.264275
+      sw_source: 0.417689
+      total: 558.231359
+      update_ocean_barotropic: 4.891088
+      update_ocean_density: 0.592426
+      update_ocean_tracer: 6.254946
+      update_ocean_velocity_bgrid: 0.223433
+      update_tcell_thickness: 0.281998
+      update_ucell_thickness: 0.862726
+      vert_mix_coeff: 2.746236
+  output001:
+    ht: true
+    ice_layout:
+    - 128
+    - 60
+    ice_npes: 7680
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    ocn_layout:
+    - 128
+    - 60
+    ocn_npes: 7680
+    runtimes:
+      bihgen: 2.850688
+      compute_tmask_limit: 0.260062
+      cpl: 45.243356
+      eta_and_pbot_diagnose: 0.567805
+      final: 17.294409
+      flux_adjust: 0.41003
+      get_ocean_sbc: 0.975398
+      ice: 14.059526
+      init: 510.199523
+      init_ice: 8.325294
+      init_ocn: 307.85479
+      loop: 78.87587
+      ocean_advection_velocity: 0.421192
+      ocean_barotropic_forcing: 0.207938
+      ocean_density_diag: 0.259125
+      ocean_diagnostics: 0.538657
+      ocean_eta_smooth: 1.820339
+      ocean_explicit_accel_a: 4.155636
+      ocean_explicit_accel_b: 0.133621
+      ocean_implicit_accel: 0.510563
+      ocn: 30.886111
+      rho_dzt_tendency: 0.038586
+      submeso_restrat: 3.282652
+      sw_source: 0.416304
+      total: 606.538465
+      update_ocean_barotropic: 5.060831
+      update_ocean_density: 0.59291
+      update_ocean_tracer: 5.726732
+      update_ocean_velocity_bgrid: 0.223207
+      update_tcell_thickness: 0.28147
+      update_ucell_thickness: 0.863616
+      vert_mix_coeff: 2.74071
+  output002:
+    ht: true
+    ice_layout:
+    - 128
+    - 60
+    ice_npes: 7680
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    ocn_layout:
+    - 128
+    - 60
+    ocn_npes: 7680
+    runtimes:
+      bihgen: 2.439212
+      compute_tmask_limit: 0.260078
+      cpl: 48.911844
+      eta_and_pbot_diagnose: 1.099798
+      final: 14.064915
+      flux_adjust: 0.464024
+      get_ocean_sbc: 0.975964
+      ice: 15.396934
+      init: 417.942948
+      init_ice: 7.066094
+      init_ocn: 277.580354
+      loop: 83.329829
+      ocean_advection_velocity: 0.420813
+      ocean_barotropic_forcing: 0.171333
+      ocean_density_diag: 0.258559
+      ocean_diagnostics: 0.480514
+      ocean_eta_smooth: 1.76639
+      ocean_explicit_accel_a: 3.644225
+      ocean_explicit_accel_b: 0.1337
+      ocean_implicit_accel: 0.511217
+      ocn: 31.683823
+      rho_dzt_tendency: 0.039336
+      submeso_restrat: 3.247585
+      sw_source: 0.416244
+      total: 515.547854
+      update_ocean_barotropic: 4.707335
+      update_ocean_density: 0.592823
+      update_ocean_tracer: 7.100974
+      update_ocean_velocity_bgrid: 0.223225
+      update_tcell_thickness: 0.28182
+      update_ucell_thickness: 0.865389
+      vert_mix_coeff: 2.738442
+  output003:
+    ht: true
+    ice_layout:
+    - 128
+    - 60
+    ice_npes: 7680
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    ocn_layout:
+    - 128
+    - 60
+    ocn_npes: 7680
+    runtimes:
+      bihgen: 2.402917
+      compute_tmask_limit: 0.260056
+      cpl: 46.248411
+      eta_and_pbot_diagnose: 0.405371
+      final: 14.29157
+      flux_adjust: 0.437616
+      get_ocean_sbc: 0.967404
+      ice: 15.073999
+      init: 357.273438
+      init_ice: 5.530337
+      init_ocn: 255.421435
+      loop: 78.733876
+      ocean_advection_velocity: 0.421424
+      ocean_barotropic_forcing: 0.173978
+      ocean_density_diag: 0.25924
+      ocean_diagnostics: 0.544725
+      ocean_eta_smooth: 1.854652
+      ocean_explicit_accel_a: 3.608072
+      ocean_explicit_accel_b: 0.133876
+      ocean_implicit_accel: 0.51065
+      ocn: 29.631052
+      rho_dzt_tendency: 0.040036
+      submeso_restrat: 3.252645
+      sw_source: 0.422752
+      total: 450.446269
+      update_ocean_barotropic: 4.891318
+      update_ocean_density: 0.592874
+      update_ocean_tracer: 5.671446
+      update_ocean_velocity_bgrid: 0.223354
+      update_tcell_thickness: 0.283766
+      update_ucell_thickness: 0.88451
+      vert_mix_coeff: 2.751646
+  output004:
+    ht: true
+    ice_layout:
+    - 128
+    - 60
+    ice_npes: 7680
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    ocn_layout:
+    - 128
+    - 60
+    ocn_npes: 7680
+    runtimes:
+      bihgen: 2.450124
+      compute_tmask_limit: 0.260128
+      cpl: 42.144513
+      eta_and_pbot_diagnose: 0.435046
+      final: 12.870805
+      flux_adjust: 0.339949
+      get_ocean_sbc: 0.978079
+      ice: 14.723857
+      init: 375.714255
+      init_ice: 5.789739
+      init_ocn: 259.833431
+      loop: 74.052711
+      ocean_advection_velocity: 0.420894
+      ocean_barotropic_forcing: 0.178769
+      ocean_density_diag: 0.258475
+      ocean_diagnostics: 0.46628
+      ocean_eta_smooth: 1.72241
+      ocean_explicit_accel_a: 3.669114
+      ocean_explicit_accel_b: 0.133762
+      ocean_implicit_accel: 0.512086
+      ocn: 29.265688
+      rho_dzt_tendency: 0.040961
+      submeso_restrat: 3.301489
+      sw_source: 0.416676
+      total: 462.752336
+      update_ocean_barotropic: 4.769471
+      update_ocean_density: 0.592844
+      update_ocean_tracer: 5.602266
+      update_ocean_velocity_bgrid: 0.223366
+      update_tcell_thickness: 0.282581
+      update_ucell_thickness: 0.8435
+      vert_mix_coeff: 2.737435
+  output005:
+    ht: true
+    ice_layout:
+    - 128
+    - 60
+    ice_npes: 7680
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    ocn_layout:
+    - 128
+    - 60
+    ocn_npes: 7680
+    runtimes:
+      bihgen: 2.398437
+      compute_tmask_limit: 0.259976
+      cpl: 42.271356
+      eta_and_pbot_diagnose: 0.451403
+      final: 13.825658
+      flux_adjust: 0.363017
+      get_ocean_sbc: 0.933572
+      ice: 13.712052
+      init: 359.017887
+      init_ice: 5.438248
+      init_ocn: 243.318621
+      loop: 74.234732
+      ocean_advection_velocity: 0.420303
+      ocean_barotropic_forcing: 0.170937
+      ocean_density_diag: 0.26009
+      ocean_diagnostics: 0.489485
+      ocean_eta_smooth: 1.790317
+      ocean_explicit_accel_a: 3.599464
+      ocean_explicit_accel_b: 0.133676
+      ocean_implicit_accel: 0.511177
+      ocn: 29.22334
+      rho_dzt_tendency: 0.040053
+      submeso_restrat: 3.23477
+      sw_source: 0.416723
+      total: 447.189255
+      update_ocean_barotropic: 4.767651
+      update_ocean_density: 0.5932
+      update_ocean_tracer: 5.628519
+      update_ocean_velocity_bgrid: 0.223348
+      update_tcell_thickness: 0.281328
+      update_ucell_thickness: 0.859116
+      vert_mix_coeff: 2.737023
+  output006:
+    ht: true
+    ice_layout:
+    - 128
+    - 60
+    ice_npes: 7680
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    ocn_layout:
+    - 128
+    - 60
+    ocn_npes: 7680
+    runtimes:
+      bihgen: 2.453637
+      compute_tmask_limit: 0.260191
+      cpl: 48.880396
+      eta_and_pbot_diagnose: 0.357956
+      final: 15.610258
+      flux_adjust: 0.31433
+      get_ocean_sbc: 0.972602
+      ice: 13.445242
+      init: 350.964431
+      init_ice: 6.400861
+      init_ocn: 243.506333
+      loop: 80.963054
+      ocean_advection_velocity: 0.420845
+      ocean_barotropic_forcing: 0.182296
+      ocean_density_diag: 0.25729
+      ocean_diagnostics: 0.461315
+      ocean_eta_smooth: 1.791502
+      ocean_explicit_accel_a: 3.678241
+      ocean_explicit_accel_b: 0.1339
+      ocean_implicit_accel: 0.509517
+      ocn: 29.269595
+      rho_dzt_tendency: 0.03921
+      submeso_restrat: 3.25049
+      sw_source: 0.415828
+      total: 447.675785
+      update_ocean_barotropic: 4.882666
+      update_ocean_density: 0.592834
+      update_ocean_tracer: 5.578686
+      update_ocean_velocity_bgrid: 0.223537
+      update_tcell_thickness: 0.280677
+      update_ucell_thickness: 0.861121
+      vert_mix_coeff: 2.739857
+om25/om25_960:
+  output000:
+    ht: false
+    ice_layout:
+    - 32
+    - 30
+    ice_npes: 960
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    ocn_layout:
+    - 32
+    - 30
+    ocn_npes: 960
+    runtimes:
+      bihgen: 15.951
+      compute_tmask_limit: 1.969586
+      cpl: 40.21037
+      eta_and_pbot_diagnose: 1.036681
+      final: 2.565006
+      flux_adjust: 0.448064
+      get_ocean_sbc: 1.887715
+      ice: 20.275388
+      init: 30.792388
+      init_ice: 0.469066
+      init_ocn: 16.477961
+      loop: 207.464302
+      ocean_advection_velocity: 2.527164
+      ocean_barotropic_forcing: 0.68418
+      ocean_density_diag: 2.026253
+      ocean_diagnostics: 1.806797
+      ocean_eta_smooth: 4.25436
+      ocean_explicit_accel_a: 25.608482
+      ocean_explicit_accel_b: 1.950834
+      ocean_implicit_accel: 5.762134
+      ocn: 165.414327
+      rho_dzt_tendency: 0.404215
+      submeso_restrat: 19.871126
+      sw_source: 3.902034
+      total: 240.858602
+      update_ocean_barotropic: 9.508987
+      update_ocean_density: 6.283123
+      update_ocean_tracer: 37.251831
+      update_ocean_velocity_bgrid: 2.823375
+      update_tcell_thickness: 2.062224
+      update_ucell_thickness: 4.008534
+      vert_mix_coeff: 24.891445
+  output001:
+    ht: false
+    ice_layout:
+    - 32
+    - 30
+    ice_npes: 960
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    ocn_layout:
+    - 32
+    - 30
+    ocn_npes: 960
+    runtimes:
+      bihgen: 16.002947
+      compute_tmask_limit: 1.969059
+      cpl: 31.276054
+      eta_and_pbot_diagnose: 1.046718
+      final: 3.205052
+      flux_adjust: 0.183369
+      get_ocean_sbc: 1.896524
+      ice: 20.138984
+      init: 25.111909
+      init_ice: 0.450416
+      init_ocn: 12.580637
+      loop: 198.490099
+      ocean_advection_velocity: 2.525867
+      ocean_barotropic_forcing: 0.691847
+      ocean_density_diag: 2.026856
+      ocean_diagnostics: 1.729297
+      ocean_eta_smooth: 4.18646
+      ocean_explicit_accel_a: 25.688136
+      ocean_explicit_accel_b: 1.946286
+      ocean_implicit_accel: 5.761234
+      ocn: 165.411809
+      rho_dzt_tendency: 0.403252
+      submeso_restrat: 19.863247
+      sw_source: 3.900843
+      total: 226.825237
+      update_ocean_barotropic: 9.73682
+      update_ocean_density: 6.295073
+      update_ocean_tracer: 37.262
+      update_ocean_velocity_bgrid: 2.825274
+      update_tcell_thickness: 2.06459
+      update_ucell_thickness: 4.022597
+      vert_mix_coeff: 24.910605
+  output002:
+    ht: false
+    ice_layout:
+    - 32
+    - 30
+    ice_npes: 960
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    ocn_layout:
+    - 32
+    - 30
+    ocn_npes: 960
+    runtimes:
+      bihgen: 15.977287
+      compute_tmask_limit: 1.96891
+      cpl: 29.33648
+      eta_and_pbot_diagnose: 1.038721
+      final: 2.358523
+      flux_adjust: 0.145458
+      get_ocean_sbc: 1.803222
+      ice: 20.854712
+      init: 24.228881
+      init_ice: 0.4238
+      init_ocn: 13.016366
+      loop: 196.147442
+      ocean_advection_velocity: 2.523485
+      ocean_barotropic_forcing: 0.695497
+      ocean_density_diag: 2.027806
+      ocean_diagnostics: 1.671388
+      ocean_eta_smooth: 4.190723
+      ocean_explicit_accel_a: 25.662555
+      ocean_explicit_accel_b: 1.953933
+      ocean_implicit_accel: 5.762759
+      ocn: 165.228888
+      rho_dzt_tendency: 0.402727
+      submeso_restrat: 19.890682
+      sw_source: 3.897252
+      total: 222.753355
+      update_ocean_barotropic: 9.761364
+      update_ocean_density: 6.299322
+      update_ocean_tracer: 37.255944
+      update_ocean_velocity_bgrid: 2.827254
+      update_tcell_thickness: 2.063926
+      update_ucell_thickness: 4.027416
+      vert_mix_coeff: 24.914881
+  output003:
+    ht: false
+    ice_layout:
+    - 32
+    - 30
+    ice_npes: 960
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    ocn_layout:
+    - 32
+    - 30
+    ocn_npes: 960
+    runtimes:
+      bihgen: 15.945117
+      compute_tmask_limit: 1.969827
+      cpl: 31.111374
+      eta_and_pbot_diagnose: 1.028412
+      final: 4.207936
+      flux_adjust: 0.136098
+      get_ocean_sbc: 1.864611
+      ice: 19.795985
+      init: 71.908913
+      init_ice: 1.292111
+      init_ocn: 39.38688
+      loop: 197.979473
+      ocean_advection_velocity: 2.527349
+      ocean_barotropic_forcing: 0.685751
+      ocean_density_diag: 2.027426
+      ocean_diagnostics: 1.745502
+      ocean_eta_smooth: 4.208051
+      ocean_explicit_accel_a: 25.605762
+      ocean_explicit_accel_b: 1.949988
+      ocean_implicit_accel: 5.758257
+      ocn: 165.022409
+      rho_dzt_tendency: 0.403414
+      submeso_restrat: 19.82047
+      sw_source: 3.901506
+      total: 274.122991
+      update_ocean_barotropic: 9.617213
+      update_ocean_density: 6.293383
+      update_ocean_tracer: 37.231697
+      update_ocean_velocity_bgrid: 2.823009
+      update_tcell_thickness: 2.058643
+      update_ucell_thickness: 4.009014
+      vert_mix_coeff: 24.926648
+  output004:
+    ht: false
+    ice_layout:
+    - 32
+    - 30
+    ice_npes: 960
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    ocn_layout:
+    - 32
+    - 30
+    ocn_npes: 960
+    runtimes:
+      bihgen: 15.940704
+      compute_tmask_limit: 1.969284
+      cpl: 27.292538
+      eta_and_pbot_diagnose: 1.040065
+      final: 2.497431
+      flux_adjust: 0.135986
+      get_ocean_sbc: 1.799044
+      ice: 22.050688
+      init: 39.968834
+      init_ice: 0.652509
+      init_ocn: 25.324587
+      loop: 193.741367
+      ocean_advection_velocity: 2.52224
+      ocean_barotropic_forcing: 0.683373
+      ocean_density_diag: 2.028313
+      ocean_diagnostics: 1.639888
+      ocean_eta_smooth: 4.213606
+      ocean_explicit_accel_a: 25.604057
+      ocean_explicit_accel_b: 1.956994
+      ocean_implicit_accel: 5.767157
+      ocn: 164.902442
+      rho_dzt_tendency: 0.402498
+      submeso_restrat: 19.871834
+      sw_source: 3.898955
+      total: 236.221686
+      update_ocean_barotropic: 9.594836
+      update_ocean_density: 6.280919
+      update_ocean_tracer: 37.229911
+      update_ocean_velocity_bgrid: 2.832545
+      update_tcell_thickness: 2.06533
+      update_ucell_thickness: 4.015295
+      vert_mix_coeff: 24.910029
+  output005:
+    ht: false
+    ice_layout:
+    - 32
+    - 30
+    ice_npes: 960
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    ocn_layout:
+    - 32
+    - 30
+    ocn_npes: 960
+    runtimes:
+      bihgen: 15.988508
+      compute_tmask_limit: 1.969002
+      cpl: 35.637277
+      eta_and_pbot_diagnose: 1.060894
+      final: 6.765153
+      flux_adjust: 0.135272
+      get_ocean_sbc: 1.841013
+      ice: 23.690132
+      init: 196.814788
+      init_ice: 7.382413
+      init_ocn: 119.666769
+      loop: 202.988127
+      ocean_advection_velocity: 2.522225
+      ocean_barotropic_forcing: 0.696663
+      ocean_density_diag: 2.027482
+      ocean_diagnostics: 1.647324
+      ocean_eta_smooth: 4.398671
+      ocean_explicit_accel_a: 25.677948
+      ocean_explicit_accel_b: 1.952936
+      ocean_implicit_accel: 5.764758
+      ocn: 165.488688
+      rho_dzt_tendency: 0.398453
+      submeso_restrat: 19.861809
+      sw_source: 3.895987
+      total: 406.582096
+      update_ocean_barotropic: 9.720318
+      update_ocean_density: 6.277716
+      update_ocean_tracer: 37.281426
+      update_ocean_velocity_bgrid: 2.834018
+      update_tcell_thickness: 2.064185
+      update_ucell_thickness: 4.048144
+      vert_mix_coeff: 24.933169
+  output006:
+    ht: false
+    ice_layout:
+    - 32
+    - 30
+    ice_npes: 960
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    ocn_layout:
+    - 32
+    - 30
+    ocn_npes: 960
+    runtimes:
+      bihgen: 16.008392
+      compute_tmask_limit: 1.969003
+      cpl: 39.7212
+      eta_and_pbot_diagnose: 1.04067
+      final: 2.585298
+      flux_adjust: 0.220102
+      get_ocean_sbc: 1.878133
+      ice: 21.227328
+      init: 581.488104
+      init_ice: 14.728908
+      init_ocn: 443.22717
+      loop: 207.358955
+      ocean_advection_velocity: 2.52076
+      ocean_barotropic_forcing: 0.69536
+      ocean_density_diag: 2.027024
+      ocean_diagnostics: 1.672647
+      ocean_eta_smooth: 4.397151
+      ocean_explicit_accel_a: 25.698751
+      ocean_explicit_accel_b: 1.945432
+      ocean_implicit_accel: 5.760259
+      ocn: 165.741518
+      rho_dzt_tendency: 0.396673
+      submeso_restrat: 19.883488
+      sw_source: 3.898687
+      total: 791.474725
+      update_ocean_barotropic: 9.847702
+      update_ocean_density: 6.278777
+      update_ocean_tracer: 37.272126
+      update_ocean_velocity_bgrid: 2.831279
+      update_tcell_thickness: 2.061521
+      update_ucell_thickness: 4.058051
+      vert_mix_coeff: 24.918077

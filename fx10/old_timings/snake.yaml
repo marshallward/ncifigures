@@ -1,0 +1,95 @@
+160:
+  layout:
+    nx: 16
+    ny: 10
+  mpi:
+    mean: 0.187021
+    reduce:
+      time: 0
+    wait:
+      time: 0
+  ncpus: 160
+  runtime:
+    coupler: 1144.7482930000001
+    final: 36.990662
+    ice: 898.16983800000003
+    init: 87.220011
+    model: 7499.6046589999996
+    ocean: 6191.4092790000004
+    total: 7502.2178
+240:
+  layout:
+    nx: 16
+    ny: 15
+  mpi:
+    mean: 0.208935
+    reduce:
+      time: 0
+    wait:
+      time: 0
+  ncpus: 240
+  runtime:
+    coupler: 790.56360700000005
+    final: 42.916891999999997
+    ice: 652.66270899999995
+    init: 124.222492
+    model: 5043.018642
+    ocean: 4046.8850229999998
+    total: 5046.8540
+480:
+  layout:
+    nx: 16
+    ny: 30
+  mpi:
+    mean: 0.233257
+    reduce:
+      time: 0
+    wait:
+      time: 0
+  ncpus: 480
+  runtime:
+    coupler: 490.705017
+    final: 60.044572000000002
+    ice: 374.44441499999999
+    init: 99.909823000000003
+    model: 2658.221333
+    ocean: 1986.2559160000001
+    total: 2661.4031
+960:
+  layout:
+    nx: 16
+    ny: 60
+  mpi:
+    mean: 0.272046
+    reduce:
+      time: 0
+    wait:
+      time: 0
+  ncpus: 960
+  runtime:
+    coupler: 339.87356999999997
+    final: 51.753658999999999
+    ice: 217.70974799999999
+    init: 140.22973099999999
+    model: 1567.1601439999999
+    ocean: 1013.312011
+    total: 1572.4260
+1344:
+  layout:
+    nx: 16
+    ny: 84
+  mpi:
+    mean: 0.304979
+    reduce:
+      time: 0
+    wait:
+      time: 0
+  ncpus: 1344
+  runtime:
+    coupler: 335.40015899999997
+    final: 49.159309
+    ice: 172.218255
+    init: 176.321921
+    model: 1347.593468
+    ocean: 766.87748799999997
+    total: 1355.4467

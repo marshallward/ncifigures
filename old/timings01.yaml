@@ -1,0 +1,334 @@
+sis01_10k:
+  output000:
+    ht: true
+    ice_layout:
+    - 100
+    - 100
+    ice_npes: 10000
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 10000
+    ocn_layout:
+    - 100
+    - 100
+    ocn_npes: 10000
+    openib: true
+    runtimes:
+      cpl: 79.081888
+      final: 12.522344
+      ice: 18.323947
+      init: 831.553222
+      init_ice: 80.92833
+      init_ocn: 398.61845
+      loop: 672.324176
+      ocn: 585.417142
+      total: 1516.62617
+  output001:
+    ht: true
+    ice_layout:
+    - 100
+    - 100
+    ice_npes: 10000
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 10000
+    ocn_layout:
+    - 100
+    - 100
+    ocn_npes: 10000
+    openib: true
+    runtimes:
+      cpl: 73.479692
+      final: 10.313142
+      ice: 17.904143
+      init: 1049.099074
+      init_ice: 96.474348
+      init_ocn: 460.969778
+      loop: 655.045035
+      ocn: 575.753471
+      total: 1714.676645
+  output002:
+    ht: true
+    ice_layout:
+    - 100
+    - 100
+    ice_npes: 10000
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 10000
+    ocn_layout:
+    - 100
+    - 100
+    ocn_npes: 10000
+    openib: true
+    runtimes:
+      cpl: 79.400754
+      final: 9.105409
+      ice: 20.893507
+      init: 871.834131
+      init_ice: 76.696354
+      init_ocn: 447.503918
+      loop: 701.211354
+      ocn: 614.712108
+      total: 1582.385747
+sis01_1250:
+  output000:
+    ht: true
+    ice_layout:
+    - 50
+    - 25
+    ice_npes: 1250
+    mpi:
+      mean: 0.16570000000000001
+    npernode: 16
+    npes: 1250
+    ocn_layout:
+    - 50
+    - 25
+    ocn_npes: 1250
+    openib: true
+    runtimes:
+      cpl: 138.456981
+      final: 44.911838
+      ice: 95.387134
+      init: 386.383225
+      init_ice: 43.828885
+      init_ocn: 280.823089
+      loop: 4756.072132
+      ocn: 4608.921498
+      total: 5189.502507
+  output001:
+    ht: true
+    ice_layout:
+    - 50
+    - 25
+    ice_npes: 1250
+    mpi:
+      mean: 0.2
+    npernode: 16
+    npes: 1250
+    ocn_layout:
+    - 50
+    - 25
+    ocn_npes: 1250
+    openib: false
+    runtimes:
+      cpl: 188.224793
+      final: 35.256539
+      ice: 145.199615
+      init: 385.927324
+      init_ice: 39.66445
+      init_ocn: 295.68464
+      loop: 4944.733282
+      ocn: 4738.8542
+      total: 5366.08061
+#sis01_15k:
+#  output000:
+#    ht: true
+#    ice_layout:
+#    - 150
+#    - 100
+#    ice_npes: 15000
+#    mpi:
+#      mean: 0.0
+#    npernode: 16
+#    npes: 15000
+#    ocn_layout:
+#    - 150
+#    - 100
+#    ocn_npes: 15000
+#    openib: true
+#    runtimes:
+#      cpl: 29.494421
+#      final: 9.849512
+#      ice: 3.571388
+#      init: 1325.9315
+#      init_ice: 153.073934
+#      init_ocn: 610.85416
+#      loop: 82.078868
+#      ocn: 51.160231
+#      total: 1418.411516
+sis01_20k:
+  output000:
+    ht: true
+    ice_layout:
+    - 200
+    - 100
+    ice_npes: 20000
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 20000
+    ocn_layout:
+    - 200
+    - 100
+    ocn_npes: 20000
+    openib: true
+    runtimes:
+      cpl: 59.357352
+      final: 11.035365
+      ice: 16.734394
+      init: 1781.835033
+      init_ice: 199.816863
+      init_ocn: 809.332299
+      loop: 428.320743
+      ocn: 360.360423
+      total: 2221.860478
+sis01_2500:
+  output000:
+    ht: true
+    ice_layout:
+    - 50
+    - 50
+    ice_npes: 2500
+    mpi:
+      mean: 0.1507
+    npernode: 16
+    npes: 2500
+    ocn_layout:
+    - 50
+    - 50
+    ocn_npes: 2500
+    openib: true
+    runtimes:
+      cpl: 76.207268
+      final: 9.285085
+      ice: 50.148862
+      init: 400.530313
+      init_ice: 30.580717
+      init_ocn: 278.573309
+      loop: 2246.523532
+      ocn: 2164.504957
+      total: 2656.405172
+  output001:
+    ht: true
+    ice_layout:
+    - 50
+    - 50
+    ice_npes: 2500
+    mpi:
+      mean: 0.3094
+    npernode: 16
+    npes: 2500
+    ocn_layout:
+    - 50
+    - 50
+    ocn_npes: 2500
+    openib: false
+    runtimes:
+      cpl: 140.215239
+      final: 30.466363
+      ice: 128.436001
+      init: 435.802181
+      init_ice: 32.252521
+      init_ocn: 245.790983
+      loop: 2604.620579
+      ocn: 2434.124312
+      total: 3071.013325
+sis01_30k: {}
+sis01_40k: {}
+sis01_5000:
+  output001:
+    ht: true
+    ice_layout:
+    - 100
+    - 50
+    ice_npes: 5000
+    mpi:
+      mean: 0.23920000000000002
+    npernode: 16
+    npes: 5000
+    ocn_layout:
+    - 100
+    - 50
+    ocn_npes: 5000
+    openib: true
+    runtimes:
+      cpl: 63.594244
+      final: 9.493842
+      ice: 31.184218
+      init: 680.427061
+      init_ice: 40.840283
+      init_ocn: 332.370062
+      loop: 1237.765721
+      ocn: 1168.090433
+      total: 1927.953094
+  output002:
+    ht: true
+    ice_layout:
+    - 100
+    - 50
+    ice_npes: 5000
+    mpi:
+      mean: 0.442
+    npernode: 16
+    npes: 5000
+    ocn_layout:
+    - 100
+    - 50
+    ocn_npes: 5000
+    openib: false
+    runtimes:
+      cpl: 160.34321
+      final: 54.24721
+      ice: 115.987621
+      init: 705.772492
+      init_ice: 54.120738
+      init_ocn: 342.630831
+      loop: 1733.956464
+      ocn: 1536.747018
+      total: 2494.080333
+sis01_625:
+  output000:
+    ht: true
+    ice_layout:
+    - 25
+    - 25
+    ice_npes: 625
+    mpi:
+      mean: 0.1391
+    npernode: 16
+    npes: 625
+    ocn_layout:
+    - 25
+    - 25
+    ocn_npes: 625
+    openib: true
+    runtimes:
+      cpl: 241.94675
+      final: 18.167781
+      ice: 186.778513
+      init: 329.653992
+      init_ice: 33.799871
+      init_ocn: 247.857025
+      loop: 10259.535672
+      ocn: 10007.585776
+      total: 10607.537716
+  output001:
+    ht: true
+    ice_layout:
+    - 25
+    - 25
+    ice_npes: 625
+    mpi:
+      mean: 0.1458
+    npernode: 16
+    npes: 625
+    ocn_layout:
+    - 25
+    - 25
+    ocn_npes: 625
+    openib: false
+    runtimes:
+      cpl: 251.457457
+      final: 23.17338
+      ice: 199.993034
+      init: 335.063988
+      init_ice: 33.631026
+      init_ocn: 255.089197
+      loop: 10361.149678
+      ocn: 10096.097934
+      total: 10719.646049
