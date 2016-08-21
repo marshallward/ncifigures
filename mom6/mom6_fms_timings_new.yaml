@@ -1,0 +1,9018 @@
+om4/om4_120:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl:
+        avg: 229.575723
+        max: 229.664157
+        min: 229.50864
+      final:
+        avg: 1.332492
+        max: 1.332516
+        min: 1.33246
+      ice:
+        avg: 134.032922
+        max: 195.979123
+        min: 99.32555
+      init:
+        avg: 9.786203
+        max: 9.814474
+        min: 9.753821
+      init_ice:
+        avg: 0.455368
+        max: 0.455677
+        min: 0.455083
+      init_ocn:
+        avg: 7.19835
+        max: 7.207601
+        min: 7.190216
+      loop:
+        avg: 2972.620433
+        max: 2972.623544
+        min: 2972.613585
+      ocean:
+        avg: 2731.917789
+        max: 2731.953029
+        min: 2731.623132
+      ocn_ale:
+        avg: 102.557122
+        max: 164.34731
+        min: 2.796878
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 305.530222
+        max: 506.600533
+        min: 89.937249
+      ocn_diag:
+        avg: 0.023073
+        max: 0.030474
+        min: 0.019841
+      ocn_dynamics:
+        avg: 1983.633082
+        max: 2143.252392
+        min: 1920.239202
+      ocn_ml_restrat:
+        avg: 97.99522
+        max: 154.85935
+        min: 20.964394
+      ocn_mom_init:
+        avg: 4.878876
+        max: 4.901499
+        min: 4.866411
+      ocn_msg_pass:
+        avg: 231.234535
+        max: 538.588803
+        min: 31.222737
+      ocn_msg_pass_init:
+        avg: 0.03525
+        max: 0.097196
+        min: 0.004652
+      ocn_other:
+        avg: 66.360612
+        max: 266.673711
+        min: 21.847461
+      ocn_thermo:
+        avg: 647.949278
+        max: 763.066642
+        min: 437.639468
+      ocn_thick_diff:
+        avg: 57.593695
+        max: 61.753438
+        min: 49.262235
+      ocn_tracer:
+        avg: 75.283398
+        max: 82.958406
+        min: 72.015948
+      ocn_z_diag:
+        avg: 0.001623
+        max: 0.003285
+        min: 0.001045
+      rk2_btcalc:
+        avg: 2.190569
+        max: 2.92584
+        min: 1.433642
+      rk2_btforce:
+        avg: 19.762256
+        max: 22.636393
+        min: 15.451803
+      rk2_btstep:
+        avg: 443.336332
+        max: 508.588166
+        min: 412.918905
+      rk2_continuity:
+        avg: 330.455634
+        max: 413.870336
+        min: 176.667145
+      rk2_coriolis:
+        avg: 75.515482
+        max: 83.255202
+        min: 61.419868
+      rk2_horvisc:
+        avg: 91.621079
+        max: 94.792614
+        min: 86.588642
+      rk2_momentum_update:
+        avg: 21.747719
+        max: 22.063968
+        min: 21.502842
+      rk2_msg_pass:
+        avg: 245.503968
+        max: 568.619028
+        min: 70.074701
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 281.866059
+        max: 297.221517
+        min: 271.099336
+      rk2_vertvisc:
+        avg: 199.101777
+        max: 281.07408
+        min: 59.573542
+      total:
+        avg: 2983.747307
+        max: 2983.777533
+        min: 2983.712451
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl:
+        avg: 226.381978
+        max: 226.461824
+        min: 226.316612
+      final:
+        avg: 1.747902
+        max: 1.747932
+        min: 1.747876
+      ice:
+        avg: 133.530016
+        max: 195.313023
+        min: 98.87139
+      init:
+        avg: 9.959429
+        max: 9.993611
+        min: 9.924925
+      init_ice:
+        avg: 0.435463
+        max: 0.435766
+        min: 0.435194
+      init_ocn:
+        avg: 7.21174
+        max: 7.220146
+        min: 7.206397
+      loop:
+        avg: 2964.653507
+        max: 2964.654767
+        min: 2964.651309
+      ocean:
+        avg: 2727.307587
+        max: 2727.337625
+        min: 2727.24227
+      ocn_ale:
+        avg: 102.545358
+        max: 164.513358
+        min: 2.806984
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 305.33921
+        max: 507.206001
+        min: 89.06321
+      ocn_diag:
+        avg: 0.023223
+        max: 0.029668
+        min: 0.019369
+      ocn_dynamics:
+        avg: 1979.056735
+        max: 2138.380679
+        min: 1915.069388
+      ocn_ml_restrat:
+        avg: 97.849023
+        max: 154.395186
+        min: 21.00155
+      ocn_mom_init:
+        avg: 4.946954
+        max: 4.963059
+        min: 4.927217
+      ocn_msg_pass:
+        avg: 230.958407
+        max: 536.572448
+        min: 32.444705
+      ocn_msg_pass_init:
+        avg: 0.024133
+        max: 0.044383
+        min: 0.004418
+      ocn_other:
+        avg: 66.319124
+        max: 266.198982
+        min: 21.946123
+      ocn_thermo:
+        avg: 648.184505
+        max: 763.049016
+        min: 439.253174
+      ocn_thick_diff:
+        avg: 57.519342
+        max: 61.888149
+        min: 49.356663
+      ocn_tracer:
+        avg: 75.633194
+        max: 83.205747
+        min: 72.238183
+      ocn_z_diag:
+        avg: 0.001512
+        max: 0.003105
+        min: 0.001083
+      rk2_btcalc:
+        avg: 2.204168
+        max: 2.884109
+        min: 1.430781
+      rk2_btforce:
+        avg: 20.197103
+        max: 22.989328
+        min: 15.71002
+      rk2_btstep:
+        avg: 441.61478
+        max: 505.243471
+        min: 409.982102
+      rk2_continuity:
+        avg: 330.444577
+        max: 415.684116
+        min: 176.494513
+      rk2_coriolis:
+        avg: 75.328745
+        max: 82.703428
+        min: 63.347908
+      rk2_horvisc:
+        avg: 91.548217
+        max: 94.5554
+        min: 86.518639
+      rk2_momentum_update:
+        avg: 21.705565
+        max: 21.982411
+        min: 21.489408
+      rk2_msg_pass:
+        avg: 243.075639
+        max: 569.817093
+        min: 69.574377
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 281.741961
+        max: 297.577099
+        min: 271.199536
+      rk2_vertvisc:
+        avg: 199.267326
+        max: 284.66502
+        min: 61.145089
+      total:
+        avg: 2976.368663
+        max: 2976.403768
+        min: 2976.331983
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl:
+        avg: 234.008151
+        max: 234.090413
+        min: 233.94387
+      final:
+        avg: 1.755091
+        max: 1.755121
+        min: 1.755057
+      ice:
+        avg: 133.914899
+        max: 196.184941
+        min: 99.179224
+      init:
+        avg: 11.299842
+        max: 11.32857
+        min: 11.265889
+      init_ice:
+        avg: 1.503443
+        max: 1.503793
+        min: 1.502954
+      init_ocn:
+        avg: 7.273438
+        max: 7.292137
+        min: 7.266282
+      loop:
+        avg: 2981.127741
+        max: 2981.132649
+        min: 2981.125535
+      ocean:
+        avg: 2736.002301
+        max: 2736.03587
+        min: 2735.928082
+      ocn_ale:
+        avg: 102.564178
+        max: 164.955336
+        min: 2.808436
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 305.638648
+        max: 507.248647
+        min: 88.819313
+      ocn_diag:
+        avg: 0.022876
+        max: 0.028377
+        min: 0.019319
+      ocn_dynamics:
+        avg: 1987.443232
+        max: 2145.872112
+        min: 1923.672349
+      ocn_ml_restrat:
+        avg: 97.925949
+        max: 153.568613
+        min: 20.73011
+      ocn_mom_init:
+        avg: 4.914891
+        max: 4.946078
+        min: 4.897286
+      ocn_msg_pass:
+        avg: 231.09741
+        max: 535.865048
+        min: 31.39674
+      ocn_msg_pass_init:
+        avg: 0.027489
+        max: 0.106303
+        min: 0.004618
+      ocn_other:
+        avg: 66.292157
+        max: 265.63679
+        min: 21.65311
+      ocn_thermo:
+        avg: 648.417058
+        max: 763.351374
+        min: 439.198333
+      ocn_thick_diff:
+        avg: 57.67693
+        max: 62.748287
+        min: 49.270932
+      ocn_tracer:
+        avg: 75.477484
+        max: 82.765543
+        min: 71.97442
+      ocn_z_diag:
+        avg: 0.001839
+        max: 0.005475
+        min: 0.001127
+      rk2_btcalc:
+        avg: 2.198568
+        max: 2.884167
+        min: 1.414802
+      rk2_btforce:
+        avg: 19.859283
+        max: 22.603828
+        min: 13.919351
+      rk2_btstep:
+        avg: 446.833877
+        max: 515.345035
+        min: 416.362898
+      rk2_continuity:
+        avg: 330.264702
+        max: 414.203199
+        min: 173.799683
+      rk2_coriolis:
+        avg: 75.544724
+        max: 86.06033
+        min: 61.761599
+      rk2_horvisc:
+        avg: 91.54176
+        max: 94.94588
+        min: 86.947015
+      rk2_momentum_update:
+        avg: 21.755365
+        max: 22.12434
+        min: 21.441734
+      rk2_msg_pass:
+        avg: 246.309327
+        max: 567.92309
+        min: 71.048989
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 281.821942
+        max: 294.279403
+        min: 268.992502
+      rk2_vertvisc:
+        avg: 199.321255
+        max: 281.861379
+        min: 58.743354
+      total:
+        avg: 2994.190855
+        max: 2994.219706
+        min: 2994.157256
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl:
+        avg: 240.647194
+        max: 240.733375
+        min: 240.571846
+      final:
+        avg: 1.614748
+        max: 1.614782
+        min: 1.614714
+      ice:
+        avg: 133.908236
+        max: 195.766077
+        min: 99.267703
+      init:
+        avg: 12.244425
+        max: 12.280391
+        min: 12.202325
+      init_ice:
+        avg: 1.030751
+        max: 1.033407
+        min: 1.030479
+      init_ocn:
+        avg: 7.560383
+        max: 7.576318
+        min: 7.552459
+      loop:
+        avg: 2984.234762
+        max: 2984.236829
+        min: 2984.232314
+      ocean:
+        avg: 2732.372622
+        max: 2732.404486
+        min: 2732.303127
+      ocn_ale:
+        avg: 102.562245
+        max: 164.392313
+        min: 2.739037
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 305.315398
+        max: 508.319698
+        min: 90.316474
+      ocn_diag:
+        avg: 0.022227
+        max: 0.030307
+        min: 0.01941
+      ocn_dynamics:
+        avg: 1983.827818
+        max: 2143.639407
+        min: 1918.966254
+      ocn_ml_restrat:
+        avg: 97.960188
+        max: 154.324174
+        min: 21.475352
+      ocn_mom_init:
+        avg: 5.018095
+        max: 5.046997
+        min: 4.921894
+      ocn_msg_pass:
+        avg: 231.99987
+        max: 538.280656
+        min: 31.321993
+      ocn_msg_pass_init:
+        avg: 0.021062
+        max: 0.051396
+        min: 0.004598
+      ocn_other:
+        avg: 66.473422
+        max: 268.515166
+        min: 22.091662
+      ocn_thermo:
+        avg: 648.139339
+        max: 763.950515
+        min: 438.693094
+      ocn_thick_diff:
+        avg: 57.476895
+        max: 61.735822
+        min: 49.372975
+      ocn_tracer:
+        avg: 75.251754
+        max: 81.686403
+        min: 71.804634
+      ocn_z_diag:
+        avg: 0.00139
+        max: 0.002068
+        min: 0.001091
+      rk2_btcalc:
+        avg: 2.212939
+        max: 2.860505
+        min: 1.52964
+      rk2_btforce:
+        avg: 20.609146
+        max: 23.093209
+        min: 16.98271
+      rk2_btstep:
+        avg: 443.478896
+        max: 513.679812
+        min: 412.417043
+      rk2_continuity:
+        avg: 330.400576
+        max: 416.658289
+        min: 173.423858
+      rk2_coriolis:
+        avg: 75.837688
+        max: 84.438513
+        min: 63.860915
+      rk2_horvisc:
+        avg: 91.608757
+        max: 95.604893
+        min: 87.369076
+      rk2_momentum_update:
+        avg: 21.748058
+        max: 22.117227
+        min: 21.504013
+      rk2_msg_pass:
+        avg: 244.234527
+        max: 565.825579
+        min: 68.565924
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 281.841702
+        max: 292.831707
+        min: 273.822875
+      rk2_vertvisc:
+        avg: 199.588713
+        max: 283.059057
+        min: 58.840209
+      total:
+        avg: 2998.101783
+        max: 2998.139566
+        min: 2998.059322
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl:
+        avg: 245.110427
+        max: 245.192932
+        min: 245.048312
+      final:
+        avg: 1.561473
+        max: 1.561503
+        min: 1.561446
+      ice:
+        avg: 133.744631
+        max: 195.648515
+        min: 99.081635
+      init:
+        avg: 11.716367
+        max: 11.76175
+        min: 11.668714
+      init_ice:
+        avg: 0.845095
+        max: 0.845353
+        min: 0.844852
+      init_ocn:
+        avg: 8.151339
+        max: 8.162823
+        min: 8.145162
+      loop:
+        avg: 2986.490684
+        max: 2986.494902
+        min: 2986.483113
+      ocean:
+        avg: 2730.047881
+        max: 2730.077945
+        min: 2729.972587
+      ocn_ale:
+        avg: 102.556585
+        max: 164.988564
+        min: 2.730059
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 305.538995
+        max: 506.431587
+        min: 88.605267
+      ocn_diag:
+        avg: 0.023111
+        max: 0.02905
+        min: 0.018917
+      ocn_dynamics:
+        avg: 1981.680029
+        max: 2139.366055
+        min: 1918.527209
+      ocn_ml_restrat:
+        avg: 98.056537
+        max: 158.7596
+        min: 21.254926
+      ocn_mom_init:
+        avg: 5.25527
+        max: 5.287572
+        min: 5.243645
+      ocn_msg_pass:
+        avg: 231.105055
+        max: 531.466255
+        min: 31.325029
+      ocn_msg_pass_init:
+        avg: 0.057211
+        max: 0.528559
+        min: 0.004769
+      ocn_other:
+        avg: 66.220022
+        max: 265.369062
+        min: 21.760933
+      ocn_thermo:
+        avg: 648.176942
+        max: 762.992386
+        min: 439.149432
+      ocn_thick_diff:
+        avg: 57.629578
+        max: 62.021474
+        min: 49.300086
+      ocn_tracer:
+        avg: 75.539105
+        max: 83.064773
+        min: 72.156342
+      ocn_z_diag:
+        avg: 0.00176
+        max: 0.00414
+        min: 0.00124
+      rk2_btcalc:
+        avg: 2.210765
+        max: 2.911501
+        min: 1.370266
+      rk2_btforce:
+        avg: 19.856129
+        max: 22.4478
+        min: 16.11101
+      rk2_btstep:
+        avg: 442.233128
+        max: 505.372239
+        min: 410.121035
+      rk2_continuity:
+        avg: 330.847758
+        max: 418.726388
+        min: 175.745074
+      rk2_coriolis:
+        avg: 75.577828
+        max: 82.797916
+        min: 63.143656
+      rk2_horvisc:
+        avg: 91.596322
+        max: 95.071667
+        min: 86.438489
+      rk2_momentum_update:
+        avg: 21.749282
+        max: 22.088439
+        min: 21.493215
+      rk2_msg_pass:
+        avg: 244.943462
+        max: 569.553425
+        min: 69.513542
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 281.425452
+        max: 295.226261
+        min: 269.078638
+      rk2_vertvisc:
+        avg: 199.265066
+        max: 282.654548
+        min: 59.089478
+      total:
+        avg: 2999.77794
+        max: 2999.827788
+        min: 2999.72991
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl:
+        avg: 243.905948
+        max: 243.990285
+        min: 243.829153
+      final:
+        avg: 1.878204
+        max: 1.878236
+        min: 1.878167
+      ice:
+        avg: 133.502783
+        max: 195.474937
+        min: 98.751879
+      init:
+        avg: 13.058401
+        max: 13.096658
+        min: 13.032348
+      init_ice:
+        avg: 0.913216
+        max: 0.913554
+        min: 0.9128
+      init_ocn:
+        avg: 8.044517
+        max: 8.053037
+        min: 8.037723
+      loop:
+        avg: 2982.482851
+        max: 2982.48486
+        min: 2982.480718
+      ocean:
+        avg: 2727.277607
+        max: 2727.308943
+        min: 2727.201313
+      ocn_ale:
+        avg: 102.488581
+        max: 164.532824
+        min: 2.736054
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 305.476694
+        max: 506.730514
+        min: 89.120596
+      ocn_diag:
+        avg: 0.023303
+        max: 0.034265
+        min: 0.018467
+      ocn_dynamics:
+        avg: 1979.138045
+        max: 2137.619681
+        min: 1916.198388
+      ocn_ml_restrat:
+        avg: 97.772745
+        max: 153.435301
+        min: 21.012952
+      ocn_mom_init:
+        avg: 5.042371
+        max: 5.085161
+        min: 5.025271
+      ocn_msg_pass:
+        avg: 231.204258
+        max: 534.165769
+        min: 31.19266
+      ocn_msg_pass_init:
+        avg: 0.08199
+        max: 0.332252
+        min: 0.008852
+      ocn_other:
+        avg: 66.335357
+        max: 263.30932
+        min: 21.912065
+      ocn_thermo:
+        avg: 647.836926
+        max: 763.574441
+        min: 439.344899
+      ocn_thick_diff:
+        avg: 57.551891
+        max: 62.717737
+        min: 49.777181
+      ocn_tracer:
+        avg: 75.163104
+        max: 82.162747
+        min: 72.052612
+      ocn_z_diag:
+        avg: 0.001625
+        max: 0.00365
+        min: 0.001152
+      rk2_btcalc:
+        avg: 2.16764
+        max: 2.918349
+        min: 1.410568
+      rk2_btforce:
+        avg: 20.126801
+        max: 22.295189
+        min: 16.870816
+      rk2_btstep:
+        avg: 441.640298
+        max: 507.001503
+        min: 409.413607
+      rk2_continuity:
+        avg: 330.26669
+        max: 415.295703
+        min: 176.198432
+      rk2_coriolis:
+        avg: 75.638449
+        max: 83.600653
+        min: 63.521075
+      rk2_horvisc:
+        avg: 91.523874
+        max: 94.090824
+        min: 86.982293
+      rk2_momentum_update:
+        avg: 21.699927
+        max: 22.001046
+        min: 21.429173
+      rk2_msg_pass:
+        avg: 243.977027
+        max: 571.028355
+        min: 67.284591
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 281.411856
+        max: 293.463574
+        min: 271.890276
+      rk2_vertvisc:
+        avg: 199.32416
+        max: 282.023586
+        min: 59.905751
+      total:
+        avg: 2997.427983
+        max: 2997.465381
+        min: 2997.401639
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 120
+    runtimes:
+      cpl:
+        avg: 246.095106
+        max: 246.154995
+        min: 246.006391
+      final:
+        avg: 2.159877
+        max: 2.160151
+        min: 2.159845
+      ice:
+        avg: 133.817495
+        max: 195.548555
+        min: 99.272652
+      init:
+        avg: 12.62043
+        max: 12.664095
+        min: 12.57903
+      init_ice:
+        avg: 1.048215
+        max: 1.048794
+        min: 1.047176
+      init_ocn:
+        avg: 7.670786
+        max: 7.68674
+        min: 7.663134
+      loop:
+        avg: 2990.702551
+        max: 2990.706489
+        min: 2990.697153
+      ocean:
+        avg: 2732.081188
+        max: 2732.114663
+        min: 2732.005444
+      ocn_ale:
+        avg: 102.623047
+        max: 164.600473
+        min: 2.79664
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 305.854232
+        max: 507.329419
+        min: 89.454477
+      ocn_diag:
+        avg: 0.038632
+        max: 0.099776
+        min: 0.019278
+      ocn_dynamics:
+        avg: 1982.883656
+        max: 2141.622333
+        min: 1918.737435
+      ocn_ml_restrat:
+        avg: 97.916679
+        max: 155.938185
+        min: 21.194469
+      ocn_mom_init:
+        avg: 4.963386
+        max: 5.100809
+        min: 4.950736
+      ocn_msg_pass:
+        avg: 231.697387
+        max: 538.352579
+        min: 31.366954
+      ocn_msg_pass_init:
+        avg: 0.021835
+        max: 0.036995
+        min: 0.0045
+      ocn_other:
+        avg: 66.496627
+        max: 266.436299
+        min: 21.848166
+      ocn_thermo:
+        avg: 648.839177
+        max: 763.330378
+        min: 438.962693
+      ocn_thick_diff:
+        avg: 57.650266
+        max: 62.553603
+        min: 49.318219
+      ocn_tracer:
+        avg: 75.462906
+        max: 83.054333
+        min: 71.878703
+      ocn_z_diag:
+        avg: 0.006236
+        max: 0.021715
+        min: 0.001189
+      rk2_btcalc:
+        avg: 2.218771
+        max: 2.902131
+        min: 1.602695
+      rk2_btforce:
+        avg: 20.289063
+        max: 22.870346
+        min: 15.919879
+      rk2_btstep:
+        avg: 442.58804
+        max: 511.389407
+        min: 413.316222
+      rk2_continuity:
+        avg: 330.523033
+        max: 417.693867
+        min: 174.402379
+      rk2_coriolis:
+        avg: 75.763273
+        max: 85.719369
+        min: 63.29808
+      rk2_horvisc:
+        avg: 91.570318
+        max: 95.045048
+        min: 86.834873
+      rk2_momentum_update:
+        avg: 21.724163
+        max: 21.974765
+        min: 21.464905
+      rk2_msg_pass:
+        avg: 243.821802
+        max: 570.465522
+        min: 69.912636
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 281.632519
+        max: 291.151761
+        min: 270.826449
+      rk2_vertvisc:
+        avg: 199.319813
+        max: 280.722607
+        min: 59.384002
+      total:
+        avg: 3005.522914
+        max: 3005.566334
+        min: 3005.481824
+om4/om4_15360:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 55.805717
+        max: 55.894894
+        min: 55.714287
+      final:
+        avg: 4.097022
+        max: 4.097194
+        min: 4.096834
+      ice:
+        avg: 12.766167
+        max: 16.390011
+        min: 9.746959
+      init:
+        avg: 198.58623
+        max: 198.679989
+        min: 198.508365
+      init_ice:
+        avg: 16.166493
+        max: 16.291119
+        min: 16.100796
+      init_ocn:
+        avg: 52.913376
+        max: 53.119631
+        min: 52.844828
+      loop:
+        avg: 114.107538
+        max: 114.110199
+        min: 114.10437
+      ocean:
+        avg: 50.501383
+        max: 50.585927
+        min: 50.3538
+      ocn_ale:
+        avg: 0.82079
+        max: 1.374528
+        min: 0.046665
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.479705
+        max: 9.219823
+        min: 0.885032
+      ocn_diag:
+        avg: 0.002473
+        max: 0.019904
+        min: 0.000954
+      ocn_dynamics:
+        avg: 39.22073
+        max: 42.559356
+        min: 32.928076
+      ocn_ml_restrat:
+        avg: 1.02914
+        max: 1.816864
+        min: 0.437743
+      ocn_mom_init:
+        avg: 32.534443
+        max: 32.819875
+        min: 32.209598
+      ocn_msg_pass:
+        avg: 3.073194
+        max: 9.577519
+        min: 1.247534
+      ocn_msg_pass_init:
+        avg: 1.736416
+        max: 5.82704
+        min: 0.000489
+      ocn_other:
+        avg: 1.43264
+        max: 6.178643
+        min: 0.683071
+      ocn_thermo:
+        avg: 9.35501
+        max: 15.916966
+        min: 6.24051
+      ocn_thick_diff:
+        avg: 0.822895
+        max: 0.994594
+        min: 0.668083
+      ocn_tracer:
+        avg: 4.465323
+        max: 5.690683
+        min: 3.582887
+      ocn_z_diag:
+        avg: 0.00103
+        max: 0.006824
+        min: 0.000666
+      rk2_btcalc:
+        avg: 0.03218
+        max: 0.050094
+        min: 0.022466
+      rk2_btforce:
+        avg: 0.222626
+        max: 0.325356
+        min: 0.119332
+      rk2_btstep:
+        avg: 15.372607
+        max: 23.850571
+        min: 8.758459
+      rk2_continuity:
+        avg: 4.684447
+        max: 6.035971
+        min: 3.125927
+      rk2_coriolis:
+        avg: 0.863614
+        max: 0.989723
+        min: 0.741653
+      rk2_horvisc:
+        avg: 0.784341
+        max: 0.868396
+        min: 0.726397
+      rk2_momentum_update:
+        avg: 0.201667
+        max: 0.277757
+        min: 0.131167
+      rk2_msg_pass:
+        avg: 8.604369
+        max: 14.585534
+        min: 4.57449
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.526238
+        max: 2.820041
+        min: 2.370022
+      rk2_vertvisc:
+        avg: 2.257473
+        max: 3.483678
+        min: 0.883195
+      total:
+        avg: 317.452991
+        max: 317.54593
+        min: 317.373964
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 65.868959
+        max: 65.960991
+        min: 65.806548
+      final:
+        avg: 3.196889
+        max: 3.197438
+        min: 3.196767
+      ice:
+        avg: 13.157949
+        max: 16.583176
+        min: 9.902682
+      init:
+        avg: 222.660143
+        max: 222.756595
+        min: 222.391936
+      init_ice:
+        avg: 20.450017
+        max: 20.555605
+        min: 20.410708
+      init_ocn:
+        avg: 59.135371
+        max: 59.757236
+        min: 59.099031
+      loop:
+        avg: 126.796968
+        max: 126.80111
+        min: 126.794136
+      ocean:
+        avg: 52.487121
+        max: 52.551988
+        min: 52.244589
+      ocn_ale:
+        avg: 0.820936
+        max: 1.377828
+        min: 0.046632
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.475724
+        max: 9.222829
+        min: 0.879921
+      ocn_diag:
+        avg: 0.002478
+        max: 0.021069
+        min: 0.00091
+      ocn_dynamics:
+        avg: 40.482231
+        max: 43.702812
+        min: 34.334907
+      ocn_ml_restrat:
+        avg: 1.028306
+        max: 1.80423
+        min: 0.435364
+      ocn_mom_init:
+        avg: 36.946482
+        max: 37.197044
+        min: 36.720685
+      ocn_msg_pass:
+        avg: 3.053249
+        max: 9.527735
+        min: 1.243266
+      ocn_msg_pass_init:
+        avg: 1.373876
+        max: 4.084948
+        min: 0.000467
+      ocn_other:
+        avg: 1.609997
+        max: 6.409602
+        min: 0.905698
+      ocn_thermo:
+        avg: 9.929116
+        max: 16.354352
+        min: 6.920062
+      ocn_thick_diff:
+        avg: 0.804254
+        max: 0.954385
+        min: 0.672228
+      ocn_tracer:
+        avg: 5.063113
+        max: 6.381106
+        min: 4.152788
+      ocn_z_diag:
+        avg: 0.00109
+        max: 0.009891
+        min: 0.00063
+      rk2_btcalc:
+        avg: 0.032765
+        max: 0.054879
+        min: 0.023514
+      rk2_btforce:
+        avg: 0.220026
+        max: 0.330115
+        min: 0.119106
+      rk2_btstep:
+        avg: 16.536353
+        max: 24.671616
+        min: 10.215723
+      rk2_continuity:
+        avg: 4.686672
+        max: 6.065575
+        min: 3.11628
+      rk2_coriolis:
+        avg: 0.862878
+        max: 0.982026
+        min: 0.745458
+      rk2_horvisc:
+        avg: 0.784696
+        max: 0.863811
+        min: 0.727164
+      rk2_momentum_update:
+        avg: 0.197225
+        max: 0.264707
+        min: 0.140152
+      rk2_msg_pass:
+        avg: 8.681043
+        max: 14.673934
+        min: 4.451037
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.529285
+        max: 2.822742
+        min: 2.380065
+      rk2_vertvisc:
+        avg: 2.257537
+        max: 3.556849
+        min: 0.89527
+      total:
+        avg: 353.441103
+        max: 353.540749
+        min: 353.173166
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 64.5633
+        max: 64.828662
+        min: 64.543916
+      final:
+        avg: 2.857117
+        max: 2.857566
+        min: 2.856927
+      ice:
+        avg: 18.319602
+        max: 21.242656
+        min: 11.528988
+      init:
+        avg: 217.249961
+        max: 217.349474
+        min: 217.112883
+      init_ice:
+        avg: 19.166903
+        max: 19.264219
+        min: 19.135691
+      init_ocn:
+        avg: 62.187206
+        max: 62.409889
+        min: 62.124914
+      loop:
+        avg: 137.298661
+        max: 137.300084
+        min: 137.293074
+      ocean:
+        avg: 63.055622
+        max: 63.099868
+        min: 62.869506
+      ocn_ale:
+        avg: 0.821385
+        max: 1.378151
+        min: 0.046603
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.481623
+        max: 9.234143
+        min: 0.891392
+      ocn_diag:
+        avg: 0.002616
+        max: 0.212324
+        min: 0.000972
+      ocn_dynamics:
+        avg: 46.913379
+        max: 51.690562
+        min: 41.651015
+      ocn_ml_restrat:
+        avg: 1.029898
+        max: 1.808811
+        min: 0.433333
+      ocn_mom_init:
+        avg: 36.807401
+        max: 37.05359
+        min: 36.59066
+      ocn_msg_pass:
+        avg: 3.164527
+        max: 9.720111
+        min: 1.259551
+      ocn_msg_pass_init:
+        avg: 1.584526
+        max: 4.924079
+        min: 0.000486
+      ocn_other:
+        avg: 2.344387
+        max: 7.123821
+        min: 1.598337
+      ocn_thermo:
+        avg: 13.327674
+        max: 18.875376
+        min: 8.794833
+      ocn_thick_diff:
+        avg: 0.797384
+        max: 1.459526
+        min: 0.664428
+      ocn_tracer:
+        avg: 8.448482
+        max: 11.957027
+        min: 5.185759
+      ocn_z_diag:
+        avg: 0.001195
+        max: 0.098631
+        min: 0.000657
+      rk2_btcalc:
+        avg: 0.032101
+        max: 0.068981
+        min: 0.02317
+      rk2_btforce:
+        avg: 0.213083
+        max: 0.317535
+        min: 0.11764
+      rk2_btstep:
+        avg: 22.237538
+        max: 32.40025
+        min: 15.130718
+      rk2_continuity:
+        avg: 4.690978
+        max: 6.025224
+        min: 3.115487
+      rk2_coriolis:
+        avg: 0.860861
+        max: 1.123782
+        min: 0.743864
+      rk2_horvisc:
+        avg: 0.785514
+        max: 0.952842
+        min: 0.726075
+      rk2_momentum_update:
+        avg: 0.193003
+        max: 0.262388
+        min: 0.130648
+      rk2_msg_pass:
+        avg: 9.188812
+        max: 16.645875
+        min: 4.9254
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.529036
+        max: 3.046638
+        min: 2.366173
+      rk2_vertvisc:
+        avg: 2.251918
+        max: 3.501581
+        min: 0.890074
+      total:
+        avg: 358.220315
+        max: 358.319756
+        min: 358.085468
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 62.574404
+        max: 62.635746
+        min: 62.542109
+      final:
+        avg: 2.336397
+        max: 2.337293
+        min: 2.336247
+      ice:
+        avg: 13.652437
+        max: 16.571304
+        min: 10.307054
+      init:
+        avg: 226.559759
+        max: 226.664499
+        min: 226.411481
+      init_ice:
+        avg: 20.443794
+        max: 20.66258
+        min: 20.432124
+      init_ocn:
+        avg: 58.049729
+        max: 58.185351
+        min: 58.032269
+      loop:
+        avg: 122.149757
+        max: 122.155382
+        min: 122.14835
+      ocean:
+        avg: 51.919329
+        max: 51.960428
+        min: 51.741984
+      ocn_ale:
+        avg: 0.821131
+        max: 1.381858
+        min: 0.046897
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.472807
+        max: 9.211805
+        min: 0.883397
+      ocn_diag:
+        avg: 0.002519
+        max: 0.020691
+        min: 0.000991
+      ocn_dynamics:
+        avg: 40.284922
+        max: 43.736334
+        min: 34.173798
+      ocn_ml_restrat:
+        avg: 1.028382
+        max: 1.746859
+        min: 0.437287
+      ocn_mom_init:
+        avg: 35.215518
+        max: 35.392313
+        min: 35.049415
+      ocn_msg_pass:
+        avg: 3.017671
+        max: 9.471382
+        min: 1.144319
+      ocn_msg_pass_init:
+        avg: 1.283937
+        max: 4.284945
+        min: 0.000487
+      ocn_other:
+        avg: 1.490108
+        max: 6.261706
+        min: 0.819599
+      ocn_thermo:
+        avg: 9.680675
+        max: 16.125389
+        min: 6.57015
+      ocn_thick_diff:
+        avg: 0.791295
+        max: 0.924193
+        min: 0.669286
+      ocn_tracer:
+        avg: 4.825234
+        max: 6.212948
+        min: 3.964621
+      ocn_z_diag:
+        avg: 0.001121
+        max: 0.00785
+        min: 0.000676
+      rk2_btcalc:
+        avg: 0.03216
+        max: 0.04801
+        min: 0.022525
+      rk2_btforce:
+        avg: 0.219526
+        max: 0.315106
+        min: 0.11928
+      rk2_btstep:
+        avg: 16.335247
+        max: 24.540937
+        min: 10.011842
+      rk2_continuity:
+        avg: 4.687529
+        max: 6.030088
+        min: 3.118328
+      rk2_coriolis:
+        avg: 0.863524
+        max: 1.002497
+        min: 0.745422
+      rk2_horvisc:
+        avg: 0.784594
+        max: 0.863279
+        min: 0.725487
+      rk2_momentum_update:
+        avg: 0.197246
+        max: 0.254978
+        min: 0.139039
+      rk2_msg_pass:
+        avg: 8.694086
+        max: 14.429792
+        min: 4.675966
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.526248
+        max: 2.830805
+        min: 2.379783
+      rk2_vertvisc:
+        avg: 2.256485
+        max: 3.494198
+        min: 0.889502
+      total:
+        avg: 351.657047
+        max: 351.761825
+        min: 351.569285
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 51.37383
+        max: 51.47062
+        min: 51.315957
+      final:
+        avg: 2.453131
+        max: 2.453322
+        min: 2.453007
+      ice:
+        avg: 11.97729
+        max: 14.937683
+        min: 9.593518
+      init:
+        avg: 177.868104
+        max: 177.957849
+        min: 177.788768
+      init_ice:
+        avg: 15.880578
+        max: 16.174661
+        min: 15.852434
+      init_ocn:
+        avg: 46.759128
+        max: 46.917891
+        min: 46.724638
+      loop:
+        avg: 111.027916
+        max: 111.029439
+        min: 111.025249
+      ocean:
+        avg: 51.491222
+        max: 51.532614
+        min: 51.300535
+      ocn_ale:
+        avg: 0.821151
+        max: 1.379648
+        min: 0.046842
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.478335
+        max: 9.256006
+        min: 0.883495
+      ocn_diag:
+        avg: 0.002765
+        max: 0.021771
+        min: 0.000934
+      ocn_dynamics:
+        avg: 40.004314
+        max: 43.428308
+        min: 33.747912
+      ocn_ml_restrat:
+        avg: 1.029352
+        max: 1.745241
+        min: 0.439861
+      ocn_mom_init:
+        avg: 30.436829
+        max: 30.544659
+        min: 30.265081
+      ocn_msg_pass:
+        avg: 3.030426
+        max: 9.537846
+        min: 1.17292
+      ocn_msg_pass_init:
+        avg: 0.924506
+        max: 3.306196
+        min: 0.000508
+      ocn_other:
+        avg: 1.532195
+        max: 6.27999
+        min: 0.841123
+      ocn_thermo:
+        avg: 9.485239
+        max: 16.036824
+        min: 6.422205
+      ocn_thick_diff:
+        avg: 0.799691
+        max: 0.934117
+        min: 0.6699
+      ocn_tracer:
+        avg: 4.612817
+        max: 5.902923
+        min: 3.734056
+      ocn_z_diag:
+        avg: 0.00121
+        max: 0.010651
+        min: 0.000661
+      rk2_btcalc:
+        avg: 0.032083
+        max: 0.057767
+        min: 0.023017
+      rk2_btforce:
+        avg: 0.220212
+        max: 0.313049
+        min: 0.119753
+      rk2_btstep:
+        avg: 16.154732
+        max: 24.192743
+        min: 9.575492
+      rk2_continuity:
+        avg: 4.68701
+        max: 6.040231
+        min: 3.113473
+      rk2_coriolis:
+        avg: 0.863196
+        max: 0.98493
+        min: 0.746393
+      rk2_horvisc:
+        avg: 0.784732
+        max: 0.866637
+        min: 0.726887
+      rk2_momentum_update:
+        avg: 0.197601
+        max: 0.259583
+        min: 0.135295
+      rk2_msg_pass:
+        avg: 8.608655
+        max: 14.654336
+        min: 4.711748
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.526528
+        max: 2.816774
+        min: 2.373742
+      rk2_vertvisc:
+        avg: 2.2571
+        max: 3.533869
+        min: 0.889907
+      total:
+        avg: 291.784825
+        max: 291.873962
+        min: 291.704309
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 46.849217
+        max: 46.88331
+        min: 46.824052
+      final:
+        avg: 1.661105
+        max: 1.662163
+        min: 1.66092
+      ice:
+        avg: 10.672733
+        max: 13.651445
+        min: 8.350359
+      init:
+        avg: 171.084041
+        max: 171.193433
+        min: 170.997975
+      init_ice:
+        avg: 12.532603
+        max: 12.542473
+        min: 12.531941
+      init_ocn:
+        avg: 46.137563
+        max: 46.328987
+        min: 45.991231
+      loop:
+        avg: 102.485517
+        max: 102.48703
+        min: 102.483819
+      ocean:
+        avg: 50.560194
+        max: 50.572432
+        min: 50.407399
+      ocn_ale:
+        avg: 0.820845
+        max: 1.377588
+        min: 0.04644
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.513833
+        max: 9.256336
+        min: 0.923217
+      ocn_diag:
+        avg: 0.002176
+        max: 0.019527
+        min: 0.000977
+      ocn_dynamics:
+        avg: 39.529886
+        max: 42.897377
+        min: 33.321532
+      ocn_ml_restrat:
+        avg: 1.028812
+        max: 1.752937
+        min: 0.440903
+      ocn_mom_init:
+        avg: 29.908489
+        max: 29.969355
+        min: 29.830369
+      ocn_msg_pass:
+        avg: 2.924255
+        max: 9.392029
+        min: 1.124711
+      ocn_msg_pass_init:
+        avg: 0.844914
+        max: 3.261256
+        min: 0.00048
+      ocn_other:
+        avg: 1.356759
+        max: 6.176152
+        min: 0.689127
+      ocn_thermo:
+        avg: 9.232295
+        max: 15.730196
+        min: 6.179307
+      ocn_thick_diff:
+        avg: 0.785413
+        max: 0.932679
+        min: 0.665372
+      ocn_tracer:
+        avg: 4.3509
+        max: 5.533753
+        min: 3.580654
+      ocn_z_diag:
+        avg: 0.00108
+        max: 0.006687
+        min: 0.000659
+      rk2_btcalc:
+        avg: 0.031863
+        max: 0.04738
+        min: 0.022859
+      rk2_btforce:
+        avg: 0.220255
+        max: 0.327863
+        min: 0.119923
+      rk2_btstep:
+        avg: 15.781843
+        max: 24.018446
+        min: 9.285365
+      rk2_continuity:
+        avg: 4.686939
+        max: 6.012737
+        min: 3.120036
+      rk2_coriolis:
+        avg: 0.861921
+        max: 1.00063
+        min: 0.739516
+      rk2_horvisc:
+        avg: 0.784532
+        max: 0.865336
+        min: 0.726726
+      rk2_momentum_update:
+        avg: 0.197621
+        max: 0.254933
+        min: 0.131354
+      rk2_msg_pass:
+        avg: 8.555981
+        max: 14.431797
+        min: 4.532797
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.523983
+        max: 2.82194
+        min: 2.375356
+      rk2_vertvisc:
+        avg: 2.256559
+        max: 3.500805
+        min: 0.88817
+      total:
+        avg: 275.679079
+        max: 275.788641
+        min: 275.592911
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 39.698736
+        max: 39.731729
+        min: 39.671795
+      final:
+        avg: 1.890427
+        max: 1.890844
+        min: 1.890061
+      ice:
+        avg: 10.652958
+        max: 13.192177
+        min: 8.132986
+      init:
+        avg: 176.633729
+        max: 176.746215
+        min: 176.541813
+      init_ice:
+        avg: 12.725253
+        max: 12.750487
+        min: 12.724451
+      init_ocn:
+        avg: 45.888165
+        max: 45.992819
+        min: 45.759374
+      loop:
+        avg: 96.615637
+        max: 96.617355
+        min: 96.612741
+      ocean:
+        avg: 51.468742
+        max: 51.485688
+        min: 51.371009
+      ocn_ale:
+        avg: 0.820904
+        max: 1.384243
+        min: 0.046865
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.464199
+        max: 9.212716
+        min: 0.889322
+      ocn_diag:
+        avg: 0.002059
+        max: 0.018746
+        min: 0.000972
+      ocn_dynamics:
+        avg: 40.368358
+        max: 43.623428
+        min: 34.098537
+      ocn_ml_restrat:
+        avg: 1.028986
+        max: 1.830284
+        min: 0.437608
+      ocn_mom_init:
+        avg: 30.375223
+        max: 30.393365
+        min: 30.32969
+      ocn_msg_pass:
+        avg: 2.942399
+        max: 9.418514
+        min: 1.154787
+      ocn_msg_pass_init:
+        avg: 1.000724
+        max: 4.643516
+        min: 0.000489
+      ocn_other:
+        avg: 1.370559
+        max: 6.242359
+        min: 0.732185
+      ocn_thermo:
+        avg: 9.290368
+        max: 15.829958
+        min: 6.153488
+      ocn_thick_diff:
+        avg: 0.785192
+        max: 0.900913
+        min: 0.667263
+      ocn_tracer:
+        avg: 4.459874
+        max: 5.675986
+        min: 3.68355
+      ocn_z_diag:
+        avg: 0.001004
+        max: 0.006361
+        min: 0.000672
+      rk2_btcalc:
+        avg: 0.031773
+        max: 0.043445
+        min: 0.022692
+      rk2_btforce:
+        avg: 0.219903
+        max: 0.315751
+        min: 0.120416
+      rk2_btstep:
+        avg: 16.498527
+        max: 24.560673
+        min: 9.983678
+      rk2_continuity:
+        avg: 4.685577
+        max: 6.051298
+        min: 3.131667
+      rk2_coriolis:
+        avg: 0.861603
+        max: 0.983512
+        min: 0.742982
+      rk2_horvisc:
+        avg: 0.784694
+        max: 0.875312
+        min: 0.725629
+      rk2_momentum_update:
+        avg: 0.196031
+        max: 0.259234
+        min: 0.135326
+      rk2_msg_pass:
+        avg: 8.650413
+        max: 14.77517
+        min: 4.652805
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.524154
+        max: 2.818346
+        min: 2.365672
+      rk2_vertvisc:
+        avg: 2.256514
+        max: 3.517925
+        min: 0.886493
+      total:
+        avg: 275.545944
+        max: 275.658426
+        min: 275.453886
+  output007:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 48.612427
+        max: 48.642758
+        min: 48.591717
+      final:
+        avg: 2.006838
+        max: 2.007107
+        min: 2.006734
+      ice:
+        avg: 10.813666
+        max: 12.57845
+        min: 8.096448
+      init:
+        avg: 181.899732
+        max: 182.006839
+        min: 181.80197
+      init_ice:
+        avg: 12.538448
+        max: 12.564863
+        min: 12.537814
+      init_ocn:
+        avg: 46.741207
+        max: 46.793354
+        min: 46.6401
+      loop:
+        avg: 104.513493
+        max: 104.514373
+        min: 104.511034
+      ocean:
+        avg: 50.979285
+        max: 50.991773
+        min: 50.882753
+      ocn_ale:
+        avg: 0.820844
+        max: 1.375737
+        min: 0.046556
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.49452
+        max: 9.25595
+        min: 0.923221
+      ocn_diag:
+        avg: 0.002095
+        max: 0.016669
+        min: 0.00101
+      ocn_dynamics:
+        avg: 39.732208
+        max: 43.001638
+        min: 33.609707
+      ocn_ml_restrat:
+        avg: 1.028889
+        max: 1.806425
+        min: 0.437746
+      ocn_mom_init:
+        avg: 30.897109
+        max: 30.919546
+        min: 30.801956
+      ocn_msg_pass:
+        avg: 2.943088
+        max: 9.518406
+        min: 1.164501
+      ocn_msg_pass_init:
+        avg: 0.966385
+        max: 5.032711
+        min: 0.000498
+      ocn_other:
+        avg: 1.388829
+        max: 6.214758
+        min: 0.732443
+      ocn_thermo:
+        avg: 9.414659
+        max: 15.849581
+        min: 6.322133
+      ocn_thick_diff:
+        avg: 0.78536
+        max: 0.966818
+        min: 0.665789
+      ocn_tracer:
+        avg: 4.541665
+        max: 5.803689
+        min: 3.73283
+      ocn_z_diag:
+        avg: 0.001043
+        max: 0.005907
+        min: 0.000697
+      rk2_btcalc:
+        avg: 0.031792
+        max: 0.045114
+        min: 0.022472
+      rk2_btforce:
+        avg: 0.219929
+        max: 0.324322
+        min: 0.120398
+      rk2_btstep:
+        avg: 15.935373
+        max: 24.193604
+        min: 9.367885
+      rk2_continuity:
+        avg: 4.684908
+        max: 6.061868
+        min: 3.11771
+      rk2_coriolis:
+        avg: 0.861698
+        max: 0.984201
+        min: 0.741475
+      rk2_horvisc:
+        avg: 0.784504
+        max: 0.864077
+        min: 0.726943
+      rk2_momentum_update:
+        avg: 0.197308
+        max: 0.26923
+        min: 0.134783
+      rk2_msg_pass:
+        avg: 8.597893
+        max: 14.359869
+        min: 4.623827
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.523653
+        max: 2.804384
+        min: 2.372956
+      rk2_vertvisc:
+        avg: 2.255814
+        max: 3.501655
+        min: 0.89079
+      total:
+        avg: 288.872845
+        max: 288.980021
+        min: 288.775083
+  output008:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 15360
+    runtimes:
+      cpl:
+        avg: 39.150479
+        max: 39.189787
+        min: 39.123123
+      final:
+        avg: 1.518856
+        max: 1.519113
+        min: 1.518733
+      ice:
+        avg: 10.56855
+        max: 13.689769
+        min: 7.971531
+      init:
+        avg: 187.749446
+        max: 187.85796
+        min: 187.652555
+      init_ice:
+        avg: 12.950668
+        max: 12.961518
+        min: 12.950153
+      init_ocn:
+        avg: 45.152014
+        max: 45.244648
+        min: 45.061122
+      loop:
+        avg: 94.775106
+        max: 94.776479
+        min: 94.773374
+      ocean:
+        avg: 50.637682
+        max: 50.647816
+        min: 50.530821
+      ocn_ale:
+        avg: 0.820944
+        max: 1.378551
+        min: 0.046745
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 2.46515
+        max: 9.258798
+        min: 0.888182
+      ocn_diag:
+        avg: 0.002147
+        max: 0.018261
+        min: 0.001003
+      ocn_dynamics:
+        avg: 39.609141
+        max: 42.864184
+        min: 33.35859
+      ocn_ml_restrat:
+        avg: 1.02856
+        max: 1.798756
+        min: 0.440323
+      ocn_mom_init:
+        avg: 31.082298
+        max: 31.162279
+        min: 31.007535
+      ocn_msg_pass:
+        avg: 2.917322
+        max: 9.405083
+        min: 1.108283
+      ocn_msg_pass_init:
+        avg: 0.68096
+        max: 2.245676
+        min: 0.000494
+      ocn_other:
+        avg: 1.350698
+        max: 6.119387
+        min: 0.715225
+      ocn_thermo:
+        avg: 9.239128
+        max: 15.772328
+        min: 6.167981
+      ocn_thick_diff:
+        avg: 0.785137
+        max: 0.896342
+        min: 0.667029
+      ocn_tracer:
+        avg: 4.408786
+        max: 5.699098
+        min: 3.621296
+      ocn_z_diag:
+        avg: 0.001068
+        max: 0.006188
+        min: 0.000687
+      rk2_btcalc:
+        avg: 0.031814
+        max: 0.04267
+        min: 0.022472
+      rk2_btforce:
+        avg: 0.21993
+        max: 0.326794
+        min: 0.119323
+      rk2_btstep:
+        avg: 15.886653
+        max: 24.233333
+        min: 9.358034
+      rk2_continuity:
+        avg: 4.686925
+        max: 6.068522
+        min: 3.134328
+      rk2_coriolis:
+        avg: 0.861803
+        max: 0.992531
+        min: 0.742221
+      rk2_horvisc:
+        avg: 0.784674
+        max: 0.864781
+        min: 0.726213
+      rk2_momentum_update:
+        avg: 0.19644
+        max: 0.266995
+        min: 0.128618
+      rk2_msg_pass:
+        avg: 8.535991
+        max: 14.379353
+        min: 4.522269
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 2.524122
+        max: 2.813931
+        min: 2.365332
+      rk2_vertvisc:
+        avg: 2.256277
+        max: 3.506899
+        min: 0.891468
+      total:
+        avg: 285.229602
+        max: 285.33802
+        min: 285.132827
+om4/om4_1920:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl:
+        avg: 47.284639
+        max: 47.353023
+        min: 47.259013
+      final:
+        avg: 14.336277
+        max: 14.336684
+        min: 14.335951
+      ice:
+        avg: 12.612451
+        max: 18.303762
+        min: 9.206775
+      init:
+        avg: 57.490401
+        max: 57.567618
+        min: 57.421759
+      init_ice:
+        avg: 2.815897
+        max: 2.82146
+        min: 2.810414
+      init_ocn:
+        avg: 44.187044
+        max: 44.343701
+        min: 44.174516
+      loop:
+        avg: 291.51489
+        max: 291.516017
+        min: 291.509561
+      ocean:
+        avg: 239.988858
+        max: 240.019114
+        min: 239.893692
+      ocn_ale:
+        avg: 6.340071
+        max: 10.90172
+        min: 0.173238
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 19.985341
+        max: 46.992797
+        min: 6.741774
+      ocn_diag:
+        avg: 0.006018
+        max: 0.039389
+        min: 0.00298
+      ocn_dynamics:
+        avg: 182.626313
+        max: 208.174665
+        min: 161.719729
+      ocn_ml_restrat:
+        avg: 7.452319
+        max: 13.6584
+        min: 1.892231
+      ocn_mom_init:
+        avg: 42.013377
+        max: 42.166585
+        min: 41.979308
+      ocn_msg_pass:
+        avg: 17.775662
+        max: 48.785207
+        min: 4.237087
+      ocn_msg_pass_init:
+        avg: 0.05888
+        max: 0.187438
+        min: 0.001577
+      ocn_other:
+        avg: 6.124588
+        max: 23.372741
+        min: 1.877546
+      ocn_thermo:
+        avg: 48.520501
+        max: 73.16493
+        min: 26.17934
+      ocn_thick_diff:
+        avg: 5.392072
+        max: 6.231312
+        min: 4.005377
+      ocn_tracer:
+        avg: 11.739119
+        max: 15.431676
+        min: 10.657612
+      ocn_z_diag:
+        avg: 0.002418
+        max: 0.00975
+        min: 0.001032
+      rk2_btcalc:
+        avg: 0.245774
+        max: 0.340749
+        min: 0.180994
+      rk2_btforce:
+        avg: 1.185166
+        max: 1.694616
+        min: 0.633465
+      rk2_btstep:
+        avg: 47.286511
+        max: 81.237834
+        min: 34.112194
+      rk2_continuity:
+        avg: 27.217681
+        max: 35.33848
+        min: 16.5895
+      rk2_coriolis:
+        avg: 4.278082
+        max: 4.994881
+        min: 3.666097
+      rk2_horvisc:
+        avg: 5.108371
+        max: 5.517937
+        min: 4.656311
+      rk2_momentum_update:
+        avg: 1.80438
+        max: 2.090818
+        min: 1.387335
+      rk2_msg_pass:
+        avg: 35.609427
+        max: 70.946969
+        min: 16.75866
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 18.161293
+        max: 20.295472
+        min: 16.681708
+      rk2_vertvisc:
+        avg: 18.410878
+        max: 28.078773
+        min: 7.355626
+      total:
+        avg: 363.369434
+        max: 363.446604
+        min: 363.300255
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl:
+        avg: 23.419273
+        max: 23.435537
+        min: 23.400311
+      final:
+        avg: 14.251163
+        max: 14.251358
+        min: 14.25093
+      ice:
+        avg: 12.187575
+        max: 17.86911
+        min: 8.699725
+      init:
+        avg: 58.874961
+        max: 58.953936
+        min: 58.824452
+      init_ice:
+        avg: 2.903106
+        max: 2.907746
+        min: 2.900906
+      init_ocn:
+        avg: 43.513411
+        max: 43.603868
+        min: 43.503947
+      loop:
+        avg: 266.867256
+        max: 266.867904
+        min: 266.864147
+      ocean:
+        avg: 239.884741
+        max: 239.897991
+        min: 239.782697
+      ocn_ale:
+        avg: 6.339446
+        max: 10.882925
+        min: 0.174296
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 19.92184
+        max: 46.85639
+        min: 6.661871
+      ocn_diag:
+        avg: 0.005192
+        max: 0.008494
+        min: 0.002823
+      ocn_dynamics:
+        avg: 182.512876
+        max: 208.52666
+        min: 161.759602
+      ocn_ml_restrat:
+        avg: 7.440762
+        max: 13.794863
+        min: 1.896488
+      ocn_mom_init:
+        avg: 41.835336
+        max: 41.877117
+        min: 41.794086
+      ocn_msg_pass:
+        avg: 17.746853
+        max: 48.798183
+        min: 4.531919
+      ocn_msg_pass_init:
+        avg: 0.054259
+        max: 0.180878
+        min: 0.001287
+      ocn_other:
+        avg: 6.075648
+        max: 23.276517
+        min: 1.831046
+      ocn_thermo:
+        avg: 48.596842
+        max: 73.059762
+        min: 26.688582
+      ocn_thick_diff:
+        avg: 5.388038
+        max: 6.231265
+        min: 4.03868
+      ocn_tracer:
+        avg: 11.890492
+        max: 15.555969
+        min: 10.868201
+      ocn_z_diag:
+        avg: 0.001495
+        max: 0.003643
+        min: 0.000981
+      rk2_btcalc:
+        avg: 0.245736
+        max: 0.34723
+        min: 0.183413
+      rk2_btforce:
+        avg: 1.189713
+        max: 1.774564
+        min: 0.619728
+      rk2_btstep:
+        avg: 47.211625
+        max: 81.99082
+        min: 34.301287
+      rk2_continuity:
+        avg: 27.228006
+        max: 35.066932
+        min: 16.517192
+      rk2_coriolis:
+        avg: 4.274353
+        max: 5.098487
+        min: 3.652523
+      rk2_horvisc:
+        avg: 5.10857
+        max: 5.531617
+        min: 4.667192
+      rk2_momentum_update:
+        avg: 1.816938
+        max: 2.062899
+        min: 1.390056
+      rk2_msg_pass:
+        avg: 35.575185
+        max: 71.182385
+        min: 16.396724
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 18.164231
+        max: 20.559851
+        min: 16.691038
+      rk2_vertvisc:
+        avg: 18.398812
+        max: 27.926627
+        min: 7.310177
+      total:
+        avg: 340.030421
+        max: 340.109544
+        min: 339.97985
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl:
+        avg: 38.322401
+        max: 38.383797
+        min: 38.300813
+      final:
+        avg: 15.046532
+        max: 15.046775
+        min: 15.046422
+      ice:
+        avg: 12.508813
+        max: 18.320425
+        min: 8.881501
+      init:
+        avg: 57.160023
+        max: 57.251507
+        min: 57.077433
+      init_ice:
+        avg: 2.663094
+        max: 2.672061
+        min: 2.658965
+      init_ocn:
+        avg: 43.871389
+        max: 44.023106
+        min: 43.858579
+      loop:
+        avg: 282.170184
+        max: 282.170892
+        min: 282.168156
+      ocean:
+        avg: 239.680783
+        max: 239.693716
+        min: 239.590449
+      ocn_ale:
+        avg: 6.340923
+        max: 10.880467
+        min: 0.173692
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 19.943362
+        max: 46.930692
+        min: 6.682624
+      ocn_diag:
+        avg: 0.006513
+        max: 0.046597
+        min: 0.002951
+      ocn_dynamics:
+        avg: 182.425621
+        max: 207.839028
+        min: 161.604761
+      ocn_ml_restrat:
+        avg: 7.440745
+        max: 13.590048
+        min: 1.901583
+      ocn_mom_init:
+        avg: 42.086562
+        max: 42.161764
+        min: 42.030593
+      ocn_msg_pass:
+        avg: 17.76341
+        max: 48.937854
+        min: 4.072477
+      ocn_msg_pass_init:
+        avg: 0.036888
+        max: 0.177011
+        min: 0.00142
+      ocn_other:
+        avg: 6.134007
+        max: 23.362569
+        min: 1.915613
+      ocn_thermo:
+        avg: 48.417281
+        max: 73.010444
+        min: 26.239264
+      ocn_thick_diff:
+        avg: 5.393004
+        max: 6.239632
+        min: 4.014447
+      ocn_tracer:
+        avg: 11.683428
+        max: 15.365592
+        min: 10.592861
+      ocn_z_diag:
+        avg: 0.002651
+        max: 0.012333
+        min: 0.000993
+      rk2_btcalc:
+        avg: 0.247206
+        max: 0.340127
+        min: 0.180733
+      rk2_btforce:
+        avg: 1.190548
+        max: 1.812989
+        min: 0.637324
+      rk2_btstep:
+        avg: 47.059802
+        max: 81.704977
+        min: 33.451613
+      rk2_continuity:
+        avg: 27.220742
+        max: 35.172367
+        min: 16.556096
+      rk2_coriolis:
+        avg: 4.275262
+        max: 5.013884
+        min: 3.64488
+      rk2_horvisc:
+        avg: 5.108252
+        max: 5.606926
+        min: 4.662923
+      rk2_momentum_update:
+        avg: 1.826154
+        max: 2.091796
+        min: 1.325755
+      rk2_msg_pass:
+        avg: 35.599695
+        max: 71.109909
+        min: 16.514829
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 18.167143
+        max: 20.475952
+        min: 16.750291
+      rk2_vertvisc:
+        avg: 18.412229
+        max: 27.948079
+        min: 7.346803
+      total:
+        avg: 354.442901
+        max: 354.535549
+        min: 354.3604
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl:
+        avg: 24.70435
+        max: 24.745027
+        min: 24.684549
+      final:
+        avg: 14.406226
+        max: 14.406411
+        min: 14.405916
+      ice:
+        avg: 12.340424
+        max: 17.947415
+        min: 8.761454
+      init:
+        avg: 57.736141
+        max: 57.805633
+        min: 57.684906
+      init_ice:
+        avg: 2.050947
+        max: 2.053793
+        min: 2.05051
+      init_ocn:
+        avg: 46.576632
+        max: 46.653913
+        min: 46.56617
+      loop:
+        avg: 269.358619
+        max: 269.361886
+        min: 269.354009
+      ocean:
+        avg: 240.745895
+        max: 240.760232
+        min: 240.648524
+      ocn_ale:
+        avg: 6.340737
+        max: 10.882448
+        min: 0.175348
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 19.928516
+        max: 46.942876
+        min: 6.639369
+      ocn_diag:
+        avg: 0.004728
+        max: 0.048555
+        min: 0.002867
+      ocn_dynamics:
+        avg: 183.348369
+        max: 208.843207
+        min: 162.389233
+      ocn_ml_restrat:
+        avg: 7.448535
+        max: 13.527069
+        min: 1.884916
+      ocn_mom_init:
+        avg: 42.825138
+        max: 42.867281
+        min: 42.784346
+      ocn_msg_pass:
+        avg: 17.757787
+        max: 48.752325
+        min: 4.335994
+      ocn_msg_pass_init:
+        avg: 0.136727
+        max: 0.443423
+        min: 0.001242
+      ocn_other:
+        avg: 6.089308
+        max: 23.481218
+        min: 1.890776
+      ocn_thermo:
+        avg: 48.607438
+        max: 73.197021
+        min: 26.408962
+      ocn_thick_diff:
+        avg: 5.394388
+        max: 6.240695
+        min: 4.016607
+      ocn_tracer:
+        avg: 11.885528
+        max: 15.565662
+        min: 10.646337
+      ocn_z_diag:
+        avg: 0.001392
+        max: 0.014158
+        min: 0.001012
+      rk2_btcalc:
+        avg: 0.246537
+        max: 0.33147
+        min: 0.184773
+      rk2_btforce:
+        avg: 1.182375
+        max: 1.720224
+        min: 0.641101
+      rk2_btstep:
+        avg: 47.870974
+        max: 82.099988
+        min: 34.483048
+      rk2_continuity:
+        avg: 27.23079
+        max: 35.202605
+        min: 16.628815
+      rk2_coriolis:
+        avg: 4.275463
+        max: 5.036344
+        min: 3.653923
+      rk2_horvisc:
+        avg: 5.109174
+        max: 5.527928
+        min: 4.652653
+      rk2_momentum_update:
+        avg: 1.81257
+        max: 2.089408
+        min: 1.376562
+      rk2_msg_pass:
+        avg: 35.696546
+        max: 71.718267
+        min: 17.011076
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 18.167642
+        max: 20.487903
+        min: 16.656371
+      rk2_vertvisc:
+        avg: 18.428763
+        max: 27.817688
+        min: 7.345923
+      total:
+        avg: 341.531687
+        max: 341.601031
+        min: 341.480308
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl:
+        avg: 24.544882
+        max: 24.606129
+        min: 24.52607
+      final:
+        avg: 13.866212
+        max: 13.866549
+        min: 13.866136
+      ice:
+        avg: 12.197459
+        max: 17.916878
+        min: 8.85204
+      init:
+        avg: 53.891778
+        max: 53.981183
+        min: 53.833291
+      init_ice:
+        avg: 2.340734
+        max: 2.343118
+        min: 2.340216
+      init_ocn:
+        avg: 43.752299
+        max: 43.811496
+        min: 43.741745
+      loop:
+        avg: 269.496613
+        max: 269.503469
+        min: 269.495843
+      ocean:
+        avg: 240.140226
+        max: 240.154456
+        min: 240.035902
+      ocn_ale:
+        avg: 6.3391
+        max: 10.864761
+        min: 0.174929
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 19.938222
+        max: 46.918152
+        min: 6.721558
+      ocn_diag:
+        avg: 0.005185
+        max: 0.045113
+        min: 0.002946
+      ocn_dynamics:
+        avg: 182.772627
+        max: 208.531498
+        min: 161.841744
+      ocn_ml_restrat:
+        avg: 7.45008
+        max: 13.881933
+        min: 1.919511
+      ocn_mom_init:
+        avg: 41.807118
+        max: 41.844282
+        min: 41.744991
+      ocn_msg_pass:
+        avg: 17.758762
+        max: 48.664582
+        min: 4.387757
+      ocn_msg_pass_init:
+        avg: 0.087888
+        max: 0.213596
+        min: 0.001249
+      ocn_other:
+        avg: 6.129829
+        max: 23.500769
+        min: 1.888358
+      ocn_thermo:
+        avg: 48.529942
+        max: 73.199324
+        min: 26.605918
+      ocn_thick_diff:
+        avg: 5.39488
+        max: 6.264942
+        min: 3.993829
+      ocn_tracer:
+        avg: 11.798155
+        max: 15.422975
+        min: 10.54743
+      ocn_z_diag:
+        avg: 0.001572
+        max: 0.014762
+        min: 0.000975
+      rk2_btcalc:
+        avg: 0.246823
+        max: 0.340198
+        min: 0.183295
+      rk2_btforce:
+        avg: 1.185408
+        max: 1.818131
+        min: 0.632109
+      rk2_btstep:
+        avg: 47.424409
+        max: 81.482844
+        min: 34.272584
+      rk2_continuity:
+        avg: 27.223547
+        max: 35.336044
+        min: 16.484241
+      rk2_coriolis:
+        avg: 4.277655
+        max: 4.93767
+        min: 3.673722
+      rk2_horvisc:
+        avg: 5.110195
+        max: 5.549968
+        min: 4.672093
+      rk2_momentum_update:
+        avg: 1.820232
+        max: 2.089481
+        min: 1.339049
+      rk2_msg_pass:
+        avg: 35.591461
+        max: 71.128481
+        min: 15.667813
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 18.164265
+        max: 20.328729
+        min: 16.710563
+      rk2_vertvisc:
+        avg: 18.420036
+        max: 27.827198
+        min: 7.351226
+      total:
+        avg: 337.284879
+        max: 337.374407
+        min: 337.226251
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl:
+        avg: 29.116402
+        max: 29.16772
+        min: 29.095632
+      final:
+        avg: 14.423642
+        max: 14.423852
+        min: 14.423484
+      ice:
+        avg: 12.677324
+        max: 18.481765
+        min: 8.972125
+      init:
+        avg: 56.089372
+        max: 56.174473
+        min: 56.027073
+      init_ice:
+        avg: 2.073554
+        max: 2.07687
+        min: 2.072513
+      init_ocn:
+        avg: 43.643951
+        max: 43.669288
+        min: 43.635949
+      loop:
+        avg: 273.009572
+        max: 273.013578
+        min: 273.006646
+      ocean:
+        avg: 239.881473
+        max: 239.893914
+        min: 239.783941
+      ocn_ale:
+        avg: 6.340625
+        max: 10.857952
+        min: 0.173694
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 19.947195
+        max: 46.89698
+        min: 6.637961
+      ocn_diag:
+        avg: 0.005543
+        max: 0.041084
+        min: 0.002805
+      ocn_dynamics:
+        avg: 182.474504
+        max: 208.065006
+        min: 161.655837
+      ocn_ml_restrat:
+        avg: 7.444905
+        max: 13.00911
+        min: 1.930358
+      ocn_mom_init:
+        avg: 42.00932
+        max: 42.047768
+        min: 41.969139
+      ocn_msg_pass:
+        avg: 17.79951
+        max: 48.823754
+        min: 4.471084
+      ocn_msg_pass_init:
+        avg: 0.042747
+        max: 0.102977
+        min: 0.00128
+      ocn_other:
+        avg: 6.132488
+        max: 23.333644
+        min: 1.956088
+      ocn_thermo:
+        avg: 48.553779
+        max: 73.089416
+        min: 26.072084
+      ocn_thick_diff:
+        avg: 5.389936
+        max: 6.418074
+        min: 4.014874
+      ocn_tracer:
+        avg: 11.772467
+        max: 15.384598
+        min: 10.695017
+      ocn_z_diag:
+        avg: 0.001556
+        max: 0.012277
+        min: 0.001007
+      rk2_btcalc:
+        avg: 0.246654
+        max: 0.348864
+        min: 0.180838
+      rk2_btforce:
+        avg: 1.189158
+        max: 1.720765
+        min: 0.639637
+      rk2_btstep:
+        avg: 47.093892
+        max: 81.643737
+        min: 33.854721
+      rk2_continuity:
+        avg: 27.220209
+        max: 35.181668
+        min: 16.450554
+      rk2_coriolis:
+        avg: 4.275917
+        max: 4.967429
+        min: 3.648012
+      rk2_horvisc:
+        avg: 5.110471
+        max: 5.489028
+        min: 4.66626
+      rk2_momentum_update:
+        avg: 1.822811
+        max: 2.096235
+        min: 1.385381
+      rk2_msg_pass:
+        avg: 35.624838
+        max: 71.01656
+        min: 16.24543
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 18.173265
+        max: 20.49663
+        min: 16.68964
+      rk2_vertvisc:
+        avg: 18.40757
+        max: 28.033312
+        min: 7.294583
+      total:
+        avg: 343.549175
+        max: 343.634572
+        min: 343.486632
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 1920
+    runtimes:
+      cpl:
+        avg: 27.85713
+        max: 27.908343
+        min: 27.833484
+      final:
+        avg: 13.858388
+        max: 13.858533
+        min: 13.85824
+      ice:
+        avg: 12.763231
+        max: 18.511369
+        min: 9.18703
+      init:
+        avg: 58.450113
+        max: 58.548654
+        min: 58.377784
+      init_ice:
+        avg: 2.763086
+        max: 2.765722
+        min: 2.762524
+      init_ocn:
+        avg: 44.071799
+        max: 44.15428
+        min: 44.060212
+      loop:
+        avg: 271.128976
+        max: 271.130486
+        min: 271.126378
+      ocean:
+        avg: 239.168779
+        max: 239.182476
+        min: 239.071212
+      ocn_ale:
+        avg: 6.337278
+        max: 10.86768
+        min: 0.172927
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 19.921137
+        max: 46.858421
+        min: 6.639592
+      ocn_diag:
+        avg: 0.005107
+        max: 0.039388
+        min: 0.002805
+      ocn_dynamics:
+        avg: 181.989515
+        max: 207.440443
+        min: 161.22697
+      ocn_ml_restrat:
+        avg: 7.44625
+        max: 13.360843
+        min: 1.904318
+      ocn_mom_init:
+        avg: 42.243288
+        max: 42.35908
+        min: 42.173002
+      ocn_msg_pass:
+        avg: 17.746402
+        max: 48.660392
+        min: 4.199652
+      ocn_msg_pass_init:
+        avg: 0.087774
+        max: 0.198101
+        min: 0.001319
+      ocn_other:
+        avg: 6.128517
+        max: 23.312329
+        min: 1.979419
+      ocn_thermo:
+        avg: 48.346188
+        max: 72.892507
+        min: 26.161169
+      ocn_thick_diff:
+        avg: 5.389989
+        max: 6.265223
+        min: 4.005149
+      ocn_tracer:
+        avg: 11.638791
+        max: 15.323361
+        min: 10.55865
+      ocn_z_diag:
+        avg: 0.001555
+        max: 0.013484
+        min: 0.000963
+      rk2_btcalc:
+        avg: 0.246933
+        max: 0.349801
+        min: 0.182279
+      rk2_btforce:
+        avg: 1.190068
+        max: 1.830855
+        min: 0.627534
+      rk2_btstep:
+        avg: 46.696961
+        max: 81.083225
+        min: 33.085502
+      rk2_continuity:
+        avg: 27.216795
+        max: 35.215045
+        min: 16.459647
+      rk2_coriolis:
+        avg: 4.274463
+        max: 5.013537
+        min: 3.671391
+      rk2_horvisc:
+        avg: 5.108077
+        max: 5.544541
+        min: 4.667226
+      rk2_momentum_update:
+        avg: 1.828071
+        max: 2.081408
+        min: 1.352123
+      rk2_msg_pass:
+        avg: 35.56028
+        max: 71.163587
+        min: 16.757303
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 18.161266
+        max: 20.463946
+        min: 16.59481
+      rk2_vertvisc:
+        avg: 18.404179
+        max: 27.817419
+        min: 7.359838
+      total:
+        avg: 343.465832
+        max: 343.564227
+        min: 343.393137
+om4/om4_240:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl:
+        avg: 117.730846
+        max: 117.762128
+        min: 117.672947
+      final:
+        avg: 1.604125
+        max: 1.60414
+        min: 1.604098
+      ice:
+        avg: 67.296017
+        max: 100.278937
+        min: 48.650912
+      init:
+        avg: 11.657549
+        max: 11.714248
+        min: 11.610544
+      init_ice:
+        avg: 0.501913
+        max: 0.502422
+        min: 0.501376
+      init_ocn:
+        avg: 8.96152
+        max: 8.968799
+        min: 8.95405
+      loop:
+        avg: 1500.650574
+        max: 1500.652521
+        min: 1500.645283
+      ocean:
+        avg: 1375.952013
+        max: 1375.970878
+        min: 1375.861907
+      ocn_ale:
+        avg: 50.846658
+        max: 81.762247
+        min: 1.083451
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 148.894566
+        max: 263.216393
+        min: 41.288123
+      ocn_diag:
+        avg: 0.015266
+        max: 0.017707
+        min: 0.012312
+      ocn_dynamics:
+        avg: 996.451903
+        max: 1067.420674
+        min: 942.921241
+      ocn_ml_restrat:
+        avg: 50.401507
+        max: 82.497906
+        min: 10.868926
+      ocn_mom_init:
+        avg: 7.150691
+        max: 7.529574
+        min: 7.134237
+      ocn_msg_pass:
+        avg: 124.682146
+        max: 279.585673
+        min: 18.863145
+      ocn_msg_pass_init:
+        avg: 0.042653
+        max: 0.115091
+        min: 0.011678
+      ocn_other:
+        avg: 36.974354
+        max: 119.696947
+        min: 12.867624
+      ocn_thermo:
+        avg: 325.124885
+        max: 403.302002
+        min: 205.395384
+      ocn_thick_diff:
+        avg: 28.466878
+        max: 31.543635
+        min: 24.4273
+      ocn_tracer:
+        avg: 45.816213
+        max: 50.235591
+        min: 44.496605
+      ocn_z_diag:
+        avg: 0.001751
+        max: 0.003905
+        min: 0.001211
+      rk2_btcalc:
+        avg: 1.797028
+        max: 2.417563
+        min: 1.211584
+      rk2_btforce:
+        avg: 8.192707
+        max: 11.276019
+        min: 4.538534
+      rk2_btstep:
+        avg: 200.211392
+        max: 268.326623
+        min: 179.441378
+      rk2_continuity:
+        avg: 164.675641
+        max: 210.096521
+        min: 90.580682
+      rk2_coriolis:
+        avg: 27.169877
+        max: 31.281662
+        min: 23.315655
+      rk2_horvisc:
+        avg: 38.49503
+        max: 40.105064
+        min: 36.140696
+      rk2_momentum_update:
+        avg: 10.85815
+        max: 11.58601
+        min: 9.243252
+      rk2_msg_pass:
+        avg: 156.79243
+        max: 371.852
+        min: 53.523828
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 133.972687
+        max: 139.201542
+        min: 129.880365
+      rk2_vertvisc:
+        avg: 106.505448
+        max: 149.063916
+        min: 36.391219
+      total:
+        avg: 1513.920717
+        max: 1513.977732
+        min: 1513.874539
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl:
+        avg: 115.023279
+        max: 115.055424
+        min: 114.967491
+      final:
+        avg: 1.470522
+        max: 1.470573
+        min: 1.470487
+      ice:
+        avg: 67.229738
+        max: 100.128971
+        min: 48.604623
+      init:
+        avg: 11.368594
+        max: 11.434938
+        min: 11.327156
+      init_ice:
+        avg: 0.397377
+        max: 0.397734
+        min: 0.397215
+      init_ocn:
+        avg: 8.770314
+        max: 8.781169
+        min: 8.764917
+      loop:
+        avg: 1497.535015
+        max: 1497.54109
+        min: 1497.521092
+      ocean:
+        avg: 1375.753711
+        max: 1375.774565
+        min: 1375.662583
+      ocn_ale:
+        avg: 50.840116
+        max: 81.908613
+        min: 1.074724
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 148.870554
+        max: 263.376413
+        min: 41.303777
+      ocn_diag:
+        avg: 0.016298
+        max: 0.018062
+        min: 0.01364
+      ocn_dynamics:
+        avg: 996.512677
+        max: 1067.10928
+        min: 943.379334
+      ocn_ml_restrat:
+        avg: 50.32591
+        max: 82.42853
+        min: 10.827156
+      ocn_mom_init:
+        avg: 7.089375
+        max: 7.103815
+        min: 7.071592
+      ocn_msg_pass:
+        avg: 124.601833
+        max: 279.84224
+        min: 20.148685
+      ocn_msg_pass_init:
+        avg: 0.030237
+        max: 0.065247
+        min: 0.012178
+      ocn_other:
+        avg: 36.949933
+        max: 119.392841
+        min: 12.618105
+      ocn_thermo:
+        avg: 324.889226
+        max: 403.203656
+        min: 204.812209
+      ocn_thick_diff:
+        avg: 28.441965
+        max: 31.937605
+        min: 24.216591
+      ocn_tracer:
+        avg: 45.611184
+        max: 50.170688
+        min: 44.245487
+      ocn_z_diag:
+        avg: 0.001893
+        max: 0.003776
+        min: 0.001238
+      rk2_btcalc:
+        avg: 1.779619
+        max: 2.278175
+        min: 1.117414
+      rk2_btforce:
+        avg: 8.116462
+        max: 10.95249
+        min: 4.471667
+      rk2_btstep:
+        avg: 201.172027
+        max: 269.926016
+        min: 179.454576
+      rk2_continuity:
+        avg: 164.427813
+        max: 210.137875
+        min: 90.191226
+      rk2_coriolis:
+        avg: 27.113977
+        max: 30.728706
+        min: 23.528808
+      rk2_horvisc:
+        avg: 38.504137
+        max: 40.093766
+        min: 36.097765
+      rk2_momentum_update:
+        avg: 10.872756
+        max: 11.59015
+        min: 9.239417
+      rk2_msg_pass:
+        avg: 156.751938
+        max: 374.759764
+        min: 51.838545
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 133.963549
+        max: 140.299088
+        min: 129.622399
+      rk2_vertvisc:
+        avg: 106.456658
+        max: 148.948145
+        min: 36.215246
+      total:
+        avg: 1510.385093
+        max: 1510.452137
+        min: 1510.343495
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl:
+        avg: 114.608307
+        max: 114.64223
+        min: 114.555015
+      final:
+        avg: 1.409732
+        max: 1.409765
+        min: 1.409692
+      ice:
+        avg: 66.99293
+        max: 100.088831
+        min: 48.3003
+      init:
+        avg: 12.296379
+        max: 12.34965
+        min: 12.240141
+      init_ice:
+        avg: 0.784893
+        max: 0.784996
+        min: 0.784791
+      init_ocn:
+        avg: 8.616572
+        max: 8.623509
+        min: 8.609949
+      loop:
+        avg: 1495.174132
+        max: 1495.176061
+        min: 1495.171296
+      ocean:
+        avg: 1374.033646
+        max: 1374.054872
+        min: 1373.943773
+      ocn_ale:
+        avg: 50.832783
+        max: 81.740528
+        min: 1.06789
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 148.872599
+        max: 263.122175
+        min: 41.1924
+      ocn_diag:
+        avg: 0.013683
+        max: 0.015277
+        min: 0.012172
+      ocn_dynamics:
+        avg: 994.793925
+        max: 1065.346329
+        min: 941.898404
+      ocn_ml_restrat:
+        avg: 50.374632
+        max: 82.227502
+        min: 10.915214
+      ocn_mom_init:
+        avg: 7.048504
+        max: 7.057292
+        min: 7.020697
+      ocn_msg_pass:
+        avg: 124.672974
+        max: 279.83315
+        min: 20.781269
+      ocn_msg_pass_init:
+        avg: 0.016348
+        max: 0.027755
+        min: 0.003991
+      ocn_other:
+        avg: 36.856177
+        max: 119.929763
+        min: 12.760011
+      ocn_thermo:
+        avg: 325.01696
+        max: 403.009909
+        min: 204.346136
+      ocn_thick_diff:
+        avg: 28.447961
+        max: 31.510202
+        min: 24.239014
+      ocn_tracer:
+        avg: 45.775272
+        max: 50.107919
+        min: 44.483221
+      ocn_z_diag:
+        avg: 0.001429
+        max: 0.001797
+        min: 0.00118
+      rk2_btcalc:
+        avg: 1.785734
+        max: 2.358186
+        min: 1.20151
+      rk2_btforce:
+        avg: 8.196857
+        max: 11.175137
+        min: 4.501889
+      rk2_btstep:
+        avg: 199.161237
+        max: 266.502985
+        min: 177.62348
+      rk2_continuity:
+        avg: 164.528358
+        max: 210.300985
+        min: 90.400819
+      rk2_coriolis:
+        avg: 27.133845
+        max: 30.666667
+        min: 23.568804
+      rk2_horvisc:
+        avg: 38.508467
+        max: 39.953292
+        min: 36.085487
+      rk2_momentum_update:
+        avg: 10.758059
+        max: 11.552156
+        min: 9.189838
+      rk2_msg_pass:
+        avg: 156.728294
+        max: 373.990575
+        min: 50.153948
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 133.951894
+        max: 140.642827
+        min: 130.110726
+      rk2_vertvisc:
+        avg: 106.545031
+        max: 149.348996
+        min: 36.587286
+      total:
+        avg: 1508.888727
+        max: 1508.942905
+        min: 1508.833431
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl:
+        avg: 121.216816
+        max: 121.244832
+        min: 121.163798
+      final:
+        avg: 1.688748
+        max: 1.688787
+        min: 1.688714
+      ice:
+        avg: 67.288961
+        max: 100.444943
+        min: 48.618302
+      init:
+        avg: 14.50581
+        max: 14.555875
+        min: 14.47019
+      init_ice:
+        avg: 1.53484
+        max: 1.535412
+        min: 1.534551
+      init_ocn:
+        avg: 9.012148
+        max: 9.021652
+        min: 9.004013
+      loop:
+        avg: 1502.082442
+        max: 1502.083685
+        min: 1502.080949
+      ocean:
+        avg: 1374.434069
+        max: 1374.454446
+        min: 1374.351463
+      ocn_ale:
+        avg: 50.835095
+        max: 81.904029
+        min: 1.079486
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 148.807722
+        max: 263.089387
+        min: 41.396835
+      ocn_diag:
+        avg: 0.014227
+        max: 0.01771
+        min: 0.011883
+      ocn_dynamics:
+        avg: 995.253728
+        max: 1065.645257
+        min: 942.772202
+      ocn_ml_restrat:
+        avg: 50.384945
+        max: 82.464278
+        min: 10.939894
+      ocn_mom_init:
+        avg: 7.191211
+        max: 7.235173
+        min: 7.159699
+      ocn_msg_pass:
+        avg: 124.505867
+        max: 279.925493
+        min: 20.674246
+      ocn_msg_pass_init:
+        avg: 0.046025
+        max: 0.114103
+        min: 0.007348
+      ocn_other:
+        avg: 36.799665
+        max: 119.095207
+        min: 12.556054
+      ocn_thermo:
+        avg: 324.916631
+        max: 403.132147
+        min: 204.36893
+      ocn_thick_diff:
+        avg: 28.459064
+        max: 31.652451
+        min: 24.405828
+      ocn_tracer:
+        avg: 45.762418
+        max: 49.89359
+        min: 44.336435
+      ocn_z_diag:
+        avg: 0.0016
+        max: 0.003581
+        min: 0.001197
+      rk2_btcalc:
+        avg: 1.782503
+        max: 2.230321
+        min: 1.245009
+      rk2_btforce:
+        avg: 8.142821
+        max: 11.301912
+        min: 4.478866
+      rk2_btstep:
+        avg: 199.57692
+        max: 267.112716
+        min: 179.559074
+      rk2_continuity:
+        avg: 164.525269
+        max: 212.298654
+        min: 90.291763
+      rk2_coriolis:
+        avg: 27.132028
+        max: 30.298751
+        min: 23.506379
+      rk2_horvisc:
+        avg: 38.499498
+        max: 40.151041
+        min: 36.064109
+      rk2_momentum_update:
+        avg: 10.856761
+        max: 11.609772
+        min: 9.332255
+      rk2_msg_pass:
+        avg: 156.955913
+        max: 373.567981
+        min: 49.81522
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 133.945244
+        max: 140.220504
+        min: 129.794542
+      rk2_vertvisc:
+        avg: 106.554892
+        max: 149.242496
+        min: 36.389216
+      total:
+        avg: 1518.287786
+        max: 1518.337983
+        min: 1518.250657
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl:
+        avg: 114.772799
+        max: 114.803932
+        min: 114.720633
+      final:
+        avg: 1.300485
+        max: 1.300545
+        min: 1.300447
+      ice:
+        avg: 67.329561
+        max: 100.339862
+        min: 48.802296
+      init:
+        avg: 11.620415
+        max: 11.676667
+        min: 11.567811
+      init_ice:
+        avg: 0.471878
+        max: 0.47245
+        min: 0.471162
+      init_ocn:
+        avg: 8.905375
+        max: 8.911781
+        min: 8.899129
+      loop:
+        avg: 1497.840798
+        max: 1497.853318
+        min: 1497.839087
+      ocean:
+        avg: 1376.21522
+        max: 1376.2382
+        min: 1376.115203
+      ocn_ale:
+        avg: 50.824904
+        max: 81.806382
+        min: 1.080556
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 148.862599
+        max: 262.84569
+        min: 41.326699
+      ocn_diag:
+        avg: 0.015362
+        max: 0.018843
+        min: 0.012209
+      ocn_dynamics:
+        avg: 996.950859
+        max: 1067.310075
+        min: 944.281666
+      ocn_ml_restrat:
+        avg: 50.333163
+        max: 82.380405
+        min: 10.934965
+      ocn_mom_init:
+        avg: 7.1602
+        max: 7.199533
+        min: 7.140771
+      ocn_msg_pass:
+        avg: 124.492448
+        max: 279.550452
+        min: 20.039509
+      ocn_msg_pass_init:
+        avg: 0.036799
+        max: 0.061877
+        min: 0.013665
+      ocn_other:
+        avg: 36.930896
+        max: 118.972876
+        min: 12.59617
+      ocn_thermo:
+        avg: 324.964561
+        max: 402.854205
+        min: 205.155898
+      ocn_thick_diff:
+        avg: 28.440046
+        max: 31.666559
+        min: 24.390222
+      ocn_tracer:
+        avg: 45.773953
+        max: 50.248175
+        min: 44.271705
+      ocn_z_diag:
+        avg: 0.00172
+        max: 0.003521
+        min: 0.001194
+      rk2_btcalc:
+        avg: 1.774068
+        max: 2.223747
+        min: 1.134953
+      rk2_btforce:
+        avg: 8.178385
+        max: 11.226913
+        min: 4.63359
+      rk2_btstep:
+        avg: 200.784098
+        max: 269.944796
+        min: 180.097405
+      rk2_continuity:
+        avg: 164.382579
+        max: 209.759942
+        min: 90.185339
+      rk2_coriolis:
+        avg: 27.173694
+        max: 31.013923
+        min: 23.427555
+      rk2_horvisc:
+        avg: 38.482373
+        max: 40.01197
+        min: 35.968034
+      rk2_momentum_update:
+        avg: 10.941308
+        max: 11.546224
+        min: 9.51215
+      rk2_msg_pass:
+        avg: 157.266626
+        max: 372.59267
+        min: 52.910994
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 133.953541
+        max: 139.298534
+        min: 129.114195
+      rk2_vertvisc:
+        avg: 106.49423
+        max: 150.096479
+        min: 35.791774
+      total:
+        avg: 1510.774027
+        max: 1510.834354
+        min: 1510.720213
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl:
+        avg: 129.72542
+        max: 129.789761
+        min: 129.670015
+      final:
+        avg: 1.356527
+        max: 1.35656
+        min: 1.356492
+      ice:
+        avg: 67.39517
+        max: 100.611795
+        min: 48.645587
+      init:
+        avg: 12.006117
+        max: 12.044095
+        min: 11.971465
+      init_ice:
+        avg: 0.463181
+        max: 0.464525
+        min: 0.462699
+      init_ocn:
+        avg: 9.089976
+        max: 9.098439
+        min: 9.083154
+      loop:
+        avg: 1513.735147
+        max: 1513.738204
+        min: 1513.733336
+      ocean:
+        avg: 1377.147367
+        max: 1377.168479
+        min: 1377.063875
+      ocn_ale:
+        avg: 50.836612
+        max: 81.946183
+        min: 1.08241
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 148.841037
+        max: 262.998028
+        min: 41.238719
+      ocn_diag:
+        avg: 0.015403
+        max: 0.018223
+        min: 0.011839
+      ocn_dynamics:
+        avg: 997.507911
+        max: 1067.892799
+        min: 944.546498
+      ocn_ml_restrat:
+        avg: 50.348581
+        max: 82.6938
+        min: 10.793374
+      ocn_mom_init:
+        avg: 7.225532
+        max: 7.259796
+        min: 7.191208
+      ocn_msg_pass:
+        avg: 124.583587
+        max: 279.445852
+        min: 19.249447
+      ocn_msg_pass_init:
+        avg: 0.033647
+        max: 0.080172
+        min: 0.012629
+      ocn_other:
+        avg: 37.049022
+        max: 119.731532
+        min: 12.716228
+      ocn_thermo:
+        avg: 325.214707
+        max: 403.36821
+        min: 204.814307
+      ocn_thick_diff:
+        avg: 28.45374
+        max: 31.539996
+        min: 24.436606
+      ocn_tracer:
+        avg: 45.981884
+        max: 50.05807
+        min: 44.541054
+      ocn_z_diag:
+        avg: 0.001723
+        max: 0.003886
+        min: 0.001214
+      rk2_btcalc:
+        avg: 1.795807
+        max: 2.386145
+        min: 1.123705
+      rk2_btforce:
+        avg: 8.220433
+        max: 11.25434
+        min: 4.4199
+      rk2_btstep:
+        avg: 202.01989
+        max: 270.326442
+        min: 181.573046
+      rk2_continuity:
+        avg: 164.455621
+        max: 209.496846
+        min: 90.301505
+      rk2_coriolis:
+        avg: 27.126869
+        max: 30.224057
+        min: 23.457506
+      rk2_horvisc:
+        avg: 38.483979
+        max: 39.911322
+        min: 36.039788
+      rk2_momentum_update:
+        avg: 10.825436
+        max: 11.793693
+        min: 9.17113
+      rk2_msg_pass:
+        avg: 156.832288
+        max: 373.56048
+        min: 50.499639
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 133.927755
+        max: 140.2042
+        min: 130.00994
+      rk2_vertvisc:
+        avg: 106.469867
+        max: 151.39496
+        min: 36.389709
+      total:
+        avg: 1527.109316
+        max: 1527.149884
+        min: 1527.072488
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 240
+    runtimes:
+      cpl:
+        avg: 133.905012
+        max: 133.960663
+        min: 133.851341
+      final:
+        avg: 3.797581
+        max: 3.797602
+        min: 3.797564
+      ice:
+        avg: 67.158573
+        max: 100.113444
+        min: 48.626048
+      init:
+        avg: 15.135208
+        max: 15.197676
+        min: 15.090795
+      init_ice:
+        avg: 1.272643
+        max: 1.272873
+        min: 1.272539
+      init_ocn:
+        avg: 9.545847
+        max: 9.627977
+        min: 9.535295
+      loop:
+        avg: 1517.900071
+        max: 1517.902823
+        min: 1517.898703
+      ocean:
+        avg: 1376.46262
+        max: 1376.487
+        min: 1376.374598
+      ocn_ale:
+        avg: 50.841679
+        max: 81.988925
+        min: 1.074861
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 148.814804
+        max: 262.846222
+        min: 41.156933
+      ocn_diag:
+        avg: 0.01362
+        max: 0.015924
+        min: 0.01208
+      ocn_dynamics:
+        avg: 997.196717
+        max: 1067.832327
+        min: 944.707152
+      ocn_ml_restrat:
+        avg: 50.343703
+        max: 82.348459
+        min: 10.837965
+      ocn_mom_init:
+        avg: 7.315468
+        max: 7.359314
+        min: 7.298004
+      ocn_msg_pass:
+        avg: 124.623267
+        max: 279.942233
+        min: 18.995001
+      ocn_msg_pass_init:
+        avg: 0.018336
+        max: 0.035243
+        min: 0.010957
+      ocn_other:
+        avg: 37.05685
+        max: 119.414843
+        min: 12.843413
+      ocn_thermo:
+        avg: 324.855925
+        max: 403.141365
+        min: 204.542681
+      ocn_thick_diff:
+        avg: 28.43774
+        max: 31.706178
+        min: 24.216903
+      ocn_tracer:
+        avg: 45.73434
+        max: 50.30753
+        min: 44.311944
+      ocn_z_diag:
+        avg: 0.001429
+        max: 0.002223
+        min: 0.001159
+      rk2_btcalc:
+        avg: 1.79157
+        max: 2.263646
+        min: 1.134539
+      rk2_btforce:
+        avg: 8.174425
+        max: 11.261479
+        min: 4.563195
+      rk2_btstep:
+        avg: 201.425467
+        max: 269.018563
+        min: 180.526058
+      rk2_continuity:
+        avg: 164.389354
+        max: 210.520385
+        min: 90.186274
+      rk2_coriolis:
+        avg: 27.127992
+        max: 30.412807
+        min: 23.413382
+      rk2_horvisc:
+        avg: 38.481367
+        max: 39.90145
+        min: 36.04842
+      rk2_momentum_update:
+        avg: 10.796644
+        max: 11.81119
+        min: 9.220385
+      rk2_msg_pass:
+        avg: 156.904483
+        max: 372.282445
+        min: 54.320866
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 133.872746
+        max: 140.430818
+        min: 129.026573
+      rk2_vertvisc:
+        avg: 106.498349
+        max: 149.374388
+        min: 36.189528
+      total:
+        avg: 1536.842
+        max: 1536.904314
+        min: 1536.796221
+om4/om4_3840:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl:
+        avg: 43.757335
+        max: 43.81014
+        min: 43.727019
+      final:
+        avg: 4.89672
+        max: 4.896925
+        min: 4.896563
+      ice:
+        avg: 10.465937
+        max: 12.588397
+        min: 7.635728
+      init:
+        avg: 51.247781
+        max: 51.344671
+        min: 51.179278
+      init_ice:
+        avg: 2.508421
+        max: 2.533639
+        min: 2.481485
+      init_ocn:
+        avg: 23.15297
+        max: 24.477672
+        min: 22.405294
+      loop:
+        avg: 183.88051
+        max: 183.881661
+        min: 183.875727
+      ocean:
+        avg: 135.430954
+        max: 135.456113
+        min: 135.337174
+      ocn_ale:
+        avg: 3.158802
+        max: 5.198924
+        min: 0.110441
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 9.780104
+        max: 29.816212
+        min: 3.29429
+      ocn_diag:
+        avg: 0.006474
+        max: 0.04386
+        min: 0.001815
+      ocn_dynamics:
+        avg: 104.654492
+        max: 117.85151
+        min: 87.351369
+      ocn_ml_restrat:
+        avg: 3.631924
+        max: 6.506055
+        min: 1.284423
+      ocn_mom_init:
+        avg: 10.102253
+        max: 10.333989
+        min: 10.021651
+      ocn_msg_pass:
+        avg: 9.144915
+        max: 25.605472
+        min: 2.207263
+      ocn_msg_pass_init:
+        avg: 0.102096
+        max: 0.541201
+        min: 0.000831
+      ocn_other:
+        avg: 3.465337
+        max: 17.365979
+        min: 1.247831
+      ocn_thermo:
+        avg: 25.978512
+        max: 45.123985
+        min: 14.630901
+      ocn_thick_diff:
+        avg: 2.719538
+        max: 3.108703
+        min: 2.183379
+      ocn_tracer:
+        avg: 7.797515
+        max: 10.079681
+        min: 6.825738
+      ocn_z_diag:
+        avg: 0.001736
+        max: 0.010147
+        min: 0.000749
+      rk2_btcalc:
+        avg: 0.113851
+        max: 0.14178
+        min: 0.084224
+      rk2_btforce:
+        avg: 0.589905
+        max: 0.893505
+        min: 0.34516
+      rk2_btstep:
+        avg: 33.79167
+        max: 54.678471
+        min: 20.418365
+      rk2_continuity:
+        avg: 14.344818
+        max: 18.561256
+        min: 8.930781
+      rk2_coriolis:
+        avg: 2.212195
+        max: 2.639946
+        min: 1.844334
+      rk2_horvisc:
+        avg: 2.617409
+        max: 2.810808
+        min: 2.380122
+      rk2_momentum_update:
+        avg: 0.765889
+        max: 0.935146
+        min: 0.514628
+      rk2_msg_pass:
+        avg: 20.629262
+        max: 43.671913
+        min: 9.247202
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 9.319351
+        max: 10.155898
+        min: 8.910488
+      rk2_vertvisc:
+        avg: 8.596425
+        max: 13.376929
+        min: 3.300215
+      total:
+        avg: 240.142825
+        max: 240.239619
+        min: 240.074079
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl:
+        avg: 40.486505
+        max: 40.533336
+        min: 40.453082
+      final:
+        avg: 6.855569
+        max: 6.856956
+        min: 6.855397
+      ice:
+        avg: 10.283045
+        max: 12.163369
+        min: 7.487185
+      init:
+        avg: 47.461953
+        max: 47.537454
+        min: 47.384801
+      init_ice:
+        avg: 2.579924
+        max: 2.598455
+        min: 2.558622
+      init_ocn:
+        avg: 16.430534
+        max: 17.208781
+        min: 16.111695
+      loop:
+        avg: 180.927067
+        max: 180.928257
+        min: 180.923765
+      ocean:
+        avg: 136.314003
+        max: 136.344839
+        min: 136.207292
+      ocn_ale:
+        avg: 3.159
+        max: 5.204565
+        min: 0.110158
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 9.786332
+        max: 29.772261
+        min: 3.309664
+      ocn_diag:
+        avg: 0.005696
+        max: 0.039201
+        min: 0.001879
+      ocn_dynamics:
+        avg: 105.31837
+        max: 118.406031
+        min: 88.125518
+      ocn_ml_restrat:
+        avg: 3.632669
+        max: 6.2909
+        min: 1.280281
+      ocn_mom_init:
+        avg: 9.441184
+        max: 9.547285
+        min: 9.386942
+      ocn_msg_pass:
+        avg: 9.175169
+        max: 25.675701
+        min: 2.294096
+      ocn_msg_pass_init:
+        avg: 0.085255
+        max: 0.396915
+        min: 0.000871
+      ocn_other:
+        avg: 3.512708
+        max: 17.277368
+        min: 1.329733
+      ocn_thermo:
+        avg: 26.15798
+        max: 45.210771
+        min: 14.776714
+      ocn_thick_diff:
+        avg: 2.718409
+        max: 3.106853
+        min: 2.192601
+      ocn_tracer:
+        avg: 7.957398
+        max: 10.21651
+        min: 7.114753
+      ocn_z_diag:
+        avg: 0.003858
+        max: 0.014722
+        min: 0.000766
+      rk2_btcalc:
+        avg: 0.113786
+        max: 0.139586
+        min: 0.087779
+      rk2_btforce:
+        avg: 0.589204
+        max: 0.898186
+        min: 0.344042
+      rk2_btstep:
+        avg: 34.285963
+        max: 55.387014
+        min: 20.603674
+      rk2_continuity:
+        avg: 14.35129
+        max: 18.769156
+        min: 8.914715
+      rk2_coriolis:
+        avg: 2.212523
+        max: 2.666696
+        min: 1.850089
+      rk2_horvisc:
+        avg: 2.6177
+        max: 2.819764
+        min: 2.383096
+      rk2_momentum_update:
+        avg: 0.764595
+        max: 0.998285
+        min: 0.535627
+      rk2_msg_pass:
+        avg: 20.765216
+        max: 43.65261
+        min: 9.517461
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 9.318963
+        max: 10.193934
+        min: 8.918443
+      rk2_vertvisc:
+        avg: 8.60107
+        max: 13.352254
+        min: 3.329081
+      total:
+        avg: 235.328983
+        max: 235.407648
+        min: 235.251911
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl:
+        avg: 41.228383
+        max: 41.284309
+        min: 41.205301
+      final:
+        avg: 5.282151
+        max: 5.283249
+        min: 5.281975
+      ice:
+        avg: 10.366883
+        max: 12.33275
+        min: 7.710754
+      init:
+        avg: 47.852644
+        max: 47.928738
+        min: 47.791918
+      init_ice:
+        avg: 2.060113
+        max: 2.066346
+        min: 2.046867
+      init_ocn:
+        avg: 19.939288
+        max: 21.060914
+        min: 19.005553
+      loop:
+        avg: 182.700856
+        max: 182.702051
+        min: 182.69832
+      ocean:
+        avg: 136.988843
+        max: 137.009215
+        min: 136.876577
+      ocn_ale:
+        avg: 3.158807
+        max: 5.257273
+        min: 0.109697
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 9.781316
+        max: 29.757355
+        min: 3.279965
+      ocn_diag:
+        avg: 0.004752
+        max: 0.039186
+        min: 0.001813
+      ocn_dynamics:
+        avg: 105.946042
+        max: 119.184405
+        min: 88.724683
+      ocn_ml_restrat:
+        avg: 3.632673
+        max: 6.260069
+        min: 1.280138
+      ocn_mom_init:
+        avg: 9.410159
+        max: 9.943928
+        min: 9.362689
+      ocn_msg_pass:
+        avg: 9.178096
+        max: 25.559878
+        min: 2.213909
+      ocn_msg_pass_init:
+        avg: 0.16867
+        max: 0.474677
+        min: 0.000857
+      ocn_other:
+        avg: 3.523511
+        max: 17.34718
+        min: 1.284932
+      ocn_thermo:
+        avg: 26.202741
+        max: 45.249881
+        min: 14.909002
+      ocn_thick_diff:
+        avg: 2.714739
+        max: 3.084106
+        min: 2.188871
+      ocn_tracer:
+        avg: 8.009693
+        max: 10.234528
+        min: 7.176406
+      ocn_z_diag:
+        avg: 0.001233
+        max: 0.009974
+        min: 0.000739
+      rk2_btcalc:
+        avg: 0.113551
+        max: 0.140805
+        min: 0.086055
+      rk2_btforce:
+        avg: 0.588565
+        max: 0.904417
+        min: 0.343295
+      rk2_btstep:
+        avg: 34.914072
+        max: 56.163755
+        min: 21.303554
+      rk2_continuity:
+        avg: 14.347106
+        max: 18.631341
+        min: 8.869556
+      rk2_coriolis:
+        avg: 2.209314
+        max: 2.633916
+        min: 1.843662
+      rk2_horvisc:
+        avg: 2.617769
+        max: 2.809821
+        min: 2.385674
+      rk2_momentum_update:
+        avg: 0.757677
+        max: 1.017477
+        min: 0.533387
+      rk2_msg_pass:
+        avg: 20.784912
+        max: 43.557721
+        min: 9.584542
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 9.315865
+        max: 10.115382
+        min: 8.924847
+      rk2_vertvisc:
+        avg: 8.596156
+        max: 13.342705
+        min: 3.336122
+      total:
+        avg: 235.911548
+        max: 235.987401
+        min: 235.850705
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl:
+        avg: 16.350158
+        max: 16.407186
+        min: 16.331478
+      final:
+        avg: 6.424557
+        max: 6.426076
+        min: 6.424362
+      ice:
+        avg: 10.009519
+        max: 11.853182
+        min: 7.148928
+      init:
+        avg: 49.751152
+        max: 49.842453
+        min: 49.676776
+      init_ice:
+        avg: 2.275968
+        max: 2.279149
+        min: 2.273566
+      init_ocn:
+        avg: 20.582054
+        max: 21.49343
+        min: 19.708663
+      loop:
+        avg: 156.312387
+        max: 156.31322
+        min: 156.310107
+      ocean:
+        avg: 135.743351
+        max: 135.758355
+        min: 135.640617
+      ocn_ale:
+        avg: 3.158655
+        max: 5.19108
+        min: 0.109547
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 9.753258
+        max: 29.810092
+        min: 3.239647
+      ocn_diag:
+        avg: 0.003555
+        max: 0.039146
+        min: 0.001795
+      ocn_dynamics:
+        avg: 105.000788
+        max: 118.199362
+        min: 87.808085
+      ocn_ml_restrat:
+        avg: 3.632799
+        max: 6.254572
+        min: 1.294857
+      ocn_mom_init:
+        avg: 9.485884
+        max: 9.655751
+        min: 9.330402
+      ocn_msg_pass:
+        avg: 9.158726
+        max: 25.717748
+        min: 2.194563
+      ocn_msg_pass_init:
+        avg: 0.11428
+        max: 0.361342
+        min: 0.001153
+      ocn_other:
+        avg: 3.442711
+        max: 17.383354
+        min: 1.206682
+      ocn_thermo:
+        avg: 25.977595
+        max: 45.111518
+        min: 14.59173
+      ocn_thick_diff:
+        avg: 2.712505
+        max: 3.105528
+        min: 2.18663
+      ocn_tracer:
+        avg: 7.812773
+        max: 10.091859
+        min: 6.866936
+      ocn_z_diag:
+        avg: 0.001203
+        max: 0.010488
+        min: 0.000743
+      rk2_btcalc:
+        avg: 0.113317
+        max: 0.140351
+        min: 0.087758
+      rk2_btforce:
+        avg: 0.589356
+        max: 0.912344
+        min: 0.344402
+      rk2_btstep:
+        avg: 34.155347
+        max: 54.91879
+        min: 20.79154
+      rk2_continuity:
+        avg: 14.35409
+        max: 18.567958
+        min: 8.95087
+      rk2_coriolis:
+        avg: 2.208964
+        max: 2.661202
+        min: 1.839447
+      rk2_horvisc:
+        avg: 2.617578
+        max: 2.823239
+        min: 2.378823
+      rk2_momentum_update:
+        avg: 0.757678
+        max: 0.942333
+        min: 0.506399
+      rk2_msg_pass:
+        avg: 20.631553
+        max: 43.669382
+        min: 9.224261
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 9.313135
+        max: 10.140845
+        min: 8.92883
+      rk2_vertvisc:
+        avg: 8.598807
+        max: 13.394382
+        min: 3.281688
+      total:
+        avg: 212.563504
+        max: 212.654904
+        min: 212.489199
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl:
+        avg: 16.04052
+        max: 16.092032
+        min: 16.024106
+      final:
+        avg: 5.809175
+        max: 5.810209
+        min: 5.809
+      ice:
+        avg: 9.513789
+        max: 11.469537
+        min: 6.71956
+      init:
+        avg: 41.506431
+        max: 41.590014
+        min: 41.43273
+      init_ice:
+        avg: 1.592512
+        max: 1.593712
+        min: 1.591655
+      init_ocn:
+        avg: 17.442597
+        max: 17.77097
+        min: 16.723294
+      loop:
+        avg: 155.444311
+        max: 155.445089
+        min: 155.442132
+      ocean:
+        avg: 135.512628
+        max: 135.52462
+        min: 135.400574
+      ocn_ale:
+        avg: 3.158455
+        max: 5.21112
+        min: 0.110099
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 9.771945
+        max: 29.76751
+        min: 3.283219
+      ocn_diag:
+        avg: 0.003165
+        max: 0.034992
+        min: 0.001777
+      ocn_dynamics:
+        avg: 104.814073
+        max: 118.068177
+        min: 87.643956
+      ocn_ml_restrat:
+        avg: 3.632486
+        max: 6.371918
+        min: 1.29318
+      ocn_mom_init:
+        avg: 9.19443
+        max: 9.573319
+        min: 9.154171
+      ocn_msg_pass:
+        avg: 9.125715
+        max: 25.550543
+        min: 2.190472
+      ocn_msg_pass_init:
+        avg: 0.132249
+        max: 0.71998
+        min: 0.001155
+      ocn_other:
+        avg: 3.390249
+        max: 17.243208
+        min: 1.160714
+      ocn_thermo:
+        avg: 26.003498
+        max: 45.077631
+        min: 14.507033
+      ocn_thick_diff:
+        avg: 2.712548
+        max: 3.104679
+        min: 2.174991
+      ocn_tracer:
+        avg: 7.83007
+        max: 10.114156
+        min: 6.865355
+      ocn_z_diag:
+        avg: 0.001143
+        max: 0.009236
+        min: 0.000756
+      rk2_btcalc:
+        avg: 0.113601
+        max: 0.138763
+        min: 0.089687
+      rk2_btforce:
+        avg: 0.589386
+        max: 0.886484
+        min: 0.338419
+      rk2_btstep:
+        avg: 33.987373
+        max: 54.881453
+        min: 21.005189
+      rk2_continuity:
+        avg: 14.346342
+        max: 18.506017
+        min: 8.973071
+      rk2_coriolis:
+        avg: 2.210068
+        max: 2.635417
+        min: 1.842673
+      rk2_horvisc:
+        avg: 2.617365
+        max: 2.806295
+        min: 2.386248
+      rk2_momentum_update:
+        avg: 0.761586
+        max: 0.937062
+        min: 0.501108
+      rk2_msg_pass:
+        avg: 20.625083
+        max: 43.196697
+        min: 9.183272
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 9.313091
+        max: 10.189917
+        min: 8.914245
+      rk2_vertvisc:
+        avg: 8.596459
+        max: 13.861611
+        min: 3.297577
+      total:
+        avg: 202.81439
+        max: 202.898307
+        min: 202.740168
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 3840
+    runtimes:
+      cpl:
+        avg: 27.830592
+        max: 27.878097
+        min: 27.815238
+      final:
+        avg: 5.473092
+        max: 5.474056
+        min: 5.472955
+      ice:
+        avg: 9.809927
+        max: 11.592178
+        min: 7.046153
+      init:
+        avg: 41.10185
+        max: 41.195138
+        min: 41.034824
+      init_ice:
+        avg: 2.102245
+        max: 2.114131
+        min: 2.095449
+      init_ocn:
+        avg: 17.8932
+        max: 18.231633
+        min: 17.234527
+      loop:
+        avg: 167.57717
+        max: 167.577874
+        min: 167.573578
+      ocean:
+        avg: 135.896617
+        max: 135.91083
+        min: 135.80409
+      ocn_ale:
+        avg: 3.158038
+        max: 5.196062
+        min: 0.111089
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 9.749482
+        max: 29.755787
+        min: 3.266044
+      ocn_diag:
+        avg: 0.002853
+        max: 0.030436
+        min: 0.00179
+      ocn_dynamics:
+        avg: 105.020677
+        max: 118.106375
+        min: 87.781251
+      ocn_ml_restrat:
+        avg: 3.632073
+        max: 6.257905
+        min: 1.284349
+      ocn_mom_init:
+        avg: 8.756783
+        max: 8.824732
+        min: 8.671954
+      ocn_msg_pass:
+        avg: 9.156869
+        max: 25.617025
+        min: 2.182003
+      ocn_msg_pass_init:
+        avg: 0.062298
+        max: 0.41947
+        min: 0.000871
+      ocn_other:
+        avg: 3.443081
+        max: 17.173625
+        min: 1.245099
+      ocn_thermo:
+        avg: 26.119858
+        max: 45.242892
+        min: 14.636711
+      ocn_thick_diff:
+        avg: 2.712664
+        max: 3.103257
+        min: 2.181247
+      ocn_tracer:
+        avg: 7.968953
+        max: 10.295643
+        min: 6.98788
+      ocn_z_diag:
+        avg: 0.001438
+        max: 0.008558
+        min: 0.000708
+      rk2_btcalc:
+        avg: 0.1134
+        max: 0.138117
+        min: 0.088539
+      rk2_btforce:
+        avg: 0.590123
+        max: 0.897781
+        min: 0.336632
+      rk2_btstep:
+        avg: 34.063434
+        max: 54.870464
+        min: 20.946577
+      rk2_continuity:
+        avg: 14.350132
+        max: 18.59059
+        min: 8.938312
+      rk2_coriolis:
+        avg: 2.20732
+        max: 2.650678
+        min: 1.826561
+      rk2_horvisc:
+        avg: 2.617282
+        max: 2.812881
+        min: 2.382182
+      rk2_momentum_update:
+        avg: 0.767044
+        max: 0.944705
+        min: 0.50757
+      rk2_msg_pass:
+        avg: 20.716914
+        max: 43.338948
+        min: 9.167572
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 9.313101
+        max: 10.140902
+        min: 8.922484
+      rk2_vertvisc:
+        avg: 8.594635
+        max: 13.393074
+        min: 3.288763
+      total:
+        avg: 214.215185
+        max: 214.309491
+        min: 214.148152
+om4/om4_480:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl:
+        avg: 83.631339
+        max: 83.658764
+        min: 83.54896
+      final:
+        avg: 13.714356
+        max: 13.714442
+        min: 13.714315
+      ice:
+        avg: 37.758272
+        max: 52.600688
+        min: 25.161847
+      init:
+        avg: 21.966065
+        max: 22.018373
+        min: 21.91826
+      init_ice:
+        avg: 1.485681
+        max: 1.486777
+        min: 1.484396
+      init_ocn:
+        avg: 14.248243
+        max: 14.257879
+        min: 14.241352
+      loop:
+        avg: 822.957174
+        max: 822.95862
+        min: 822.956541
+      ocean:
+        avg: 734.224347
+        max: 734.239968
+        min: 734.142178
+      ocn_ale:
+        avg: 24.832757
+        max: 40.157301
+        min: 0.522585
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 73.216435
+        max: 169.96612
+        min: 19.595196
+      ocn_diag:
+        avg: 0.009072
+        max: 0.012094
+        min: 0.005908
+      ocn_dynamics:
+        avg: 533.864342
+        max: 605.606839
+        min: 472.813938
+      ocn_ml_restrat:
+        avg: 24.991665
+        max: 41.861494
+        min: 4.587568
+      ocn_mom_init:
+        avg: 12.18789
+        max: 12.217699
+        min: 12.167454
+      ocn_msg_pass:
+        avg: 67.893388
+        max: 176.135673
+        min: 10.845718
+      ocn_msg_pass_init:
+        avg: 0.017354
+        max: 0.036663
+        min: 0.005583
+      ocn_other:
+        avg: 20.897729
+        max: 68.83135
+        min: 7.068254
+      ocn_thermo:
+        avg: 170.054922
+        max: 246.918797
+        min: 96.88578
+      ocn_thick_diff:
+        avg: 14.270635
+        max: 16.154709
+        min: 11.885793
+      ocn_tracer:
+        avg: 30.035502
+        max: 32.507139
+        min: 28.466756
+      ocn_z_diag:
+        avg: 0.00287
+        max: 0.006326
+        min: 0.001223
+      rk2_btcalc:
+        avg: 0.793425
+        max: 1.031225
+        min: 0.506858
+      rk2_btforce:
+        avg: 3.357307
+        max: 4.912928
+        min: 2.023222
+      rk2_btstep:
+        avg: 103.356382
+        max: 177.50674
+        min: 66.729547
+      rk2_continuity:
+        avg: 85.582114
+        max: 110.445823
+        min: 44.07681
+      rk2_coriolis:
+        avg: 13.538135
+        max: 16.297522
+        min: 11.565048
+      rk2_horvisc:
+        avg: 18.386154
+        max: 19.247307
+        min: 17.143961
+      rk2_momentum_update:
+        avg: 5.866897
+        max: 6.032298
+        min: 5.528352
+      rk2_msg_pass:
+        avg: 104.145764
+        max: 214.024413
+        min: 36.47194
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 69.516081
+        max: 76.325842
+        min: 64.96796
+      rk2_vertvisc:
+        avg: 52.83599
+        max: 78.966385
+        min: 17.574871
+      total:
+        avg: 858.646975
+        max: 858.700002
+        min: 858.598941
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl:
+        avg: 61.810606
+        max: 61.834513
+        min: 61.728725
+      final:
+        avg: 13.634179
+        max: 13.634386
+        min: 13.634133
+      ice:
+        avg: 37.731364
+        max: 52.503473
+        min: 25.150733
+      init:
+        avg: 17.742638
+        max: 17.796364
+        min: 17.691974
+      init_ice:
+        avg: 0.764906
+        max: 0.76599
+        min: 0.763914
+      init_ocn:
+        avg: 13.741895
+        max: 13.751041
+        min: 13.736701
+      loop:
+        avg: 802.7643
+        max: 802.764989
+        min: 802.763576
+      ocean:
+        avg: 735.723441
+        max: 735.736376
+        min: 735.631448
+      ocn_ale:
+        avg: 24.835882
+        max: 40.283745
+        min: 0.522654
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 73.218653
+        max: 170.170748
+        min: 19.314806
+      ocn_diag:
+        avg: 0.009936
+        max: 0.015601
+        min: 0.006155
+      ocn_dynamics:
+        avg: 535.187796
+        max: 606.398928
+        min: 474.177285
+      ocn_ml_restrat:
+        avg: 24.998387
+        max: 42.010364
+        min: 4.594539
+      ocn_mom_init:
+        avg: 12.260189
+        max: 12.288418
+        min: 12.246024
+      ocn_msg_pass:
+        avg: 67.907222
+        max: 176.757841
+        min: 10.528924
+      ocn_msg_pass_init:
+        avg: 0.026559
+        max: 0.093408
+        min: 0.007071
+      ocn_other:
+        avg: 20.898207
+        max: 68.978918
+        min: 6.830927
+      ocn_thermo:
+        avg: 170.245253
+        max: 247.502456
+        min: 98.048829
+      ocn_thick_diff:
+        avg: 14.265312
+        max: 16.134037
+        min: 11.869922
+      ocn_tracer:
+        avg: 30.240945
+        max: 32.775807
+        min: 28.601751
+      ocn_z_diag:
+        avg: 0.00288
+        max: 0.007885
+        min: 0.001145
+      rk2_btcalc:
+        avg: 0.77057
+        max: 1.071316
+        min: 0.494551
+      rk2_btforce:
+        avg: 3.343784
+        max: 4.69675
+        min: 2.016584
+      rk2_btstep:
+        avg: 104.895907
+        max: 179.830399
+        min: 65.95136
+      rk2_continuity:
+        avg: 85.617011
+        max: 109.739952
+        min: 45.431836
+      rk2_coriolis:
+        avg: 13.568281
+        max: 16.261639
+        min: 11.568398
+      rk2_horvisc:
+        avg: 18.39391
+        max: 19.215557
+        min: 17.142329
+      rk2_momentum_update:
+        avg: 5.861447
+        max: 6.023833
+        min: 5.535507
+      rk2_msg_pass:
+        avg: 103.979869
+        max: 214.150634
+        min: 37.494883
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 69.357593
+        max: 76.394465
+        min: 64.883092
+      rk2_vertvisc:
+        avg: 52.87479
+        max: 79.268753
+        min: 17.430133
+      total:
+        avg: 834.149876
+        max: 834.20372
+        min: 834.098899
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl:
+        avg: 70.08793
+        max: 70.115716
+        min: 70.002604
+      final:
+        avg: 13.601228
+        max: 13.601496
+        min: 13.601173
+      ice:
+        avg: 37.662984
+        max: 52.330164
+        min: 25.042634
+      init:
+        avg: 19.354929
+        max: 19.408772
+        min: 19.318952
+      init_ice:
+        avg: 1.232495
+        max: 1.233338
+        min: 1.232042
+      init_ocn:
+        avg: 13.727251
+        max: 13.734546
+        min: 13.719382
+      loop:
+        avg: 811.136213
+        max: 811.138329
+        min: 811.135489
+      ocean:
+        avg: 735.670746
+        max: 735.689683
+        min: 735.585383
+      ocn_ale:
+        avg: 24.836375
+        max: 40.114063
+        min: 0.519608
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 73.269651
+        max: 170.155163
+        min: 19.40669
+      ocn_diag:
+        avg: 0.008919
+        max: 0.012111
+        min: 0.005888
+      ocn_dynamics:
+        avg: 535.380819
+        max: 606.564525
+        min: 473.645017
+      ocn_ml_restrat:
+        avg: 25.021782
+        max: 42.025252
+        min: 4.521757
+      ocn_mom_init:
+        avg: 12.129416
+        max: 12.157211
+        min: 12.10406
+      ocn_msg_pass:
+        avg: 67.867132
+        max: 176.112062
+        min: 10.317504
+      ocn_msg_pass_init:
+        avg: 0.011954
+        max: 0.024512
+        min: 0.002515
+      ocn_other:
+        avg: 20.854396
+        max: 68.766363
+        min: 6.825394
+      ocn_thermo:
+        avg: 170.035264
+        max: 247.182949
+        min: 97.57195
+      ocn_thick_diff:
+        avg: 14.272019
+        max: 16.239399
+        min: 11.877395
+      ocn_tracer:
+        avg: 29.981141
+        max: 32.464422
+        min: 28.407357
+      ocn_z_diag:
+        avg: 0.00173
+        max: 0.004635
+        min: 0.00118
+      rk2_btcalc:
+        avg: 0.769157
+        max: 1.043305
+        min: 0.49568
+      rk2_btforce:
+        avg: 3.384987
+        max: 5.181644
+        min: 2.074703
+      rk2_btstep:
+        avg: 104.628184
+        max: 180.755411
+        min: 66.149757
+      rk2_continuity:
+        avg: 85.596406
+        max: 110.951434
+        min: 43.871155
+      rk2_coriolis:
+        avg: 13.566107
+        max: 16.087704
+        min: 11.626137
+      rk2_horvisc:
+        avg: 18.400431
+        max: 19.277755
+        min: 17.144563
+      rk2_momentum_update:
+        avg: 5.867725
+        max: 6.073728
+        min: 5.52821
+      rk2_msg_pass:
+        avg: 104.281029
+        max: 216.094863
+        min: 36.03125
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 69.488783
+        max: 76.516552
+        min: 65.000477
+      rk2_vertvisc:
+        avg: 52.856231
+        max: 78.973054
+        min: 17.400219
+      total:
+        avg: 844.101912
+        max: 844.155524
+        min: 844.065836
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl:
+        avg: 76.90833
+        max: 76.989186
+        min: 76.82381
+      final:
+        avg: 14.735574
+        max: 14.735705
+        min: 14.73551
+      ice:
+        avg: 38.038433
+        max: 52.308436
+        min: 25.426305
+      init:
+        avg: 21.097409
+        max: 21.144997
+        min: 21.058634
+      init_ice:
+        avg: 1.3042
+        max: 1.306844
+        min: 1.302761
+      init_ocn:
+        avg: 13.534739
+        max: 13.545463
+        min: 13.52868
+      loop:
+        avg: 819.137395
+        max: 819.138011
+        min: 819.136017
+      ocean:
+        avg: 735.870938
+        max: 735.884741
+        min: 735.768636
+      ocn_ale:
+        avg: 24.843122
+        max: 40.41253
+        min: 0.519439
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 73.217124
+        max: 169.881121
+        min: 19.350892
+      ocn_diag:
+        avg: 0.011431
+        max: 0.075666
+        min: 0.00585
+      ocn_dynamics:
+        avg: 535.377435
+        max: 606.91649
+        min: 474.825409
+      ocn_ml_restrat:
+        avg: 25.029908
+        max: 41.9247
+        min: 4.564127
+      ocn_mom_init:
+        avg: 12.026742
+        max: 12.081945
+        min: 12.008579
+      ocn_msg_pass:
+        avg: 67.863234
+        max: 175.718459
+        min: 10.710128
+      ocn_msg_pass_init:
+        avg: 0.032968
+        max: 0.089468
+        min: 0.005707
+      ocn_other:
+        avg: 20.953249
+        max: 68.507704
+        min: 6.980285
+      ocn_thermo:
+        avg: 170.138213
+        max: 246.936605
+        min: 97.483396
+      ocn_thick_diff:
+        avg: 14.279958
+        max: 16.013404
+        min: 11.919768
+      ocn_tracer:
+        avg: 30.149556
+        max: 32.798995
+        min: 28.585725
+      ocn_z_diag:
+        avg: 0.002922
+        max: 0.022418
+        min: 0.001141
+      rk2_btcalc:
+        avg: 0.777579
+        max: 1.082024
+        min: 0.495005
+      rk2_btforce:
+        avg: 3.404455
+        max: 5.146175
+        min: 2.034087
+      rk2_btstep:
+        avg: 104.397087
+        max: 180.443537
+        min: 67.748257
+      rk2_continuity:
+        avg: 85.668175
+        max: 110.800409
+        min: 44.027301
+      rk2_coriolis:
+        avg: 13.564459
+        max: 16.29411
+        min: 11.694175
+      rk2_horvisc:
+        avg: 18.392351
+        max: 19.248038
+        min: 17.123625
+      rk2_momentum_update:
+        avg: 5.851998
+        max: 6.094924
+        min: 5.269732
+      rk2_msg_pass:
+        avg: 104.275134
+        max: 213.59757
+        min: 36.465163
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 69.538645
+        max: 76.952455
+        min: 64.98261
+      rk2_vertvisc:
+        avg: 52.914152
+        max: 79.202023
+        min: 17.482099
+      total:
+        avg: 855.011609
+        max: 855.059188
+        min: 854.97144
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl:
+        avg: 71.699581
+        max: 71.722388
+        min: 71.614118
+      final:
+        avg: 12.912034
+        max: 12.912224
+        min: 12.911971
+      ice:
+        avg: 37.616649
+        max: 52.303092
+        min: 24.999168
+      init:
+        avg: 18.552324
+        max: 18.598241
+        min: 18.490677
+      init_ice:
+        avg: 0.954396
+        max: 0.955453
+        min: 0.953501
+      init_ocn:
+        avg: 13.482878
+        max: 13.494364
+        min: 13.475316
+      loop:
+        avg: 811.434141
+        max: 811.436566
+        min: 811.432719
+      ocean:
+        avg: 735.065448
+        max: 735.079215
+        min: 734.970139
+      ocn_ale:
+        avg: 24.828412
+        max: 40.12428
+        min: 0.519752
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 73.463199
+        max: 170.009193
+        min: 19.648743
+      ocn_diag:
+        avg: 0.009313
+        max: 0.012094
+        min: 0.00589
+      ocn_dynamics:
+        avg: 534.398683
+        max: 606.367288
+        min: 474.016492
+      ocn_ml_restrat:
+        avg: 24.991009
+        max: 41.712558
+        min: 4.682412
+      ocn_mom_init:
+        avg: 11.980744
+        max: 12.011146
+        min: 11.966138
+      ocn_msg_pass:
+        avg: 67.885605
+        max: 176.362536
+        min: 10.550506
+      ocn_msg_pass_init:
+        avg: 0.014877
+        max: 0.026261
+        min: 0.002703
+      ocn_other:
+        avg: 20.851479
+        max: 68.73844
+        min: 6.778904
+      ocn_thermo:
+        avg: 170.41665
+        max: 247.221902
+        min: 97.387995
+      ocn_thick_diff:
+        avg: 14.259927
+        max: 16.145446
+        min: 11.848539
+      ocn_tracer:
+        avg: 30.173184
+        max: 32.61024
+        min: 28.408375
+      ocn_z_diag:
+        avg: 0.001759
+        max: 0.004823
+        min: 0.001178
+      rk2_btcalc:
+        avg: 0.772554
+        max: 1.097406
+        min: 0.48777
+      rk2_btforce:
+        avg: 3.394224
+        max: 4.856747
+        min: 2.043543
+      rk2_btstep:
+        avg: 103.892874
+        max: 181.984817
+        min: 67.335704
+      rk2_continuity:
+        avg: 85.579488
+        max: 110.200669
+        min: 44.198733
+      rk2_coriolis:
+        avg: 13.52144
+        max: 16.1203
+        min: 11.54555
+      rk2_horvisc:
+        avg: 18.394328
+        max: 19.226928
+        min: 17.13859
+      rk2_momentum_update:
+        avg: 5.863075
+        max: 6.065178
+        min: 5.442926
+      rk2_msg_pass:
+        avg: 104.206721
+        max: 212.242258
+        min: 38.213815
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 69.396748
+        max: 74.820561
+        min: 65.225937
+      rk2_vertvisc:
+        avg: 52.840202
+        max: 79.202582
+        min: 17.356694
+      total:
+        avg: 842.90819
+        max: 842.954472
+        min: 842.846514
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl:
+        avg: 61.566382
+        max: 61.586976
+        min: 61.481437
+      final:
+        avg: 13.142164
+        max: 13.14248
+        min: 13.142092
+      ice:
+        avg: 37.790692
+        max: 52.398166
+        min: 25.146349
+      init:
+        avg: 17.383614
+        max: 17.437922
+        min: 17.336888
+      init_ice:
+        avg: 0.710138
+        max: 0.710962
+        min: 0.709732
+      init_ocn:
+        avg: 13.631001
+        max: 13.650764
+        min: 13.622314
+      loop:
+        avg: 800.951432
+        max: 800.961783
+        min: 800.948512
+      ocean:
+        avg: 734.691243
+        max: 734.709008
+        min: 734.600181
+      ocn_ale:
+        avg: 24.833397
+        max: 40.151996
+        min: 0.519619
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 73.203062
+        max: 169.914904
+        min: 19.24724
+      ocn_diag:
+        avg: 0.008435
+        max: 0.012369
+        min: 0.006016
+      ocn_dynamics:
+        avg: 534.323117
+        max: 606.013661
+        min: 473.218484
+      ocn_ml_restrat:
+        avg: 24.986179
+        max: 41.840824
+        min: 4.561553
+      ocn_mom_init:
+        avg: 12.183592
+        max: 12.206313
+        min: 12.159019
+      ocn_msg_pass:
+        avg: 67.834721
+        max: 176.324696
+        min: 10.858719
+      ocn_msg_pass_init:
+        avg: 0.026159
+        max: 0.11459
+        min: 0.002715
+      ocn_other:
+        avg: 20.832623
+        max: 68.781489
+        min: 6.76635
+      ocn_thermo:
+        avg: 170.146015
+        max: 247.311933
+        min: 97.383646
+      ocn_thick_diff:
+        avg: 14.257691
+        max: 16.099727
+        min: 11.816365
+      ocn_tracer:
+        avg: 30.148211
+        max: 32.79558
+        min: 28.424912
+      ocn_z_diag:
+        avg: 0.001644
+        max: 0.005061
+        min: 0.001151
+      rk2_btcalc:
+        avg: 0.774128
+        max: 1.124502
+        min: 0.48857
+      rk2_btforce:
+        avg: 3.397236
+        max: 4.994158
+        min: 2.053597
+      rk2_btstep:
+        avg: 103.764241
+        max: 182.556541
+        min: 66.048654
+      rk2_continuity:
+        avg: 85.545983
+        max: 109.675923
+        min: 44.059663
+      rk2_coriolis:
+        avg: 13.559681
+        max: 16.056848
+        min: 11.607483
+      rk2_horvisc:
+        avg: 18.39353
+        max: 19.229635
+        min: 17.097717
+      rk2_momentum_update:
+        avg: 5.869487
+        max: 6.06505
+        min: 5.478909
+      rk2_msg_pass:
+        avg: 104.178765
+        max: 211.934537
+        min: 36.482899
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 69.513806
+        max: 76.354162
+        min: 64.527859
+      rk2_vertvisc:
+        avg: 52.877361
+        max: 78.767901
+        min: 17.482069
+      total:
+        avg: 831.486142
+        max: 831.540193
+        min: 831.439425
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 480
+    runtimes:
+      cpl:
+        avg: 64.618595
+        max: 64.641811
+        min: 64.538075
+      final:
+        avg: 13.653606
+        max: 13.653656
+        min: 13.653558
+      ice:
+        avg: 37.824246
+        max: 52.499826
+        min: 25.211604
+      init:
+        avg: 18.968573
+        max: 19.019932
+        min: 18.923887
+      init_ice:
+        avg: 1.078078
+        max: 1.078681
+        min: 1.077986
+      init_ocn:
+        avg: 13.353493
+        max: 13.406569
+        min: 13.344762
+      loop:
+        avg: 804.042237
+        max: 804.045124
+        min: 804.041247
+      ocean:
+        avg: 734.671959
+        max: 734.685859
+        min: 734.580854
+      ocn_ale:
+        avg: 24.833182
+        max: 40.165024
+        min: 0.521984
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 73.200344
+        max: 169.83088
+        min: 19.375435
+      ocn_diag:
+        avg: 0.007945
+        max: 0.009227
+        min: 0.005979
+      ocn_dynamics:
+        avg: 534.384773
+        max: 605.972586
+        min: 473.708359
+      ocn_ml_restrat:
+        avg: 24.995993
+        max: 41.828212
+        min: 4.540405
+      ocn_mom_init:
+        avg: 11.936153
+        max: 11.957909
+        min: 11.913657
+      ocn_msg_pass:
+        avg: 67.809998
+        max: 175.849157
+        min: 10.707554
+      ocn_msg_pass_init:
+        avg: 0.021862
+        max: 0.125685
+        min: 0.002991
+      ocn_other:
+        avg: 20.858097
+        max: 69.069
+        min: 6.765935
+      ocn_thermo:
+        avg: 170.037724
+        max: 246.91397
+        min: 97.094947
+      ocn_thick_diff:
+        avg: 14.260315
+        max: 16.207203
+        min: 11.87106
+      ocn_tracer:
+        avg: 30.035843
+        max: 32.537931
+        min: 28.351289
+      ocn_z_diag:
+        avg: 0.001406
+        max: 0.003997
+        min: 0.001115
+      rk2_btcalc:
+        avg: 0.780365
+        max: 1.0337
+        min: 0.494427
+      rk2_btforce:
+        avg: 3.344227
+        max: 5.024175
+        min: 1.991016
+      rk2_btstep:
+        avg: 103.815383
+        max: 178.28038
+        min: 67.18315
+      rk2_continuity:
+        avg: 85.601815
+        max: 110.001126
+        min: 44.086359
+      rk2_coriolis:
+        avg: 13.534501
+        max: 16.312969
+        min: 11.589251
+      rk2_horvisc:
+        avg: 18.394196
+        max: 19.289271
+        min: 17.139802
+      rk2_momentum_update:
+        avg: 5.867893
+        max: 6.032524
+        min: 5.464814
+      rk2_msg_pass:
+        avg: 104.154221
+        max: 212.131881
+        min: 36.879955
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 69.631977
+        max: 76.088446
+        min: 64.877881
+      rk2_vertvisc:
+        avg: 52.813217
+        max: 79.206883
+        min: 17.480008
+      total:
+        avg: 836.678751
+        max: 836.73024
+        min: 836.634434
+om4/om4_60:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 60
+    runtimes:
+      cpl:
+        avg: 378.405838
+        max: 378.55074
+        min: 378.074274
+      final:
+        avg: 33.264421
+        max: 33.264765
+        min: 33.26405
+      ice:
+        avg: 241.34256
+        max: 325.475792
+        min: 191.517946
+      init:
+        avg: 11.951114
+        max: 11.983089
+        min: 11.922726
+      init_ice:
+        avg: 0.49729
+        max: 0.497468
+        min: 0.497196
+      init_ocn:
+        avg: 8.101618
+        max: 8.122055
+        min: 7.943076
+      loop:
+        avg: 5991.082537
+        max: 5991.08622
+        min: 5991.079503
+      ocean:
+        avg: 5594.003469
+        max: 5594.036289
+        min: 5593.904985
+      ocn_ale:
+        avg: 209.533666
+        max: 336.5458
+        min: 8.605157
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 642.60866
+        max: 904.889749
+        min: 370.394241
+      ocn_diag:
+        avg: 0.054922
+        max: 0.109654
+        min: 0.021924
+      ocn_dynamics:
+        avg: 4193.993887
+        max: 4506.895686
+        min: 4084.28363
+      ocn_ml_restrat:
+        avg: 199.754768
+        max: 305.133048
+        min: 46.795036
+      ocn_mom_init:
+        avg: 4.643171
+        max: 4.656844
+        min: 4.620887
+      ocn_msg_pass:
+        avg: 348.870999
+        max: 920.097758
+        min: 44.763703
+      ocn_msg_pass_init:
+        avg: 0.027654
+        max: 0.111329
+        min: 0.008869
+      ocn_other:
+        avg: 100.659081
+        max: 420.211922
+        min: 42.315125
+      ocn_thermo:
+        avg: 1239.749205
+        max: 1396.639084
+        min: 905.346714
+      ocn_thick_diff:
+        avg: 117.215276
+        max: 130.949238
+        min: 92.30178
+      ocn_tracer:
+        avg: 140.715088
+        max: 186.53696
+        min: 130.359762
+      ocn_z_diag:
+        avg: 0.001876
+        max: 0.003626
+        min: 0.00107
+      rk2_btcalc:
+        avg: 3.839593
+        max: 5.801564
+        min: 3.029703
+      rk2_btforce:
+        avg: 43.244594
+        max: 47.497412
+        min: 19.890473
+      rk2_btstep:
+        avg: 963.769304
+        max: 1233.126658
+        min: 870.967261
+      rk2_continuity:
+        avg: 731.072804
+        max: 933.673189
+        min: 413.756829
+      rk2_coriolis:
+        avg: 218.262884
+        max: 238.9538
+        min: 103.882722
+      rk2_horvisc:
+        avg: 211.645685
+        max: 229.487939
+        min: 159.224119
+      rk2_momentum_update:
+        avg: 38.835807
+        max: 44.01455
+        min: 21.316498
+      rk2_msg_pass:
+        avg: 460.266517
+        max: 1109.502237
+        min: 101.665942
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 570.0141
+        max: 586.299794
+        min: 532.520485
+      rk2_vertvisc:
+        avg: 407.032429
+        max: 562.261407
+        min: 118.350852
+      total:
+        avg: 6038.47728
+        max: 6038.512899
+        min: 6038.445877
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 60
+    runtimes:
+      cpl:
+        avg: 382.246002
+        max: 382.37255
+        min: 381.902538
+      final:
+        avg: 2.01132
+        max: 2.011351
+        min: 2.011297
+      ice:
+        avg: 241.550134
+        max: 325.650401
+        min: 191.749316
+      init:
+        avg: 13.915161
+        max: 13.948415
+        min: 13.883284
+      init_ice:
+        avg: 0.945364
+        max: 0.945608
+        min: 0.945212
+      init_ocn:
+        avg: 8.530219
+        max: 8.634239
+        min: 8.372426
+      loop:
+        avg: 5990.975778
+        max: 5990.977839
+        min: 5990.9731
+      ocean:
+        avg: 5590.146591
+        max: 5590.183102
+        min: 5590.050718
+      ocn_ale:
+        avg: 208.920607
+        max: 335.44206
+        min: 7.668059
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 637.480121
+        max: 898.166133
+        min: 363.046371
+      ocn_diag:
+        avg: 0.036372
+        max: 0.050769
+        min: 0.022303
+      ocn_dynamics:
+        avg: 4195.782407
+        max: 4510.268328
+        min: 4082.763183
+      ocn_ml_restrat:
+        avg: 200.055751
+        max: 308.732903
+        min: 47.06425
+      ocn_mom_init:
+        avg: 4.727097
+        max: 4.744738
+        min: 4.701916
+      ocn_msg_pass:
+        avg: 348.589107
+        max: 925.495523
+        min: 45.896827
+      ocn_msg_pass_init:
+        avg: 0.086417
+        max: 0.335794
+        min: 0.010426
+      ocn_other:
+        avg: 100.552254
+        max: 425.055863
+        min: 42.407194
+      ocn_thermo:
+        avg: 1234.106091
+        max: 1389.842296
+        min: 900.919169
+      ocn_thick_diff:
+        avg: 115.552814
+        max: 130.626327
+        min: 92.01937
+      ocn_tracer:
+        avg: 141.830632
+        max: 188.928816
+        min: 130.345433
+      ocn_z_diag:
+        avg: 0.001643
+        max: 0.002641
+        min: 0.000874
+      rk2_btcalc:
+        avg: 3.885485
+        max: 6.192716
+        min: 3.029
+      rk2_btforce:
+        avg: 43.02384
+        max: 47.5978
+        min: 19.841834
+      rk2_btstep:
+        avg: 962.4737
+        max: 1235.143481
+        min: 862.45503
+      rk2_continuity:
+        avg: 732.201898
+        max: 936.765785
+        min: 414.27176
+      rk2_coriolis:
+        avg: 217.662426
+        max: 237.394639
+        min: 105.240143
+      rk2_horvisc:
+        avg: 212.668441
+        max: 230.175236
+        min: 159.011237
+      rk2_momentum_update:
+        avg: 38.736119
+        max: 44.316401
+        min: 21.333856
+      rk2_msg_pass:
+        avg: 463.05515
+        max: 1132.21253
+        min: 96.932583
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 568.818546
+        max: 585.983571
+        min: 528.701751
+      rk2_vertvisc:
+        avg: 407.050086
+        max: 566.590811
+        min: 127.768159
+      total:
+        avg: 6006.910907
+        max: 6006.941491
+        min: 6006.877728
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 60
+    runtimes:
+      cpl:
+        avg: 379.580154
+        max: 379.733263
+        min: 379.244556
+      final:
+        avg: 32.752801
+        max: 32.752935
+        min: 32.752668
+      ice:
+        avg: 241.911362
+        max: 326.231441
+        min: 191.86735
+      init:
+        avg: 12.67599
+        max: 12.70295
+        min: 12.643456
+      init_ice:
+        avg: 0.54454
+        max: 0.544782
+        min: 0.54426
+      init_ocn:
+        avg: 8.442843
+        max: 8.656875
+        min: 8.256275
+      loop:
+        avg: 5989.390124
+        max: 5989.391528
+        min: 5989.388053
+      ocean:
+        avg: 5590.674948
+        max: 5590.711334
+        min: 5590.522514
+      ocn_ale:
+        avg: 209.313606
+        max: 335.43741
+        min: 8.090254
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 639.830024
+        max: 901.3934
+        min: 363.846496
+      ocn_diag:
+        avg: 0.037135
+        max: 0.052426
+        min: 0.022677
+      ocn_dynamics:
+        avg: 4194.145231
+        max: 4505.042886
+        min: 4085.636746
+      ocn_ml_restrat:
+        avg: 199.644561
+        max: 305.638617
+        min: 47.308128
+      ocn_mom_init:
+        avg: 4.599782
+        max: 4.616968
+        min: 4.569672
+      ocn_msg_pass:
+        avg: 349.140495
+        max: 925.012132
+        min: 45.262332
+      ocn_msg_pass_init:
+        avg: 0.02276
+        max: 0.034305
+        min: 0.00953
+      ocn_other:
+        avg: 100.669245
+        max: 420.576548
+        min: 42.192674
+      ocn_thermo:
+        avg: 1236.382116
+        max: 1392.732306
+        min: 898.712971
+      ocn_thick_diff:
+        avg: 116.589467
+        max: 132.989339
+        min: 92.770113
+      ocn_tracer:
+        avg: 141.161914
+        max: 187.971777
+        min: 130.654406
+      ocn_z_diag:
+        avg: 0.001771
+        max: 0.003057
+        min: 0.000852
+      rk2_btcalc:
+        avg: 3.827545
+        max: 5.836349
+        min: 3.02462
+      rk2_btforce:
+        avg: 43.071966
+        max: 47.265155
+        min: 18.632498
+      rk2_btstep:
+        avg: 963.932278
+        max: 1217.819727
+        min: 867.232691
+      rk2_continuity:
+        avg: 730.900959
+        max: 932.524638
+        min: 409.241165
+      rk2_coriolis:
+        avg: 217.889425
+        max: 237.64017
+        min: 102.557864
+      rk2_horvisc:
+        avg: 212.132081
+        max: 230.441951
+        min: 158.236375
+      rk2_momentum_update:
+        avg: 38.931351
+        max: 44.594975
+        min: 21.316229
+      rk2_msg_pass:
+        avg: 460.573946
+        max: 1122.492772
+        min: 94.058178
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 569.870401
+        max: 587.165806
+        min: 532.02965
+      rk2_vertvisc:
+        avg: 407.120377
+        max: 560.812938
+        min: 122.45642
+      total:
+        avg: 6036.978153
+        max: 6037.003038
+        min: 6036.946934
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 60
+    runtimes:
+      cpl:
+        avg: 399.663787
+        max: 399.804733
+        min: 399.322653
+      final:
+        avg: 2.297831
+        max: 2.297844
+        min: 2.297814
+      ice:
+        avg: 241.673866
+        max: 325.625914
+        min: 191.794873
+      init:
+        avg: 13.29339
+        max: 13.315519
+        min: 13.254775
+      init_ice:
+        avg: 1.06894
+        max: 1.069067
+        min: 1.068764
+      init_ocn:
+        avg: 8.454412
+        max: 8.485528
+        min: 8.295261
+      loop:
+        avg: 5998.374392
+        max: 5998.375152
+        min: 5998.373964
+      ocean:
+        avg: 5579.78083
+        max: 5579.817254
+        min: 5579.693448
+      ocn_ale:
+        avg: 208.766003
+        max: 335.142862
+        min: 7.642125
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 637.200502
+        max: 898.113328
+        min: 362.900722
+      ocn_diag:
+        avg: 0.035793
+        max: 0.053176
+        min: 0.021888
+      ocn_dynamics:
+        avg: 4187.151591
+        max: 4502.692057
+        min: 4078.773463
+      ocn_ml_restrat:
+        avg: 199.659137
+        max: 305.571943
+        min: 46.785371
+      ocn_mom_init:
+        avg: 4.681271
+        max: 4.695234
+        min: 4.65657
+      ocn_msg_pass:
+        avg: 348.445338
+        max: 924.96709
+        min: 44.935946
+      ocn_msg_pass_init:
+        avg: 0.025084
+        max: 0.046392
+        min: 0.009828
+      ocn_other:
+        avg: 100.294676
+        max: 422.440747
+        min: 41.166446
+      ocn_thermo:
+        avg: 1232.699935
+        max: 1389.137757
+        min: 897.198946
+      ocn_thick_diff:
+        avg: 115.601159
+        max: 130.301016
+        min: 91.974741
+      ocn_tracer:
+        avg: 140.970941
+        max: 186.900591
+        min: 130.696653
+      ocn_z_diag:
+        avg: 0.010135
+        max: 0.018899
+        min: 0.002995
+      rk2_btcalc:
+        avg: 3.870426
+        max: 5.466772
+        min: 3.068418
+      rk2_btforce:
+        avg: 43.247034
+        max: 47.280496
+        min: 21.310822
+      rk2_btstep:
+        avg: 959.536262
+        max: 1224.070708
+        min: 868.098107
+      rk2_continuity:
+        avg: 731.549451
+        max: 933.515509
+        min: 413.580273
+      rk2_coriolis:
+        avg: 217.830779
+        max: 240.637722
+        min: 104.708277
+      rk2_horvisc:
+        avg: 211.759471
+        max: 226.081364
+        min: 158.235985
+      rk2_momentum_update:
+        avg: 38.811445
+        max: 44.050045
+        min: 21.322517
+      rk2_msg_pass:
+        avg: 459.682578
+        max: 1111.841568
+        min: 101.111467
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 568.950126
+        max: 589.142949
+        min: 532.756836
+      rk2_vertvisc:
+        avg: 407.033956
+        max: 562.092106
+        min: 119.41419
+      total:
+        avg: 6013.973613
+        max: 6013.99785
+        min: 6013.93454
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 60
+    runtimes:
+      cpl:
+        avg: 392.562419
+        max: 392.739193
+        min: 392.24828
+      final:
+        avg: 29.113015
+        max: 29.115421
+        min: 29.10451
+      ice:
+        avg: 241.897568
+        max: 326.361787
+        min: 192.124128
+      init:
+        avg: 21.681297
+        max: 21.702156
+        min: 21.654128
+      init_ice:
+        avg: 1.193384
+        max: 1.193809
+        min: 1.192972
+      init_ocn:
+        avg: 14.324382
+        max: 14.349682
+        min: 14.157241
+      loop:
+        avg: 5997.545632
+        max: 5997.548572
+        min: 5997.544082
+      ocean:
+        avg: 5585.316087
+        max: 5585.350317
+        min: 5585.205159
+      ocn_ale:
+        avg: 209.263644
+        max: 335.683852
+        min: 9.239124
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 638.051055
+        max: 897.414594
+        min: 364.376235
+      ocn_diag:
+        avg: 0.036668
+        max: 0.050465
+        min: 0.021881
+      ocn_dynamics:
+        avg: 4190.744935
+        max: 4510.913796
+        min: 4081.62639
+      ocn_ml_restrat:
+        avg: 199.463757
+        max: 304.129693
+        min: 47.107654
+      ocn_mom_init:
+        avg: 4.902966
+        max: 6.996517
+        min: 4.802998
+      ocn_msg_pass:
+        avg: 348.694705
+        max: 924.677254
+        min: 53.521796
+      ocn_msg_pass_init:
+        avg: 0.666929
+        max: 4.864239
+        min: 0.012769
+      ocn_other:
+        avg: 100.781102
+        max: 422.01791
+        min: 42.497781
+      ocn_thermo:
+        avg: 1234.096418
+        max: 1388.267979
+        min: 896.793608
+      ocn_thick_diff:
+        avg: 116.201965
+        max: 129.261663
+        min: 93.060677
+      ocn_tracer:
+        avg: 140.826497
+        max: 187.92975
+        min: 130.101469
+      ocn_z_diag:
+        avg: 0.00182
+        max: 0.002845
+        min: 0.00087
+      rk2_btcalc:
+        avg: 3.92313
+        max: 5.7883
+        min: 3.098074
+      rk2_btforce:
+        avg: 42.952398
+        max: 46.905443
+        min: 19.661082
+      rk2_btstep:
+        avg: 963.980294
+        max: 1226.750392
+        min: 865.109323
+      rk2_continuity:
+        avg: 731.01365
+        max: 931.195691
+        min: 412.9786
+      rk2_coriolis:
+        avg: 217.566015
+        max: 238.462422
+        min: 105.153253
+      rk2_horvisc:
+        avg: 212.15159
+        max: 232.037821
+        min: 159.306559
+      rk2_momentum_update:
+        avg: 38.726447
+        max: 44.284004
+        min: 21.338292
+      rk2_msg_pass:
+        avg: 461.225281
+        max: 1121.661031
+        min: 103.413132
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 568.305172
+        max: 585.8883
+        min: 528.570407
+      rk2_vertvisc:
+        avg: 406.480889
+        max: 559.805921
+        min: 123.751177
+      total:
+        avg: 6050.107416
+        max: 6050.130017
+        min: 6050.077552
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 60
+    runtimes:
+      cpl:
+        avg: 402.743458
+        max: 402.895247
+        min: 402.365691
+      final:
+        avg: 28.246802
+        max: 28.251378
+        min: 28.229257
+      ice:
+        avg: 242.450765
+        max: 326.689523
+        min: 192.514211
+      init:
+        avg: 15.64962
+        max: 15.674428
+        min: 15.626791
+      init_ice:
+        avg: 1.24748
+        max: 1.249517
+        min: 1.246684
+      init_ocn:
+        avg: 9.047279
+        max: 9.160633
+        min: 8.876372
+      loop:
+        avg: 6013.745975
+        max: 6013.786759
+        min: 6013.73445
+      ocean:
+        avg: 5590.601079
+        max: 5590.672697
+        min: 5590.49788
+      ocn_ale:
+        avg: 209.475014
+        max: 336.64542
+        min: 8.902672
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 639.018133
+        max: 897.864872
+        min: 363.852683
+      ocn_diag:
+        avg: 0.055203
+        max: 0.1216
+        min: 0.021799
+      ocn_dynamics:
+        avg: 4193.453246
+        max: 4509.170264
+        min: 4084.408718
+      ocn_ml_restrat:
+        avg: 199.925034
+        max: 305.747574
+        min: 47.424546
+      ocn_mom_init:
+        avg: 4.902193
+        max: 5.033167
+        min: 4.856751
+      ocn_msg_pass:
+        avg: 348.336488
+        max: 920.658516
+        min: 45.639385
+      ocn_msg_pass_init:
+        avg: 0.023007
+        max: 0.039175
+        min: 0.009354
+      ocn_other:
+        avg: 100.849019
+        max: 420.855888
+        min: 41.933607
+      ocn_thermo:
+        avg: 1236.768249
+        max: 1390.303167
+        min: 899.676576
+      ocn_thick_diff:
+        avg: 117.133592
+        max: 131.477529
+        min: 92.081091
+      ocn_tracer:
+        avg: 141.960137
+        max: 188.048379
+        min: 130.997175
+      ocn_z_diag:
+        avg: 0.008247
+        max: 0.034768
+        min: 0.000916
+      rk2_btcalc:
+        avg: 3.830463
+        max: 5.850717
+        min: 2.929069
+      rk2_btforce:
+        avg: 42.378302
+        max: 47.349239
+        min: 19.804945
+      rk2_btstep:
+        avg: 967.383025
+        max: 1231.062632
+        min: 872.449168
+      rk2_continuity:
+        avg: 730.859324
+        max: 931.669205
+        min: 413.086937
+      rk2_coriolis:
+        avg: 217.3505
+        max: 241.034908
+        min: 104.594872
+      rk2_horvisc:
+        avg: 212.439772
+        max: 240.843411
+        min: 157.741179
+      rk2_momentum_update:
+        avg: 38.707292
+        max: 43.997044
+        min: 21.256685
+      rk2_msg_pass:
+        avg: 459.244867
+        max: 1123.616834
+        min: 91.726312
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 569.344222
+        max: 590.925959
+        min: 526.929364
+      rk2_vertvisc:
+        avg: 406.536269
+        max: 558.181667
+        min: 127.196669
+      total:
+        avg: 6060.198498
+        max: 6060.256525
+        min: 6060.167553
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 60
+    runtimes:
+      cpl:
+        avg: 402.192756
+        max: 402.313967
+        min: 401.840228
+      final:
+        avg: 25.514895
+        max: 25.519704
+        min: 25.509487
+      ice:
+        avg: 241.634191
+        max: 326.19178
+        min: 191.673613
+      init:
+        avg: 15.029447
+        max: 15.066582
+        min: 15.004251
+      init_ice:
+        avg: 1.029819
+        max: 1.030108
+        min: 1.029481
+      init_ocn:
+        avg: 8.693283
+        max: 8.712233
+        min: 8.53214
+      loop:
+        avg: 6001.769691
+        max: 6001.774949
+        min: 6001.767785
+      ocean:
+        avg: 5580.608054
+        max: 5580.650773
+        min: 5580.530431
+      ocn_ale:
+        avg: 208.747103
+        max: 335.036332
+        min: 7.602817
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 637.46665
+        max: 897.881593
+        min: 364.87783
+      ocn_diag:
+        avg: 0.034672
+        max: 0.049543
+        min: 0.022403
+      ocn_dynamics:
+        avg: 4187.556846
+        max: 4503.710675
+        min: 4077.671996
+      ocn_ml_restrat:
+        avg: 199.674053
+        max: 309.601044
+        min: 46.789039
+      ocn_mom_init:
+        avg: 4.819069
+        max: 4.833574
+        min: 4.795507
+      ocn_msg_pass:
+        avg: 347.755657
+        max: 923.177927
+        min: 46.216572
+      ocn_msg_pass_init:
+        avg: 0.022529
+        max: 0.033931
+        min: 0.008815
+      ocn_other:
+        avg: 100.676608
+        max: 421.522023
+        min: 41.770508
+      ocn_thermo:
+        avg: 1232.840733
+        max: 1389.06043
+        min: 897.330702
+      ocn_thick_diff:
+        avg: 115.339978
+        max: 130.051088
+        min: 91.66716
+      ocn_tracer:
+        avg: 141.300501
+        max: 187.531634
+        min: 130.538446
+      ocn_z_diag:
+        avg: 0.02109
+        max: 0.036844
+        min: 0.000877
+      rk2_btcalc:
+        avg: 3.872354
+        max: 5.908428
+        min: 3.058581
+      rk2_btforce:
+        avg: 42.634519
+        max: 47.596738
+        min: 20.825278
+      rk2_btstep:
+        avg: 963.524908
+        max: 1232.417559
+        min: 868.829121
+      rk2_continuity:
+        avg: 730.316472
+        max: 932.122481
+        min: 413.935412
+      rk2_coriolis:
+        avg: 216.957192
+        max: 238.742236
+        min: 104.007764
+      rk2_horvisc:
+        avg: 212.284675
+        max: 230.179571
+        min: 158.410882
+      rk2_momentum_update:
+        avg: 38.972617
+        max: 44.318773
+        min: 21.276938
+      rk2_msg_pass:
+        avg: 459.449843
+        max: 1118.142073
+        min: 99.89991
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 568.575612
+        max: 585.236319
+        min: 530.248111
+      rk2_vertvisc:
+        avg: 406.574336
+        max: 557.079778
+        min: 120.781236
+      total:
+        avg: 6044.816306
+        max: 6044.847394
+        min: 6044.791065
+om4/om4_7680:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    runtimes:
+      cpl:
+        avg: 41.265492
+        max: 41.33846
+        min: 41.19259
+      final:
+        avg: 10.889812
+        max: 10.890141
+        min: 10.889472
+      ice:
+        avg: 8.180273
+        max: 10.365308
+        min: 6.519319
+      init:
+        avg: 84.643809
+        max: 84.731919
+        min: 84.54767
+      init_ice:
+        avg: 4.803767
+        max: 4.8989
+        min: 4.737272
+      init_ocn:
+        avg: 30.649646
+        max: 31.574651
+        min: 28.972303
+      loop:
+        avg: 127.493853
+        max: 127.494601
+        min: 127.490826
+      ocean:
+        avg: 81.039491
+        max: 81.110056
+        min: 80.956704
+      ocn_ale:
+        avg: 1.607536
+        max: 2.7216
+        min: 0.072448
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 5.041439
+        max: 15.634928
+        min: 1.829717
+      ocn_diag:
+        avg: 0.003522
+        max: 0.028861
+        min: 0.001179
+      ocn_dynamics:
+        avg: 62.915891
+        max: 69.617041
+        min: 53.321415
+      ocn_ml_restrat:
+        avg: 1.963062
+        max: 3.360828
+        min: 0.664138
+      ocn_mom_init:
+        avg: 13.326664
+        max: 13.504442
+        min: 13.13148
+      ocn_msg_pass:
+        avg: 5.0375
+        max: 14.930226
+        min: 1.616356
+      ocn_msg_pass_init:
+        avg: 0.207893
+        max: 1.313942
+        min: 0.000662
+      ocn_other:
+        avg: 2.130872
+        max: 9.703089
+        min: 0.862129
+      ocn_thermo:
+        avg: 15.221476
+        max: 25.700092
+        min: 9.515003
+      ocn_thick_diff:
+        avg: 1.560485
+        max: 1.831031
+        min: 1.260369
+      ocn_tracer:
+        avg: 5.80535
+        max: 7.322376
+        min: 5.067919
+      ocn_z_diag:
+        avg: 0.001367
+        max: 0.009086
+        min: 0.000742
+      rk2_btcalc:
+        avg: 0.072382
+        max: 0.086248
+        min: 0.053755
+      rk2_btforce:
+        avg: 0.371553
+        max: 0.522386
+        min: 0.198563
+      rk2_btstep:
+        avg: 22.515353
+        max: 36.545942
+        min: 13.865491
+      rk2_continuity:
+        avg: 8.178206
+        max: 10.404383
+        min: 5.314605
+      rk2_coriolis:
+        avg: 1.546945
+        max: 1.775274
+        min: 1.367881
+      rk2_horvisc:
+        avg: 1.463584
+        max: 1.586399
+        min: 1.350498
+      rk2_momentum_update:
+        avg: 0.396545
+        max: 0.511453
+        min: 0.278315
+      rk2_msg_pass:
+        avg: 12.387025
+        max: 25.220604
+        min: 5.37415
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 4.779827
+        max: 5.374756
+        min: 4.531721
+      rk2_vertvisc:
+        avg: 4.554089
+        max: 7.019455
+        min: 1.756899
+      total:
+        avg: 223.136149
+        max: 223.236273
+        min: 223.039259
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    runtimes:
+      cpl:
+        avg: 37.945214
+        max: 37.990621
+        min: 37.915821
+      final:
+        avg: 10.9614
+        max: 10.96178
+        min: 10.961196
+      ice:
+        avg: 7.212059
+        max: 9.120953
+        min: 5.777516
+      init:
+        avg: 81.001537
+        max: 81.086866
+        min: 80.927762
+      init_ice:
+        avg: 3.752638
+        max: 3.813653
+        min: 3.742913
+      init_ocn:
+        avg: 28.876603
+        max: 29.811845
+        min: 27.957947
+      loop:
+        avg: 122.050071
+        max: 122.051666
+        min: 122.047867
+      ocean:
+        avg: 79.494497
+        max: 79.525813
+        min: 79.380173
+      ocn_ale:
+        avg: 1.607354
+        max: 2.706757
+        min: 0.072127
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 5.060019
+        max: 15.673765
+        min: 1.807164
+      ocn_diag:
+        avg: 0.002584
+        max: 0.021959
+        min: 0.001141
+      ocn_dynamics:
+        avg: 62.015249
+        max: 68.71146
+        min: 52.321577
+      ocn_ml_restrat:
+        avg: 1.962896
+        max: 3.381988
+        min: 0.666552
+      ocn_mom_init:
+        avg: 13.396023
+        max: 14.192889
+        min: 13.292849
+      ocn_msg_pass:
+        avg: 4.980506
+        max: 14.763986
+        min: 1.602682
+      ocn_msg_pass_init:
+        avg: 0.203225
+        max: 0.660426
+        min: 0.000697
+      ocn_other:
+        avg: 1.94925
+        max: 9.522053
+        min: 0.754819
+      ocn_thermo:
+        avg: 14.782548
+        max: 25.323698
+        min: 9.047627
+      ocn_thick_diff:
+        avg: 1.527849
+        max: 1.788946
+        min: 1.250143
+      ocn_tracer:
+        avg: 5.351668
+        max: 6.858518
+        min: 4.641575
+      ocn_z_diag:
+        avg: 0.001084
+        max: 0.008881
+        min: 0.000761
+      rk2_btcalc:
+        avg: 0.071539
+        max: 0.091826
+        min: 0.054343
+      rk2_btforce:
+        avg: 0.371589
+        max: 0.531895
+        min: 0.196759
+      rk2_btstep:
+        avg: 21.835806
+        max: 36.069548
+        min: 12.998169
+      rk2_continuity:
+        avg: 8.178475
+        max: 10.35872
+        min: 5.310024
+      rk2_coriolis:
+        avg: 1.544787
+        max: 1.774512
+        min: 1.359617
+      rk2_horvisc:
+        avg: 1.463445
+        max: 1.611808
+        min: 1.351318
+      rk2_momentum_update:
+        avg: 0.393608
+        max: 0.498934
+        min: 0.272405
+      rk2_msg_pass:
+        avg: 12.2575
+        max: 24.76287
+        min: 5.241798
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 4.778714
+        max: 5.347451
+        min: 4.551943
+      rk2_vertvisc:
+        avg: 4.554286
+        max: 7.001099
+        min: 1.758076
+      total:
+        avg: 214.101004
+        max: 214.187842
+        min: 214.027336
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    runtimes:
+      cpl:
+        avg: 41.807317
+        max: 41.899386
+        min: 41.721851
+      final:
+        avg: 12.930786
+        max: 12.932252
+        min: 12.93041
+      ice:
+        avg: 8.814605
+        max: 11.234458
+        min: 7.447265
+      init:
+        avg: 83.61452
+        max: 83.707659
+        min: 83.537862
+      init_ice:
+        avg: 4.96286
+        max: 5.059728
+        min: 4.891837
+      init_ocn:
+        avg: 27.196343
+        max: 28.027802
+        min: 26.531706
+      loop:
+        avg: 129.280895
+        max: 129.281873
+        min: 129.27783
+      ocean:
+        avg: 81.361425
+        max: 81.459556
+        min: 81.24159
+      ocn_ale:
+        avg: 1.609077
+        max: 2.713409
+        min: 0.07163
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 5.048103
+        max: 15.61546
+        min: 1.832386
+      ocn_diag:
+        avg: 0.004449
+        max: 0.036127
+        min: 0.001202
+      ocn_dynamics:
+        avg: 63.171148
+        max: 69.861496
+        min: 53.528066
+      ocn_ml_restrat:
+        avg: 1.963584
+        max: 3.248612
+        min: 0.668013
+      ocn_mom_init:
+        avg: 14.171559
+        max: 15.005154
+        min: 13.883183
+      ocn_msg_pass:
+        avg: 5.050315
+        max: 14.932142
+        min: 1.62857
+      ocn_msg_pass_init:
+        avg: 0.262408
+        max: 1.330875
+        min: 0.000711
+      ocn_other:
+        avg: 2.239253
+        max: 9.840148
+        min: 1.03492
+      ocn_thermo:
+        avg: 15.173545
+        max: 25.717354
+        min: 9.534126
+      ocn_thick_diff:
+        avg: 1.566484
+        max: 1.849373
+        min: 1.257079
+      ocn_tracer:
+        avg: 5.744929
+        max: 7.122412
+        min: 5.127387
+      ocn_z_diag:
+        avg: 0.003265
+        max: 0.025651
+        min: 0.000737
+      rk2_btcalc:
+        avg: 0.07238
+        max: 0.083746
+        min: 0.055198
+      rk2_btforce:
+        avg: 0.37043
+        max: 0.530798
+        min: 0.200562
+      rk2_btstep:
+        avg: 22.782573
+        max: 37.178571
+        min: 13.942831
+      rk2_continuity:
+        avg: 8.182925
+        max: 10.413464
+        min: 5.346046
+      rk2_coriolis:
+        avg: 1.548619
+        max: 1.825566
+        min: 1.368409
+      rk2_horvisc:
+        avg: 1.464425
+        max: 1.637836
+        min: 1.351553
+      rk2_momentum_update:
+        avg: 0.391843
+        max: 0.481488
+        min: 0.282354
+      rk2_msg_pass:
+        avg: 12.3534
+        max: 24.878648
+        min: 5.304206
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 4.784697
+        max: 5.450978
+        min: 4.555937
+      rk2_vertvisc:
+        avg: 4.557809
+        max: 6.958904
+        min: 1.753772
+      total:
+        avg: 225.965029
+        max: 226.060607
+        min: 225.888063
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    runtimes:
+      cpl:
+        avg: 21.036066
+        max: 21.094367
+        min: 21.008994
+      final:
+        avg: 11.586633
+        max: 11.587407
+        min: 11.586304
+      ice:
+        avg: 8.213056
+        max: 10.337444
+        min: 6.768217
+      init:
+        avg: 104.397579
+        max: 104.507699
+        min: 104.326085
+      init_ice:
+        avg: 7.934914
+        max: 7.95936
+        min: 7.931484
+      init_ocn:
+        avg: 38.169109
+        max: 39.532262
+        min: 36.709482
+      loop:
+        avg: 106.19313
+        max: 106.194847
+        min: 106.190991
+      ocean:
+        avg: 80.534089
+        max: 80.558439
+        min: 80.320824
+      ocn_ale:
+        avg: 1.607808
+        max: 2.72682
+        min: 0.072294
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 5.046016
+        max: 15.697191
+        min: 1.794126
+      ocn_diag:
+        avg: 0.003558
+        max: 0.031378
+        min: 0.001203
+      ocn_dynamics:
+        avg: 62.8042
+        max: 69.625877
+        min: 53.170231
+      ocn_ml_restrat:
+        avg: 1.963387
+        max: 3.265529
+        min: 0.659206
+      ocn_mom_init:
+        avg: 18.829034
+        max: 19.505362
+        min: 18.76577
+      ocn_msg_pass:
+        avg: 4.967906
+        max: 14.846688
+        min: 1.583371
+      ocn_msg_pass_init:
+        avg: 0.412881
+        max: 1.327412
+        min: 0.000655
+      ocn_other:
+        avg: 2.067792
+        max: 9.799477
+        min: 0.816126
+      ocn_thermo:
+        avg: 14.920334
+        max: 25.460198
+        min: 9.248709
+      ocn_thick_diff:
+        avg: 1.528117
+        max: 1.781369
+        min: 1.249526
+      ocn_tracer:
+        avg: 5.508708
+        max: 6.961566
+        min: 4.821985
+      ocn_z_diag:
+        avg: 0.001335
+        max: 0.010409
+        min: 0.000741
+      rk2_btcalc:
+        avg: 0.071567
+        max: 0.083221
+        min: 0.050165
+      rk2_btforce:
+        avg: 0.370097
+        max: 0.523531
+        min: 0.200855
+      rk2_btstep:
+        avg: 22.550278
+        max: 36.928887
+        min: 13.762753
+      rk2_continuity:
+        avg: 8.178281
+        max: 10.343801
+        min: 5.322845
+      rk2_coriolis:
+        avg: 1.544725
+        max: 1.788387
+        min: 1.36481
+      rk2_horvisc:
+        avg: 1.464132
+        max: 1.600402
+        min: 1.352263
+      rk2_momentum_update:
+        avg: 0.390247
+        max: 0.480977
+        min: 0.276791
+      rk2_msg_pass:
+        avg: 12.314606
+        max: 24.956897
+        min: 5.386827
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 4.778301
+        max: 5.421986
+        min: 4.549253
+      rk2_vertvisc:
+        avg: 4.554869
+        max: 7.015215
+        min: 1.759579
+      total:
+        avg: 222.324053
+        max: 222.434493
+        min: 222.25234
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 7680
+    runtimes:
+      cpl:
+        avg: 46.925621
+        max: 47.075373
+        min: 46.802083
+      final:
+        avg: 11.424625
+        max: 11.425966
+        min: 11.424245
+      ice:
+        avg: 13.64554
+        max: 17.242105
+        min: 11.849916
+      init:
+        avg: 78.761886
+        max: 78.867466
+        min: 78.679519
+      init_ice:
+        avg: 4.378429
+        max: 4.467829
+        min: 4.332802
+      init_ocn:
+        avg: 29.903546
+        max: 30.289462
+        min: 29.388528
+      loop:
+        avg: 150.845347
+        max: 150.848329
+        min: 150.841974
+      ocean:
+        avg: 95.706622
+        max: 95.882276
+        min: 95.460658
+      ocn_ale:
+        avg: 1.609318
+        max: 2.711196
+        min: 0.072672
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 5.065473
+        max: 15.715593
+        min: 1.813517
+      ocn_diag:
+        avg: 0.005549
+        max: 0.037966
+        min: 0.001182
+      ocn_dynamics:
+        avg: 73.499405
+        max: 80.322853
+        min: 63.467094
+      ocn_ml_restrat:
+        avg: 1.962712
+        max: 3.347632
+        min: 0.667896
+      ocn_mom_init:
+        avg: 14.577496
+        max: 15.053416
+        min: 14.420268
+      ocn_msg_pass:
+        avg: 5.380071
+        max: 15.172316
+        min: 1.906626
+      ocn_msg_pass_init:
+        avg: 0.192139
+        max: 0.645672
+        min: 0.000657
+      ocn_other:
+        avg: 3.231947
+        max: 10.729459
+        min: 1.940039
+      ocn_thermo:
+        avg: 18.166635
+        max: 28.711369
+        min: 12.517675
+      ocn_thick_diff:
+        avg: 1.551359
+        max: 1.811611
+        min: 1.249946
+      ocn_tracer:
+        avg: 8.677988
+        max: 10.432945
+        min: 7.758855
+      ocn_z_diag:
+        avg: 0.001894
+        max: 0.013801
+        min: 0.000755
+      rk2_btcalc:
+        avg: 0.072121
+        max: 0.08589
+        min: 0.053744
+      rk2_btforce:
+        avg: 0.365509
+        max: 0.517094
+        min: 0.20201
+      rk2_btstep:
+        avg: 31.265874
+        max: 46.947248
+        min: 21.306766
+      rk2_continuity:
+        avg: 8.17928
+        max: 10.42262
+        min: 5.342941
+      rk2_coriolis:
+        avg: 1.547845
+        max: 1.778887
+        min: 1.370662
+      rk2_horvisc:
+        avg: 1.46499
+        max: 1.596973
+        min: 1.350286
+      rk2_momentum_update:
+        avg: 0.388344
+        max: 0.481335
+        min: 0.281676
+      rk2_msg_pass:
+        avg: 13.789173
+        max: 26.511594
+        min: 7.041564
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 4.784088
+        max: 5.410212
+        min: 4.557339
+      rk2_vertvisc:
+        avg: 4.550491
+        max: 6.995863
+        min: 1.76538
+      total:
+        avg: 241.232432
+        max: 241.337027
+        min: 241.148598
+om4/om4_960:
+  output000:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 58.355504
+        max: 58.367158
+        min: 58.315746
+      final:
+        avg: 14.577063
+        max: 14.577265
+        min: 14.576982
+      ice:
+        avg: 22.305421
+        max: 30.010327
+        min: 13.927625
+      init:
+        avg: 36.177167
+        max: 36.234925
+        min: 36.135971
+      init_ice:
+        avg: 1.194801
+        max: 1.197027
+        min: 1.192671
+      init_ocn:
+        avg: 28.926571
+        max: 28.938086
+        min: 28.917248
+      loop:
+        avg: 482.362682
+        max: 482.363572
+        min: 482.361952
+      ocean:
+        avg: 419.653994
+        max: 419.66223
+        min: 419.556346
+      ocn_ale:
+        avg: 12.584927
+        max: 20.343298
+        min: 0.326755
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.67875
+        max: 91.827599
+        min: 12.999176
+      ocn_diag:
+        avg: 0.007977
+        max: 0.010387
+        min: 0.004522
+      ocn_dynamics:
+        avg: 313.947318
+        max: 351.516078
+        min: 276.43792
+      ocn_ml_restrat:
+        avg: 14.891599
+        max: 23.673837
+        min: 4.865677
+      ocn_mom_init:
+        avg: 25.478485
+        max: 25.529237
+        min: 24.804626
+      ocn_msg_pass:
+        avg: 34.012476
+        max: 96.337504
+        min: 7.586176
+      ocn_msg_pass_init:
+        avg: 0.144642
+        max: 0.613216
+        min: 0.00388
+      ocn_other:
+        avg: 11.255126
+        max: 47.568819
+        min: 4.217886
+      ocn_thermo:
+        avg: 89.498864
+        max: 135.097881
+        min: 43.9305
+      ocn_thick_diff:
+        avg: 9.997703
+        max: 10.980187
+        min: 8.317102
+      ocn_tracer:
+        avg: 17.728353
+        max: 24.343688
+        min: 16.711042
+      ocn_z_diag:
+        avg: 0.00292
+        max: 0.006978
+        min: 0.001166
+      rk2_btcalc:
+        avg: 0.473943
+        max: 0.662672
+        min: 0.337552
+      rk2_btforce:
+        avg: 2.025372
+        max: 3.0815
+        min: 1.024934
+      rk2_btstep:
+        avg: 67.430284
+        max: 115.033751
+        min: 42.214275
+      rk2_continuity:
+        avg: 49.496864
+        max: 62.603214
+        min: 30.286716
+      rk2_coriolis:
+        avg: 7.504337
+        max: 9.000774
+        min: 6.388718
+      rk2_horvisc:
+        avg: 9.530964
+        max: 10.066093
+        min: 8.89696
+      rk2_momentum_update:
+        avg: 3.291446
+        max: 3.419612
+        min: 2.95716
+      rk2_msg_pass:
+        avg: 62.232343
+        max: 120.501209
+        min: 26.024698
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.277705
+        max: 37.982418
+        min: 33.96557
+      rk2_vertvisc:
+        avg: 32.441498
+        max: 47.218211
+        min: 12.737807
+      total:
+        avg: 533.137353
+        max: 533.195569
+        min: 533.095825
+  output001:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 58.494197
+        max: 58.558517
+        min: 58.455713
+      final:
+        avg: 14.163513
+        max: 14.163705
+        min: 14.16343
+      ice:
+        avg: 22.254468
+        max: 29.414558
+        min: 14.086955
+      init:
+        avg: 31.639277
+        max: 31.692906
+        min: 31.601152
+      init_ice:
+        avg: 1.298035
+        max: 1.301178
+        min: 1.296074
+      init_ocn:
+        avg: 23.557804
+        max: 23.577105
+        min: 23.549512
+      loop:
+        avg: 485.681678
+        max: 485.682852
+        min: 485.674732
+      ocean:
+        avg: 422.445231
+        max: 422.458767
+        min: 422.335034
+      ocn_ale:
+        avg: 12.586848
+        max: 20.455385
+        min: 0.327813
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.687123
+        max: 91.948813
+        min: 12.898073
+      ocn_diag:
+        avg: 0.008544
+        max: 0.049896
+        min: 0.004562
+      ocn_dynamics:
+        avg: 316.352955
+        max: 353.725476
+        min: 278.501104
+      ocn_ml_restrat:
+        avg: 14.897015
+        max: 23.311256
+        min: 4.832667
+      ocn_mom_init:
+        avg: 21.828393
+        max: 21.855418
+        min: 21.809171
+      ocn_msg_pass:
+        avg: 34.005973
+        max: 96.460477
+        min: 7.695262
+      ocn_msg_pass_init:
+        avg: 0.022784
+        max: 0.080115
+        min: 0.002125
+      ocn_other:
+        avg: 11.366498
+        max: 47.789135
+        min: 4.259968
+      ocn_thermo:
+        avg: 89.770026
+        max: 135.229415
+        min: 44.255318
+      ocn_thick_diff:
+        avg: 10.001165
+        max: 10.915082
+        min: 8.381356
+      ocn_tracer:
+        avg: 17.989225
+        max: 24.636277
+        min: 17.086588
+      ocn_z_diag:
+        avg: 0.002139
+        max: 0.015663
+        min: 0.001054
+      rk2_btcalc:
+        avg: 0.471629
+        max: 0.642405
+        min: 0.339188
+      rk2_btforce:
+        avg: 2.018529
+        max: 3.051714
+        min: 1.035095
+      rk2_btstep:
+        avg: 69.654329
+        max: 117.03264
+        min: 43.785458
+      rk2_continuity:
+        avg: 49.471126
+        max: 62.734766
+        min: 30.259761
+      rk2_coriolis:
+        avg: 7.508208
+        max: 9.126403
+        min: 6.366849
+      rk2_horvisc:
+        avg: 9.533437
+        max: 9.994066
+        min: 8.913087
+      rk2_momentum_update:
+        avg: 3.255813
+        max: 3.393678
+        min: 2.93601
+      rk2_msg_pass:
+        avg: 62.464533
+        max: 122.283255
+        min: 26.670257
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.287518
+        max: 37.871757
+        min: 33.937124
+      rk2_vertvisc:
+        avg: 32.448098
+        max: 48.284213
+        min: 12.63452
+      total:
+        avg: 531.522167
+        max: 531.576277
+        min: 531.479351
+  output002:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 59.033698
+        max: 59.111551
+        min: 58.980873
+      final:
+        avg: 12.903592
+        max: 12.903701
+        min: 12.903555
+      ice:
+        avg: 23.217077
+        max: 30.59804
+        min: 14.751276
+      init:
+        avg: 32.463812
+        max: 32.547144
+        min: 32.416825
+      init_ice:
+        avg: 1.555895
+        max: 1.557609
+        min: 1.555356
+      init_ocn:
+        avg: 24.039708
+        max: 24.053368
+        min: 24.029912
+      loop:
+        avg: 486.906929
+        max: 486.908084
+        min: 486.906149
+      ocean:
+        avg: 423.395284
+        max: 423.417677
+        min: 423.305337
+      ocn_ale:
+        avg: 12.585438
+        max: 20.433423
+        min: 0.325875
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.820791
+        max: 92.525255
+        min: 12.86753
+      ocn_diag:
+        avg: 0.011986
+        max: 0.29893
+        min: 0.003901
+      ocn_dynamics:
+        avg: 316.471905
+        max: 353.399227
+        min: 278.260947
+      ocn_ml_restrat:
+        avg: 14.895409
+        max: 23.614665
+        min: 4.850248
+      ocn_mom_init:
+        avg: 22.000163
+        max: 22.038752
+        min: 21.971527
+      ocn_msg_pass:
+        avg: 34.414583
+        max: 96.117756
+        min: 8.000568
+      ocn_msg_pass_init:
+        avg: 0.026668
+        max: 0.103372
+        min: 0.00165
+      ocn_other:
+        avg: 11.767059
+        max: 48.413426
+        min: 4.770375
+      ocn_thermo:
+        avg: 90.104161
+        max: 135.917408
+        min: 43.870455
+      ocn_thick_diff:
+        avg: 10.051477
+        max: 11.410721
+        min: 8.285911
+      ocn_tracer:
+        avg: 17.993266
+        max: 24.602668
+        min: 16.860677
+      ocn_z_diag:
+        avg: 0.007734
+        max: 0.063527
+        min: 0.001105
+      rk2_btcalc:
+        avg: 0.476122
+        max: 0.678608
+        min: 0.337473
+      rk2_btforce:
+        avg: 2.041026
+        max: 3.080809
+        min: 1.016618
+      rk2_btstep:
+        avg: 68.86258
+        max: 115.866635
+        min: 43.413039
+      rk2_continuity:
+        avg: 49.509005
+        max: 62.466521
+        min: 30.167085
+      rk2_coriolis:
+        avg: 7.522198
+        max: 9.179853
+        min: 6.380457
+      rk2_horvisc:
+        avg: 9.531566
+        max: 9.987483
+        min: 8.915669
+      rk2_momentum_update:
+        avg: 3.287229
+        max: 3.417729
+        min: 2.971367
+      rk2_msg_pass:
+        avg: 63.040263
+        max: 122.920109
+        min: 26.576556
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.298461
+        max: 37.707381
+        min: 34.028219
+      rk2_vertvisc:
+        avg: 32.458272
+        max: 48.175494
+        min: 12.740684
+      total:
+        avg: 532.286151
+        max: 532.369271
+        min: 532.238392
+  output003:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 35.671807
+        max: 35.694475
+        min: 35.631192
+      final:
+        avg: 21.013174
+        max: 21.013285
+        min: 21.013097
+      ice:
+        avg: 22.373984
+        max: 29.811036
+        min: 14.127989
+      init:
+        avg: 30.032367
+        max: 30.102459
+        min: 29.983843
+      init_ice:
+        avg: 1.078723
+        max: 1.083894
+        min: 1.077305
+      init_ocn:
+        avg: 23.079074
+        max: 23.104245
+        min: 23.071313
+      loop:
+        avg: 459.908079
+        max: 459.909298
+        min: 459.906985
+      ocean:
+        avg: 420.101545
+        max: 420.112457
+        min: 419.998832
+      ocn_ale:
+        avg: 12.587995
+        max: 20.457245
+        min: 0.329498
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.643504
+        max: 91.687855
+        min: 12.720302
+      ocn_diag:
+        avg: 0.007057
+        max: 0.0151
+        min: 0.004224
+      ocn_dynamics:
+        avg: 314.44957
+        max: 351.897182
+        min: 277.175121
+      ocn_ml_restrat:
+        avg: 14.897289
+        max: 23.388431
+        min: 4.883601
+      ocn_mom_init:
+        avg: 21.519685
+        max: 21.560624
+        min: 21.473624
+      ocn_msg_pass:
+        avg: 33.95542
+        max: 95.613394
+        min: 7.535033
+      ocn_msg_pass_init:
+        avg: 0.035983
+        max: 0.130947
+        min: 0.001559
+      ocn_other:
+        avg: 11.241599
+        max: 47.636918
+        min: 4.22266
+      ocn_thermo:
+        avg: 89.44967
+        max: 134.93209
+        min: 44.012659
+      ocn_thick_diff:
+        avg: 10.005141
+        max: 10.887498
+        min: 8.287614
+      ocn_tracer:
+        avg: 17.72519
+        max: 24.372331
+        min: 16.697762
+      ocn_z_diag:
+        avg: 0.001854
+        max: 0.006702
+        min: 0.001111
+      rk2_btcalc:
+        avg: 0.474476
+        max: 0.634284
+        min: 0.338767
+      rk2_btforce:
+        avg: 2.01427
+        max: 3.097714
+        min: 1.016976
+      rk2_btstep:
+        avg: 67.936433
+        max: 114.513812
+        min: 42.335747
+      rk2_continuity:
+        avg: 49.492023
+        max: 62.744263
+        min: 30.274844
+      rk2_coriolis:
+        avg: 7.503724
+        max: 8.974689
+        min: 6.397593
+      rk2_horvisc:
+        avg: 9.530336
+        max: 9.970136
+        min: 8.906865
+      rk2_momentum_update:
+        avg: 3.286111
+        max: 3.414426
+        min: 2.99746
+      rk2_msg_pass:
+        avg: 62.269797
+        max: 121.163669
+        min: 25.706403
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.271447
+        max: 37.712128
+        min: 33.980095
+      rk2_vertvisc:
+        avg: 32.437062
+        max: 47.65987
+        min: 12.744179
+      total:
+        avg: 510.966813
+        max: 511.03705
+        min: 510.917382
+  output004:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 40.380411
+        max: 40.433255
+        min: 40.344382
+      final:
+        avg: 26.173207
+        max: 26.173365
+        min: 26.17308
+      ice:
+        avg: 22.213133
+        max: 29.643071
+        min: 13.934497
+      init:
+        avg: 35.544462
+        max: 35.606616
+        min: 35.476103
+      init_ice:
+        avg: 1.91712
+        max: 1.918108
+        min: 1.916874
+      init_ocn:
+        avg: 27.066411
+        max: 27.081272
+        min: 27.057948
+      loop:
+        avg: 465.387187
+        max: 465.388679
+        min: 465.384988
+      ocean:
+        avg: 420.084524
+        max: 420.098261
+        min: 419.848079
+      ocn_ale:
+        avg: 12.586516
+        max: 20.376874
+        min: 0.328072
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.64424
+        max: 91.922185
+        min: 12.738109
+      ocn_diag:
+        avg: 0.006439
+        max: 0.045515
+        min: 0.004419
+      ocn_dynamics:
+        avg: 314.274982
+        max: 352.187446
+        min: 276.480364
+      ocn_ml_restrat:
+        avg: 14.888178
+        max: 24.089932
+        min: 4.918147
+      ocn_mom_init:
+        avg: 23.259809
+        max: 23.544986
+        min: 23.191817
+      ocn_msg_pass:
+        avg: 34.037345
+        max: 95.83117
+        min: 7.454382
+      ocn_msg_pass_init:
+        avg: 0.190913
+        max: 0.600451
+        min: 0.00301
+      ocn_other:
+        avg: 11.300311
+        max: 48.0398
+        min: 4.31263
+      ocn_thermo:
+        avg: 89.55664
+        max: 135.274207
+        min: 43.86891
+      ocn_thick_diff:
+        avg: 10.001275
+        max: 10.943301
+        min: 8.270116
+      ocn_tracer:
+        avg: 17.811682
+        max: 24.518331
+        min: 16.74306
+      ocn_z_diag:
+        avg: 0.001786
+        max: 0.01595
+        min: 0.001077
+      rk2_btcalc:
+        avg: 0.473917
+        max: 0.657772
+        min: 0.338749
+      rk2_btforce:
+        avg: 2.01872
+        max: 3.1061
+        min: 1.015689
+      rk2_btstep:
+        avg: 67.477511
+        max: 115.127437
+        min: 41.924987
+      rk2_continuity:
+        avg: 49.499518
+        max: 62.735479
+        min: 30.383935
+      rk2_coriolis:
+        avg: 7.508068
+        max: 9.035086
+        min: 6.378839
+      rk2_horvisc:
+        avg: 9.527765
+        max: 9.989734
+        min: 8.917941
+      rk2_momentum_update:
+        avg: 3.293513
+        max: 3.43331
+        min: 2.963202
+      rk2_msg_pass:
+        avg: 62.395047
+        max: 121.118508
+        min: 25.999824
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.29546
+        max: 37.721731
+        min: 34.119173
+      rk2_vertvisc:
+        avg: 32.461207
+        max: 49.65972
+        min: 12.75137
+      total:
+        avg: 527.140791
+        max: 527.215106
+        min: 527.07238
+  output005:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 35.337263
+        max: 35.390192
+        min: 35.303383
+      final:
+        avg: 40.609603
+        max: 40.609893
+        min: 40.60941
+      ice:
+        avg: 22.325292
+        max: 29.41627
+        min: 13.999247
+      init:
+        avg: 31.556663
+        max: 31.631606
+        min: 31.463649
+      init_ice:
+        avg: 1.145908
+        max: 1.148525
+        min: 1.14571
+      init_ocn:
+        avg: 23.647711
+        max: 23.667837
+        min: 23.639881
+      loop:
+        avg: 460.369258
+        max: 460.370615
+        min: 460.367084
+      ocean:
+        avg: 420.486448
+        max: 420.49726
+        min: 420.365409
+      ocn_ale:
+        avg: 12.58473
+        max: 20.459001
+        min: 0.326842
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.910814
+        max: 92.012065
+        min: 12.944224
+      ocn_diag:
+        avg: 0.006093
+        max: 0.047081
+        min: 0.004249
+      ocn_dynamics:
+        avg: 314.527029
+        max: 352.373209
+        min: 276.476246
+      ocn_ml_restrat:
+        avg: 14.8918
+        max: 23.815224
+        min: 4.767721
+      ocn_mom_init:
+        avg: 21.876397
+        max: 21.900482
+        min: 21.850501
+      ocn_msg_pass:
+        avg: 34.016196
+        max: 95.23982
+        min: 7.503623
+      ocn_msg_pass_init:
+        avg: 0.052306
+        max: 0.115115
+        min: 0.001848
+      ocn_other:
+        avg: 11.309847
+        max: 47.948734
+        min: 4.338481
+      ocn_thermo:
+        avg: 89.692362
+        max: 135.288501
+        min: 43.973235
+      ocn_thick_diff:
+        avg: 10.004773
+        max: 10.971608
+        min: 8.298607
+      ocn_tracer:
+        avg: 17.683286
+        max: 24.256231
+        min: 16.64274
+      ocn_z_diag:
+        avg: 0.001611
+        max: 0.014456
+        min: 0.001134
+      rk2_btcalc:
+        avg: 0.474969
+        max: 0.673031
+        min: 0.338705
+      rk2_btforce:
+        avg: 2.02328
+        max: 3.148099
+        min: 1.024027
+      rk2_btstep:
+        avg: 67.867735
+        max: 114.773212
+        min: 42.867058
+      rk2_continuity:
+        avg: 49.519274
+        max: 62.670837
+        min: 30.195306
+      rk2_coriolis:
+        avg: 7.510194
+        max: 9.056603
+        min: 6.404743
+      rk2_horvisc:
+        avg: 9.53044
+        max: 10.031854
+        min: 8.89978
+      rk2_momentum_update:
+        avg: 3.287713
+        max: 3.421988
+        min: 2.962715
+      rk2_msg_pass:
+        avg: 62.295899
+        max: 120.576563
+        min: 26.218164
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.287682
+        max: 37.513558
+        min: 34.104351
+      rk2_vertvisc:
+        avg: 32.461289
+        max: 47.77064
+        min: 12.713475
+      total:
+        avg: 532.582059
+        max: 532.657013
+        min: 532.489031
+  output006:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 44.820595
+        max: 44.873583
+        min: 44.779872
+      final:
+        avg: 12.899437
+        max: 12.899552
+        min: 12.899379
+      ice:
+        avg: 22.093547
+        max: 29.63042
+        min: 14.159543
+      init:
+        avg: 32.634551
+        max: 32.705974
+        min: 32.578751
+      init_ice:
+        avg: 1.651105
+        max: 1.651849
+        min: 1.650989
+      init_ocn:
+        avg: 23.619219
+        max: 23.67721
+        min: 23.608534
+      loop:
+        avg: 469.494604
+        max: 469.495795
+        min: 469.492131
+      ocean:
+        avg: 420.313178
+        max: 420.322934
+        min: 420.208996
+      ocn_ale:
+        avg: 12.589346
+        max: 20.411328
+        min: 0.327784
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.632941
+        max: 91.825931
+        min: 12.872788
+      ocn_diag:
+        avg: 0.005972
+        max: 0.048688
+        min: 0.004099
+      ocn_dynamics:
+        avg: 314.484775
+        max: 351.725949
+        min: 276.86029
+      ocn_ml_restrat:
+        avg: 14.89431
+        max: 24.094034
+        min: 4.938654
+      ocn_mom_init:
+        avg: 22.027797
+        max: 22.080801
+        min: 21.989833
+      ocn_msg_pass:
+        avg: 34.020752
+        max: 95.277382
+        min: 7.185773
+      ocn_msg_pass_init:
+        avg: 0.032764
+        max: 0.111216
+        min: 0.002108
+      ocn_other:
+        avg: 11.298152
+        max: 48.355749
+        min: 4.343725
+      ocn_thermo:
+        avg: 89.58449
+        max: 135.227214
+        min: 44.063752
+      ocn_thick_diff:
+        avg: 10.005832
+        max: 11.000923
+        min: 8.290781
+      ocn_tracer:
+        avg: 17.850937
+        max: 24.435421
+        min: 16.800763
+      ocn_z_diag:
+        avg: 0.001603
+        max: 0.013719
+        min: 0.001093
+      rk2_btcalc:
+        avg: 0.473218
+        max: 0.641836
+        min: 0.338259
+      rk2_btforce:
+        avg: 2.025341
+        max: 3.052934
+        min: 1.007761
+      rk2_btstep:
+        avg: 67.817369
+        max: 116.105174
+        min: 42.290382
+      rk2_continuity:
+        avg: 49.524181
+        max: 62.664161
+        min: 30.308709
+      rk2_coriolis:
+        avg: 7.504286
+        max: 9.010774
+        min: 6.379714
+      rk2_horvisc:
+        avg: 9.53245
+        max: 9.978238
+        min: 8.897125
+      rk2_momentum_update:
+        avg: 3.287091
+        max: 3.422045
+        min: 2.977747
+      rk2_msg_pass:
+        avg: 62.316616
+        max: 122.385988
+        min: 25.347359
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.27888
+        max: 38.072361
+        min: 34.076854
+      rk2_vertvisc:
+        avg: 32.446746
+        max: 47.600998
+        min: 12.668855
+      total:
+        avg: 515.076583
+        max: 515.148511
+        min: 515.020878
+  output007:
+    ht: true
+    mpi:
+      mean: 0.0
+    npernode: 16
+    npes: 960
+    runtimes:
+      cpl:
+        avg: 58.947324
+        max: 59.013962
+        min: 58.901732
+      final:
+        avg: 12.867142
+        max: 12.867305
+        min: 12.867078
+      ice:
+        avg: 22.496866
+        max: 29.844653
+        min: 14.223927
+      init:
+        avg: 16.676385
+        max: 16.746767
+        min: 16.619084
+      init_ice:
+        avg: 1.63847
+        max: 1.646742
+        min: 1.634968
+      init_ocn:
+        avg: 6.457681
+        max: 6.47451
+        min: 6.449414
+      loop:
+        avg: 489.589364
+        max: 489.590818
+        min: 489.588604
+      ocean:
+        avg: 422.699685
+        max: 422.712043
+        min: 422.604547
+      ocn_ale:
+        avg: 12.618601
+        max: 20.462114
+        min: 0.330247
+      ocn_continuity:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      ocn_diabatic:
+        avg: 38.670945
+        max: 91.893549
+        min: 12.848189
+      ocn_diag:
+        avg: 0.008287
+        max: 0.045675
+        min: 0.004462
+      ocn_dynamics:
+        avg: 316.391037
+        max: 353.9093
+        min: 278.06546
+      ocn_ml_restrat:
+        avg: 14.923998
+        max: 24.049247
+        min: 4.852783
+      ocn_mom_init:
+        avg: 3.887389
+        max: 4.442707
+        min: 3.864405
+      ocn_msg_pass:
+        avg: 34.082643
+        max: 95.907008
+        min: 7.575312
+      ocn_msg_pass_init:
+        avg: 0.020336
+        max: 0.052692
+        min: 0.001991
+      ocn_other:
+        avg: 11.41599
+        max: 48.28194
+        min: 4.394085
+      ocn_thermo:
+        avg: 89.8971
+        max: 135.573699
+        min: 44.214277
+      ocn_thick_diff:
+        avg: 9.973211
+        max: 10.908771
+        min: 8.275107
+      ocn_tracer:
+        avg: 18.069206
+        max: 24.757706
+        min: 16.944196
+      ocn_z_diag:
+        avg: 0.002157
+        max: 0.015934
+        min: 0.001096
+      rk2_btcalc:
+        avg: 0.471737
+        max: 0.650535
+        min: 0.338889
+      rk2_btforce:
+        avg: 2.011926
+        max: 3.065126
+        min: 1.025858
+      rk2_btstep:
+        avg: 70.041111
+        max: 117.545623
+        min: 44.314882
+      rk2_continuity:
+        avg: 49.441289
+        max: 62.59655
+        min: 30.232143
+      rk2_coriolis:
+        avg: 7.474511
+        max: 8.393377
+        min: 6.379413
+      rk2_horvisc:
+        avg: 9.521285
+        max: 9.983807
+        min: 8.864241
+      rk2_momentum_update:
+        avg: 3.269833
+        max: 3.407063
+        min: 3.007415
+      rk2_msg_pass:
+        avg: 62.25828
+        max: 121.200042
+        min: 26.524063
+      rk2_msg_pass_init:
+        avg: 0.0
+        max: 0.0
+        min: 0.0
+      rk2_pressureforce:
+        avg: 35.264551
+        max: 37.762085
+        min: 33.935759
+      rk2_vertvisc:
+        avg: 32.340679
+        max: 48.086528
+        min: 12.651788
+      total:
+        avg: 519.149853
+        max: 519.223242
+        min: 519.091871
