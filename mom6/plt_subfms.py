@@ -11,8 +11,8 @@ formats = ('svg',)
 c_txt = 'k'
 
 timings_files = {
-    'mom5': 'mom5_fms_timings.yaml',
-    'mom6': 'mom6_fms_timings.yaml'
+#    'mom5': 'mom5_fms_timings.yaml',
+    'mom6': 'mom6_fms_timings_new.yaml'
 }
 models = list(timings_files.keys())
 
@@ -46,6 +46,11 @@ mark = {
     'mom5': 'b',
     'mom6': 'r',
 }
+
+try:
+    os.mkdir('figs')
+except FileExistsError:
+    pass
 
 # Plots (only use abbreviated mom6 list)
 for fn_name in runtimes['mom6']:
@@ -103,6 +108,11 @@ for fn_name in runtimes['mom6']:
             ax_rt.plot(pt[0], pt[1], 'o', markeredgewidth=1, markersize=8, color=mark[model])
             #ax_rt.plot(pt[0], pt[2], 'v', markeredgewidth=1, markersize=8, color='g')
             #ax_rt.plot(pt[0], pt[3], '^', markeredgewidth=1, markersize=8, color='r')
+
+            errbar = np.array([[pt[1] - pt[2]], [pt[3] - pt[1]]])
+            ax_rt.errorbar(pt[0], pt[1], yerr=errbar,
+                           fmt='o', markeredgewidth=1, markersize=8, color='r',
+                           ecolor='b')
 
         #----------------
         # Efficiency plot
