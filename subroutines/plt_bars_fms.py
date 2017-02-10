@@ -10,7 +10,7 @@ import yaml
 formats = ('svg',)
 ctxt = 'w'
 
-main_routine = 'ocn'
+main_routine = 'update_ocean_model'
 
 main_subroutines = [
     'update_ocean_tracer',
@@ -63,7 +63,7 @@ main_subroutines = [
 #]
 
 # Open MPI runtimes
-with open('sis01_timings.yaml', 'r') as timings_file:
+with open('subrt_timings.yaml', 'r') as timings_file:
     timings = yaml.load(timings_file)
 
 runtimes = defaultdict(list)

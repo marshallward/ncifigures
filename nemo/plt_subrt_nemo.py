@@ -8,7 +8,7 @@ import numpy as np
 import yaml
 
 formats = ('svg',)
-ctxt = 'k'
+ctxt = 'w'
 
 fn_ranges = {
         'update_ocean_model':   (1e1, 1e4)
