@@ -8,7 +8,12 @@ import numpy as np
 import yaml
 
 formats = ('svg',)
-c_txt = 'w'
+c_txt = 'k'
+ymin, ymax = 1e-2, 1e5
+
+fn_ranges = {
+        'ocn':   (1e1, 1e4),
+}
 
 # Open MPI runtimes
 #with open('sis01_timings.yaml', 'r') as timings_file:
@@ -44,7 +49,8 @@ for fn_name in runtimes:
         pes = sorted(list(set(pt[0] for pt in rt)))
 
         ax.set_xscale('log')
-        ax.set_xlim(600, 21000)
+        #ax.set_xlim(600, 21000)
+        ax.set_xlim(min(pes) / 1.1, max(pes) * 1.1)
         ax.set_xlabel('# of PEs')
         ax.set_xticks(pes)
         ax.set_xticklabels(pes, rotation=30)
@@ -60,7 +66,13 @@ for fn_name in runtimes:
     #----------------------
     # Runtime scaling plot
 
-    ax_rt.set_ylim(1e-2, 1e5)
+    if fn_name in fn_ranges:
+        ys, ye = fn_ranges[fn_name]
+    else:
+        ys, ye = ymin, ymax
+
+    ax_rt.set_ylim(ys, ye)
+
     ax_rt.set_yscale('log')
     ax_rt.set_title('10-day runtime')
 
@@ -76,18 +88,23 @@ for fn_name in runtimes:
     ax_rt.plot(pes, t_opt, '--', color='k')
 
     for pt in rt:
-        ax_rt.plot(pt[0], pt[1], 'o', markeredgewidth=1, markersize=8, color='b')
+        ax_rt.plot(pt[0], pt[1], 'o', markeredgewidth=1, markersize=8, color='r',
+                   markeredgecolor='k')
         #ax_rt.plot(pt[0], pt[2], 'v', markeredgewidth=1, markersize=8, color='g')
-        #ax_rt.plot(pt[0], pt[3], '^', markeredgewidth=1, markersize=8, color='r')
+        #ax_rt.plot(pt[0], pt[3], '^', markeredgewidth=1, markersize=8, color='b')
 
     #----------------
     # Efficiency plot
 
-    ax_eff.set_ylim(0., 1.5)
+    ax_eff.set_ylim(0., 1.2)
     ax_eff.set_title('Efficiency (w.r.t. {} PEs)'.format(p_ref))
 
     for pt in rt:
-        ax_eff.plot(pt[0], t_min * p_ref / pt[0] / pt[1], 'o', color='r')
+        ax_eff.plot(pt[0], t_min * p_ref / pt[0] / pt[1], 'o', color='r',
+                    markeredgecolor='k')
+
+    ax_eff.axhline(1., color='k', linestyle='--')
+    ax_eff.axhline(0.8, color='k', linestyle=':')
 
     for fmt in formats:
         plt.savefig('{}.{}'.format(fn_name, fmt),

@@ -20,7 +20,9 @@ p_sub_ref = {
 }
 
 fn_ranges = {
-#        'update_ocean_model':   (1e1, 1e4)
+        'atm_step_4a':          (1e1, 1e3),
+        'ice_step':             (1e1, 1e3),
+        'update_ocean_model':   (1e1, 1e3),
 }
 
 # Open MPI runtimes
@@ -95,14 +97,12 @@ for sub in submodels:
         #----------------------
         # Runtime scaling plot
 
-        #if fn_name in fn_ranges:
-        #    ys, ye = fn_ranges[fn_name]
-        #else:
-        #    ys, ye = 1e-1, 1e3
-
-        if yrange:
+        if fn_name in fn_ranges:
+            ys, ye = fn_ranges[fn_name]
+        else:
             ys, ye = ymin, ymax
-            ax_rt.set_ylim(ys, ye)
+
+        ax_rt.set_ylim(ys, ye)
 
         ax_rt.set_yscale('log')
         ax_rt.set_title('10-day runtime')
@@ -125,8 +125,8 @@ for sub in submodels:
 
             errbar = np.array([[pt[1] - pt[2]], [pt[3] - pt[1]]])
             ax_rt.errorbar(pt[0], pt[1], yerr=errbar,
-                           fmt='o', markeredgewidth=1, markersize=8, color='r',
-                           ecolor='b')
+                           fmt='o', markeredgewidth=1, markeredgecolor='k',
+                           markersize=8, color='r', ecolor='b')
 
         #----------------
         # Efficiency plot
@@ -135,7 +135,8 @@ for sub in submodels:
         ax_eff.set_title('Efficiency rel. to {} CPUs'.format(p_ref))
 
         for pt in rt:
-            ax_eff.plot(pt[0], t_min * p_ref / pt[0] / pt[1], 'o', color='r')
+            ax_eff.plot(pt[0], t_min * p_ref / pt[0] / pt[1], 'o', color='r',
+                        markeredgecolor='k')
 
         ax_eff.axhline(1., color='k', linestyle='--')
         ax_eff.axhline(0.8, color='k', linestyle=':')
