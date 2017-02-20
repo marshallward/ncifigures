@@ -147,19 +147,20 @@ for regsub in submodels:
             peset = np.array(sorted(set(subtimes[regsub][cpusub].keys())))
 
         pe_widths = [peset[i+1] - peset[i] for i in range(len(peset) - 1)]
-        pe_widths.append(pe_widths[-1])
+        pe_widths.append(2. * pe_widths[-1])
         pe_widths = np.array(pe_widths)
 
         pe_widths = 0.9 * pe_widths
 
         ax.set_xscale('log')
-        ax.set_xlim(np.min(peset) / 1.1, np.max(peset) * 1.5)
+        ax.set_xlim(np.min(peset) - 0.125 * pe_widths[0],
+                    np.max(peset) + 1.25 * pe_widths[-1])
         ax.set_xticks(peset + pe_widths / 2.)
         ax.set_xticklabels(peset)
         ax.set_ylim(0., 1.)
-        ax.set_xlabel('# of CPUs')
+        ax.set_xlabel('# of {} CPUs'.format(cpusub))
         ax.set_ylabel('Relative runtime')
-        ax.set_title('Relative runtime of main loop subroutines')
+        ax.set_title('Relative runtime of {} main loop subroutines'.format(regsub))
         ax.minorticks_off()
 
         ax.xaxis.label.set_color(ctxt)
@@ -212,8 +213,8 @@ for regsub in submodels:
 
             handles.append(h)
 
-        ax.legend(handles, main_subroutines[regsub], loc=(-1.0, 0.0), fontsize=9)
-        #ax.legend(handles[::-1], main_subroutines[::-1], loc=(-0.6, 0.), fontsize=12)
+        #ax.legend(handles, main_subroutines[regsub], loc=(-0.5, 0.0), fontsize=9)
+        ax.legend(handles, main_subroutines[regsub], loc='best', fontsize=9)
 
         plt.savefig('barfigs/{}_vs_{}.svg'.format(regsub, cpusub),
                     facecolor='none', bbox_inches='tight')
