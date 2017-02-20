@@ -73,12 +73,10 @@ for cpusub in submodels:
     inittimes['atm'][cpusub] = {}
 
 
-for regsub in submodels:       # ocn has no "main" timestep method
+for regsub in submodels:
     # Skip 'ocn' for now
-    if regsub == 'ocn':
-        continue
-
-    main_reg = main_routine[regsub]
+    #if regsub == 'ocn':
+    #    continue
 
     for cpusub in submodels:
         for expt in timings:
@@ -87,15 +85,18 @@ for regsub in submodels:       # ocn has no "main" timestep method
                    for s in submodels if s is not cpusub):
                 continue
 
+            ncpus = timings[expt][cpusub]['n']
+
             # Process main subroutine
 
-            ncpus = timings[expt][cpusub]['n']
-            rt = timings[expt][regsub]['runtimes'][main_reg]['mean']
+            if regsub in main_routine:
+                main_reg = main_routine[regsub]
+                rt = timings[expt][regsub]['runtimes'][main_reg]['mean']
 
-            if not ncpus in maintimes[regsub][cpusub]:
-                maintimes[regsub][cpusub][ncpus] = []
+                if not ncpus in maintimes[regsub][cpusub]:
+                    maintimes[regsub][cpusub][ncpus] = []
 
-            maintimes[regsub][cpusub][ncpus].append(rt)
+                maintimes[regsub][cpusub][ncpus].append(rt)
 
             # Process subroutine data
 
@@ -124,7 +125,6 @@ for regsub in submodels:       # ocn has no "main" timestep method
                     except KeyError:
                         inittimes[regsub][cpusub][ncpus][reg] = [rt]
 
-
 # Create figure directories
 try:
     os.mkdir('barfigs')
@@ -135,13 +135,16 @@ except FileExistsError:
 # Plot figures
 for regsub in submodels:
     # Skip 'ocn' for now
-    if regsub == 'ocn':
-        continue
+    #if regsub == 'ocn':
+    #    continue
 
     for cpusub in submodels:
         fig, ax = plt.subplots(1, 1, figsize=(6., 6.))
 
-        peset = np.array(sorted(set(maintimes[regsub][cpusub].keys())))
+        if maintimes[regsub][cpusub]:
+            peset = np.array(sorted(set(maintimes[regsub][cpusub].keys())))
+        else:
+            peset = np.array(sorted(set(subtimes[regsub][cpusub].keys())))
 
         pe_widths = [peset[i+1] - peset[i] for i in range(len(peset) - 1)]
         pe_widths.append(pe_widths[-1])
@@ -170,46 +173,41 @@ for regsub in submodels:
         main_rt = np.zeros(len(peset))
         for i, pe in enumerate(peset):
             if regsub in inittimes:
+                # Remove any initialization subroutines inside main function
                 m_rt_pes = np.array([t for t in maintimes[regsub][cpusub][pe]])
                 i_rt_pes = np.zeros(len(m_rt_pes))
 
-                for reg in init_subroutines[regsub]:
-                    i_rt_pes += np.array([t for t in inittimes[regsub][cpusub][pe][reg]])
+                for subrt in init_subroutines[regsub]:
+                    i_rt_pes += np.array([t for t in inittimes[regsub][cpusub][pe][subrt]])
 
                 main_rt[i] = np.mean(m_rt_pes - i_rt_pes)
-                #main_rt[i] = np.mean([t for t in maintimes[regsub][cpusub][pe]])
-            else:
+            elif maintimes[regsub][cpusub]:
+                # Explicitly read the main subroutine time
                 m_rt_pes = np.array([t for t in maintimes[regsub][cpusub][pe]])
                 main_rt[i] = m_rt_pes.mean()
-
-        #main_runtimes = np.array([[t for t in maintimes[regsub][cpusub][pe]]
-        #                          for pe in peset])
-
-        #if regsub in init_subroutines:
-        #    init_runtimes = np.array([t for pe in peset
-        #                              for t in inittimes[regsub][cpusub][pe]])
-        #    main_rt = np.mean(main_runtimes - init_runtimes, axis=1)
-        #else:
-        #    main_rt = np.mean(main_runtimes, axis=1)
-
-        #main_rt = np.array([np.mean([t for t in maintimes[regsub][cpusub][pe]])
-        #                    for pe in peset])
+            else:
+                # Assume the total equals the sum of subroutines
+                for subrt in main_subroutines[regsub]:
+                    main_rt[i] += np.mean([t for t in subtimes[regsub][cpusub][pe][subrt]])
 
         btm_bar = np.zeros(main_rt.shape)
-        cm = plt.get_cmap('Set1')
         n_subrt = len(main_subroutines[regsub])
-        colors = cm([1. * i / n_subrt for i in range(n_subrt)])
+        #cm = plt.get_cmap('Set1')
+        #colors = cm([1. * i / n_subrt for i in range(n_subrt)])
 
         handles = []
-        for subrt, c_subrt in zip(main_subroutines[regsub], colors):
+        #for subrt, c_subrt in zip(main_subroutines[regsub], colors):
+        for subrt in main_subroutines[regsub]:
 
             subrt_times = np.array(
                     [np.mean([t for t in subtimes[regsub][cpusub][pe][subrt]])
                      for pe in peset]
             )
 
+            #h = plt.bar(peset, subrt_times / main_rt, pe_widths, edgecolor='k',
+            #            bottom=btm_bar, color=c_subrt, align='edge')
             h = plt.bar(peset, subrt_times / main_rt, pe_widths, edgecolor='k',
-                        bottom=btm_bar, color=c_subrt, align='edge')
+                        bottom=btm_bar, align='edge')
             btm_bar += subrt_times / main_rt
 
             handles.append(h)
