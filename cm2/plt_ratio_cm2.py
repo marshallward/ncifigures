@@ -142,16 +142,22 @@ for regsub in submodels:
         fig, ax = plt.subplots(1, 1, figsize=(6., 6.))
 
         peset = np.array(sorted(set(maintimes[regsub][cpusub].keys())))
-        pe_widths = 50 * peset / peset[0]
+
+        pe_widths = [peset[i+1] - peset[i] for i in range(len(peset) - 1)]
+        pe_widths.append(pe_widths[-1])
+        pe_widths = np.array(pe_widths)
+
+        pe_widths = 0.9 * pe_widths
 
         ax.set_xscale('log')
-        ax.set_xlim(np.min(peset) / 1.1, np.max(peset) * 1.1)
+        ax.set_xlim(np.min(peset) / 1.1, np.max(peset) * 1.5)
         ax.set_xticks(peset + pe_widths / 2.)
         ax.set_xticklabels(peset)
         ax.set_ylim(0., 1.)
         ax.set_xlabel('# of CPUs')
         ax.set_ylabel('Relative runtime')
         ax.set_title('Relative runtime of main loop subroutines')
+        ax.minorticks_off()
 
         ax.xaxis.label.set_color(ctxt)
         ax.yaxis.label.set_color(ctxt)
@@ -202,8 +208,8 @@ for regsub in submodels:
                      for pe in peset]
             )
 
-            h = plt.bar(peset, subrt_times / main_rt, pe_widths,
-                        bottom=btm_bar, color=c_subrt)
+            h = plt.bar(peset, subrt_times / main_rt, pe_widths, edgecolor='k',
+                        bottom=btm_bar, color=c_subrt, align='edge')
             btm_bar += subrt_times / main_rt
 
             handles.append(h)
