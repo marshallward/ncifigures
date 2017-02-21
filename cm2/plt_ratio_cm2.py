@@ -28,8 +28,6 @@ main_subroutines['atm'] = [
         'atm_step_4a',
         'oasis3_geto2a',
         'oasis3_puta2o',
-        'dumpctl',
-        'meanctl',
 ]
 
 main_subroutines['ice'] = [
@@ -51,6 +49,8 @@ main_subroutines['ocn'] = [
 
 init_subroutines['atm'] = [
         'initial_4a',
+        'dumpctl',
+        'meanctl',
 ]
 
 with open('cm2.yaml', 'r') as timings_file:
@@ -209,6 +209,18 @@ for regsub in submodels:
             #            bottom=btm_bar, color=c_subrt, align='edge')
             h = plt.bar(peset, subrt_times / main_rt, pe_widths, edgecolor='k',
                         bottom=btm_bar, align='edge')
+
+            # Re-plot hatches
+            for i, pe in enumerate(peset):
+                if pe == default_ncpus[cpusub]:
+                    pe_h = pe
+                    rt_h = subrt_times[i] / main_rt[i]
+                    pew_h = pe_widths[i]
+                    btm_h = btm_bar[i]
+
+                    plt.bar(pe_h, rt_h, pew_h, color='none', bottom=btm_h,
+                            align='edge', hatch='x')
+
             btm_bar += subrt_times / main_rt
 
             handles.append(h)

@@ -41,6 +41,7 @@ fn_ranges = {
         'atm_step_4a':          (1e1, 1e3),
         'ice_step':             (1e1, 1e3),
         'update_ocean_model':   (1e1, 1e3),
+        'oasis3_geto2a':        (1e1, 1e3),
 }
 
 with open('cm2.yaml', 'r') as timings_file:
