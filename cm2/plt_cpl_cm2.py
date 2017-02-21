@@ -42,6 +42,7 @@ fn_ranges = {
         'ice_step':             (1e1, 1e3),
         'update_ocean_model':   (1e1, 1e3),
         'oasis3_geto2a':        (1e1, 1e3),
+        'main_IP_external_coupler_sbc_after':   (1e1, 1e3),
 }
 
 with open('cm2.yaml', 'r') as timings_file:
