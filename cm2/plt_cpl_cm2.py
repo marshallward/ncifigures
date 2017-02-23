@@ -13,13 +13,28 @@ yrange = True
 ymin, ymax = 1e-1, 1e3
 submodels = ('atm', 'ocn', 'ice')
 
+# CPU stats
+
 np_default = {
         'atm': 432,
         'ice': 192,
         'ocn': 960
 }
 
+p_sub_ref = {
+        'atm': 96,
+        'ice': 96,
+        'ocn': 240,
+}
+
+# Regions
+
 regions = [
+    # Mains
+    'main_um',
+    'main_mom',
+    'cice_run',
+    # Coupling
     'oasis3_geto2a',
     'oasis3_puta2o',
     'from_coupler',
@@ -31,13 +46,30 @@ regions = [
     'main_IP_external_coupler_sbc_after',
 ]
 
-p_sub_ref = {
-        'atm': 96,
-        'ice': 96,
-        'ocn': 240,
+main_regions = {
+        'atm': 'main_um',
+        'ocn': 'main_mom'
 }
 
+main_subroutines = {}
+
+main_subroutines['atm'] = [
+        'atm_step_4a',
+        'oasis3_geto2a',
+        'oasis3_puta2o',
+]
+
+main_subroutines['ocn'] = [
+        #'main_IP_ice_ocn_bnd_from_data',
+        'main_IP_external_coupler_sbc_before',
+        'update_ocean_model',
+        'main_IP_external_coupler_sbc_after',
+]
+
 fn_ranges = {
+        'main_um':              (1e1, 1e3),
+        'cice_run':             (1e1, 1e3),
+        'main_mom':             (1e1, 1e3),
         'atm_step_4a':          (1e1, 1e3),
         'ice_step':             (1e1, 1e3),
         'update_ocean_model':   (1e1, 1e3),
@@ -47,6 +79,27 @@ fn_ranges = {
 
 with open('cm2.yaml', 'r') as timings_file:
     timings = yaml.load(timings_file)
+
+# Create some dummy regions to be populated by the script
+for expt in timings:
+
+    for sub in main_regions:
+        timings_rt = timings[expt][sub]['runtimes']
+
+        mreg = main_regions[sub]
+
+        timings_rt[mreg] = {}
+        for key in ('mean', 'min', 'max'):
+            timings_rt[mreg][key] = 0.
+            for reg in main_subroutines[sub]:
+                rt = timings_rt[reg][key]
+                timings_rt[mreg][key] += rt
+        timings_rt[mreg]['std'] = -1   # root mean square?
+
+    #timings[expt]['ocn']['runtimes']['main_um'] = {}
+    #for key in ('mean', 'min', 'max', 'std'):
+    #    timings[expt]['ocn']['runtimes']['main_mom'][key] = -1
+
 
 # Call regions are encapsulated by submodel, though maybe this is unncessary...
 # If unnecessary, then just do runtimes = defaultdict(list)
@@ -78,6 +131,8 @@ for expt in timings:
             std_rt = rt[key]['std']
             runtimes[sub][key].append((ncpus, mean_rt, min_rt, max_rt, std_rt))
 
+
+print(runtimes['atm'].keys())
 
 ## Open MPI runtimes
 #with open('cm2.yaml', 'r') as timings_file:
