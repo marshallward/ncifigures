@@ -8,7 +8,7 @@ import numpy as np
 import yaml
 
 formats = ('svg',)
-ctxt = 'k'
+ctxt = 'w'
 yrange = True
 ymin, ymax = 1e-1, 1e3
 submodels = ('atm', 'ocn', 'ice')

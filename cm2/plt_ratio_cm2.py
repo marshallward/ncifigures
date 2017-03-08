@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import yaml
 
+cm2_file = 'cm2_oasis.yaml'
 formats = ('svg',)
 ctxt = 'k'
 submodels = ('atm', 'ocn', 'ice')
@@ -15,14 +16,23 @@ default_ncpus = {
         'ice': 192,
         'ocn': 960,
 }
+adjust_runtimes = True
 
-main_routine = {}
+main_regions = {
+        'atm': 'main_um',
+        'ice': 'main_cice',
+        'ocn': 'main_mom'
+}
+
+init_regions = {
+        'atm': 'init_um',
+        'ice': 'init_cice',
+        'ocn': 'init_mom'
+}
+
+
 main_subroutines = {}
 init_subroutines = {}
-
-main_routine['atm'] = 'u_model_4a'
-main_routine['ice'] = 'cice_run'
-#main_routine['ocn'] = 'MAIN'
 
 main_subroutines['atm'] = [
         'atm_step_4a',
@@ -53,8 +63,121 @@ init_subroutines['atm'] = [
         'meanctl',
 ]
 
-with open('cm2.yaml', 'r') as timings_file:
+init_subroutines['ice'] = [
+        'cice_initialize',
+]
+
+
+init_subroutines['ocn'] = [
+        'main_IP_external_coupler_sbc_init',
+        'main_IP_external_coupler_mpi_init',
+        'ocean_model_init',
+        'fms_init',
+]
+
+with open(cm2_file, 'r') as timings_file:
     timings = yaml.load(timings_file)
+
+# Create some dummy regions to be populated by the script
+for expt in timings:
+
+    for sub in init_regions:
+        timings_rt = timings[expt][sub]['runtimes']
+
+        mreg = init_regions[sub]
+
+        timings_rt[mreg] = {}
+        for key in ('mean', 'min', 'max'):
+            timings_rt[mreg][key] = 0.
+            for reg in init_subroutines[sub]:
+                rt = timings_rt[reg][key]
+                timings_rt[mreg][key] += rt
+        timings_rt[mreg]['std'] = -1   # root mean square?
+
+    # Main time adjustment
+    # (try to correct for oasis wait times due to initialization)
+    if adjust_runtimes:
+        init_rts = {sub: timings[expt][sub]['runtimes'][init_regions[sub]]['mean']
+                    for sub in submodels}
+        max_sub = max(init_rts, key=init_rts.get)
+        max_rt = init_rts[max_sub]
+
+        a_rt, i_rt, o_rt = (init_rts[s] for s in ('atm', 'ice', 'ocn'))
+
+        # Remove restart IO write time
+        io_reg = 'oasis_io_write_avfile'
+
+        for msub in ('atm', 'ice'):
+            if msub == 'atm':
+                cpl_reg = 'oasis3_puta2o'
+            elif msub == 'ice':
+                cpl_reg = 'into_atm'
+            else:
+                print('oops')
+                sys.exit()
+
+            io_rt = timings[expt][msub]['runtimes'][io_reg]['mean']
+            for key in ('mean', 'min', 'max'):
+                main_rt = timings[expt][msub]['runtimes'][cpl_reg][key]
+                timings[expt][msub]['runtimes'][cpl_reg][key] = main_rt - io_rt
+
+        # Ocean adjust
+        if o_rt < i_rt:
+            d_rt = i_rt - o_rt
+
+            reg = 'main_IP_external_coupler_sbc_after'
+            o2i_rt = timings[expt]['ocn']['runtimes'][reg]['mean']
+
+            step_rt = timings[expt]['ocn']['runtimes']['update_ocean_model']['mean'] / 8.
+
+            # NOTE: The max(,0) check is most likely due to IO diff
+            #       This only seems to occur when the diff is small (i.e. IO)
+            diff_rt = o2i_rt - d_rt + step_rt
+
+            timings[expt]['ocn']['runtimes'][reg]['mean'] = max(diff_rt, 0)
+            if diff_rt < 0:
+                print(expt, diff_rt)
+        else:
+            reg = 'from_ocn'
+            i2o_rt = timings[expt]['ice']['runtimes'][reg]['mean']
+            d_rt = o_rt - i_rt
+
+            diff_rt = i2o_rt - d_rt
+            timings[expt]['ice']['runtimes'][reg]['mean'] = diff_rt
+
+        # Atm adjust
+        if a_rt < i_rt or a_rt < o_rt:
+            reg = 'oasis3_geto2a'
+            i2a_rt = timings[expt]['atm']['runtimes'][reg]['mean']
+
+            if i_rt < o_rt:
+                d_rt = o_rt - a_rt
+            else:
+                d_rt = i_rt - a_rt
+
+            # Do I include step??
+            step_rt = timings[expt]['atm']['runtimes']['atm_step_4a']['mean'] / 8.
+
+            diff_rt = i2a_rt - d_rt + step_rt
+
+            # Using max(,0) until actual differential is worked out...
+            timings[expt]['atm']['runtimes'][reg]['mean'] = max(diff_rt, 0)
+            if diff_rt < 0:
+                print(expt, diff_rt)
+
+    for sub in main_regions:
+        timings_rt = timings[expt][sub]['runtimes']
+
+        mreg = main_regions[sub]
+
+        timings_rt[mreg] = {}
+        for key in ('mean', 'min', 'max'):
+            timings_rt[mreg][key] = 0.
+            for reg in main_subroutines[sub]:
+                rt = timings_rt[reg][key]
+                timings_rt[mreg][key] += rt
+        timings_rt[mreg]['std'] = -1   # root mean square?
+
 
 maintimes = {}
 subtimes = {}
@@ -68,9 +191,9 @@ for regsub in submodels:
         subtimes[regsub][cpusub] = {}
 
 inittimes = {}
-inittimes['atm'] = {}
-for cpusub in submodels:
-    inittimes['atm'][cpusub] = {}
+#inittimes['atm'] = {}
+#for cpusub in submodels:
+#    inittimes['atm'][cpusub] = {}
 
 
 for regsub in submodels:
@@ -89,8 +212,8 @@ for regsub in submodels:
 
             # Process main subroutine
 
-            if regsub in main_routine:
-                main_reg = main_routine[regsub]
+            if regsub in main_regions:
+                main_reg = main_regions[regsub]
                 rt = timings[expt][regsub]['runtimes'][main_reg]['mean']
 
                 if not ncpus in maintimes[regsub][cpusub]:
@@ -110,20 +233,6 @@ for regsub in submodels:
                     subtimes[regsub][cpusub][ncpus][reg].append(rt)
                 except KeyError:
                     subtimes[regsub][cpusub][ncpus][reg] = [rt]
-
-            # Initialization subroutines
-
-            if regsub in init_subroutines:
-                for reg in init_subroutines[regsub]:
-                    rt = timings[expt][regsub]['runtimes'][reg]['mean']
-
-                    if not ncpus in inittimes[regsub][cpusub]:
-                        inittimes[regsub][cpusub][ncpus] = {}
-
-                    try:
-                        inittimes[regsub][cpusub][ncpus][reg].append(rt)
-                    except KeyError:
-                        inittimes[regsub][cpusub][ncpus][reg] = [rt]
 
 # Create figure directories
 try:
@@ -157,7 +266,7 @@ for regsub in submodels:
                     np.max(peset) + 1.25 * pe_widths[-1])
         ax.set_xticks(peset + pe_widths / 2.)
         ax.set_xticklabels(peset)
-        ax.set_ylim(0., 1.)
+        #ax.set_ylim(0., 1.)
         ax.set_xlabel('# of {} CPUs'.format(cpusub))
         ax.set_ylabel('Relative runtime')
         ax.set_title('Relative runtime of {} main loop subroutines'.format(regsub))
@@ -173,23 +282,26 @@ for regsub in submodels:
 
         main_rt = np.zeros(len(peset))
         for i, pe in enumerate(peset):
-            if regsub in inittimes:
-                # Remove any initialization subroutines inside main function
-                m_rt_pes = np.array([t for t in maintimes[regsub][cpusub][pe]])
-                i_rt_pes = np.zeros(len(m_rt_pes))
+            #if regsub in inittimes:
+            #    print('init times?')
+            #    # Remove any initialization subroutines inside main function
+            #    m_rt_pes = np.array([t for t in maintimes[regsub][cpusub][pe]])
+            #    i_rt_pes = np.zeros(len(m_rt_pes))
 
-                for subrt in init_subroutines[regsub]:
-                    i_rt_pes += np.array([t for t in inittimes[regsub][cpusub][pe][subrt]])
+            #    for subrt in init_subroutines[regsub]:
+            #        i_rt_pes += np.array([t for t in inittimes[regsub][cpusub][pe][subrt]])
 
-                main_rt[i] = np.mean(m_rt_pes - i_rt_pes)
-            elif maintimes[regsub][cpusub]:
-                # Explicitly read the main subroutine time
-                m_rt_pes = np.array([t for t in maintimes[regsub][cpusub][pe]])
-                main_rt[i] = m_rt_pes.mean()
-            else:
-                # Assume the total equals the sum of subroutines
-                for subrt in main_subroutines[regsub]:
-                    main_rt[i] += np.mean([t for t in subtimes[regsub][cpusub][pe][subrt]])
+            #    main_rt[i] = np.mean(m_rt_pes - i_rt_pes)
+            #elif maintimes[regsub][cpusub]:
+            #    # Explicitly read the main subroutine time
+            #    m_rt_pes = np.array([t for t in maintimes[regsub][cpusub][pe]])
+            #    main_rt[i] = m_rt_pes.mean()
+            #else:
+            #    # Assume the total equals the sum of subroutines
+            #    for subrt in main_subroutines[regsub]:
+            #        main_rt[i] += np.mean([t for t in subtimes[regsub][cpusub][pe][subrt]])
+            for subrt in main_subroutines[regsub]:
+                main_rt[i] += np.mean([t for t in subtimes[regsub][cpusub][pe][subrt]])
 
         btm_bar = np.zeros(main_rt.shape)
         n_subrt = len(main_subroutines[regsub])
