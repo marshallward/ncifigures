@@ -172,10 +172,9 @@ for expt in timings:
             reg = 'main_IP_external_coupler_sbc_after'
             o2i_rt = timings[expt]['ocn']['runtimes'][reg]['mean']
 
-            # Ocn does 1 step before receiving, total steps is 192
-            n_steps = 86400. / 450.
+            # Ocn does 3 hrs of steps before receiving (1/8 of rt)
             rt_steps = timings[expt]['ocn']['runtimes']['update_ocean_model']['mean']
-            step_rt = rt_steps / n_steps
+            step_rt = rt_steps / 8.
 
             # NOTE: The max(,0) check is most likely due to IO diff
             #       This only seems to occur when the diff is small (i.e. IO)
@@ -208,8 +207,7 @@ for expt in timings:
             else:
                 d_rt = i_rt - a_rt
 
-            #step_rt = timings[expt]['atm']['runtimes']['atm_step_4a']['mean'] / 8.
-            step_rt = 0.
+            step_rt = timings[expt]['atm']['runtimes']['atm_step_4a']['mean'] / 72.
 
             diff_rt = max(i2a_rt - d_rt + step_rt, 0)
 
