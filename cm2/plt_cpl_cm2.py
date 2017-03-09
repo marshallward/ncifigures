@@ -66,8 +66,11 @@ main_subroutines = {}
 init_subroutines = {}
 
 main_subroutines['atm'] = [
-        'atm_step_4a',
+        'incrtime',
         'oasis3_geto2a',
+        'atm_step_4a',
+        'settsctl',
+        'ukca_main1',
         'oasis3_puta2o',
 ]
 
@@ -76,7 +79,6 @@ main_subroutines['ice'] = [
 ]
 
 main_subroutines['ocn'] = [
-        #'main_IP_ice_ocn_bnd_from_data',
         'mpp_clock_begin',
         'main_IP_external_coupler_sbc_before',
         'update_ocean_model',
@@ -84,9 +86,8 @@ main_subroutines['ocn'] = [
 ]
 
 init_subroutines['atm'] = [
+        'oasis_initialise',
         'initial_4a',
-        'dumpctl',
-        'meanctl',
 ]
 
 init_subroutines['ice'] = [
@@ -126,15 +127,15 @@ for expt in timings:
     for sub in init_regions:
         timings_rt = timings[expt][sub]['runtimes']
 
-        mreg = init_regions[sub]
+        init_reg = init_regions[sub]
 
-        timings_rt[mreg] = {}
+        timings_rt[init_reg] = {}
         for key in ('mean', 'min', 'max'):
-            timings_rt[mreg][key] = 0.
+            timings_rt[init_reg][key] = 0.
             for reg in init_subroutines[sub]:
                 rt = timings_rt[reg][key]
-                timings_rt[mreg][key] += rt
-        timings_rt[mreg]['std'] = -1   # root mean square?
+                timings_rt[init_reg][key] += rt
+        timings_rt[init_reg]['std'] = -1   # root mean square?
 
     # Main time adjustment
     # (try to correct for oasis wait times due to initialization)
@@ -178,8 +179,10 @@ for expt in timings:
 
             # NOTE: The max(,0) check is most likely due to IO diff
             #       This only seems to occur when the diff is small (i.e. IO)
-            #diff_rt = o2i_rt - d_rt + step_rt
-            diff_rt = max(o2i_rt - d_rt + step_rt, 0)
+            diff_rt_raw = o2i_rt - d_rt + step_rt
+            if diff_rt_raw < 0:
+                print('warning: negative runtime')
+            diff_rt = max(diff_rt_raw, 0)
 
             timings[expt]['ocn']['runtimes'][reg]['mean'] = diff_rt
             for val in ('min', 'max'):
@@ -207,7 +210,8 @@ for expt in timings:
             else:
                 d_rt = i_rt - a_rt
 
-            step_rt = timings[expt]['atm']['runtimes']['atm_step_4a']['mean'] / 72.
+            # Atm does 3 hrs of steps before second recv (first is from file)
+            step_rt = timings[expt]['atm']['runtimes']['atm_step_4a']['mean'] / 8.
 
             diff_rt = max(i2a_rt - d_rt + step_rt, 0)
 
@@ -215,7 +219,8 @@ for expt in timings:
             timings[expt]['atm']['runtimes'][reg]['mean'] = diff_rt
             for val in ('min', 'max'):
                 val_rt = timings[expt]['atm']['runtimes'][reg][val]
-                timings[expt]['atm']['runtimes'][reg][val] = max(val_rt - d_rt + step_rt, 0)
+                new_val_rt = max(val_rt - d_rt + step_rt, 0)
+                timings[expt]['atm']['runtimes'][reg][val] = new_val_rt
 
     for sub in main_regions:
         timings_rt = timings[expt][sub]['runtimes']
