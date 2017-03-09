@@ -38,6 +38,9 @@ main_subroutines['atm'] = [
         'atm_step_4a',
         'oasis3_geto2a',
         'oasis3_puta2o',
+        'incrtime',
+        'settsctl',
+        'ukca_main1',
 ]
 
 main_subroutines['ice'] = [
@@ -51,16 +54,15 @@ main_subroutines['ice'] = [
 ]
 
 main_subroutines['ocn'] = [
-        #'main_IP_ice_ocn_bnd_from_data',
-        'main_IP_external_coupler_sbc_before',
         'update_ocean_model',
         'main_IP_external_coupler_sbc_after',
+        'main_IP_external_coupler_sbc_before',
+        'mpp_clock_begin',
 ]
 
 init_subroutines['atm'] = [
+        'oasis_initialise',
         'initial_4a',
-        'dumpctl',
-        'meanctl',
 ]
 
 init_subroutines['ice'] = [
@@ -81,22 +83,42 @@ with open(cm2_file, 'r') as timings_file:
 # Create some dummy regions to be populated by the script
 for expt in timings:
 
+    # TODO: Combine with main
     for sub in init_regions:
         timings_rt = timings[expt][sub]['runtimes']
 
-        mreg = init_regions[sub]
+        init_reg = init_regions[sub]
 
-        timings_rt[mreg] = {}
+        timings_rt[init_reg] = {}
         for key in ('mean', 'min', 'max'):
-            timings_rt[mreg][key] = 0.
+            timings_rt[init_reg][key] = 0.
             for reg in init_subroutines[sub]:
                 rt = timings_rt[reg][key]
-                timings_rt[mreg][key] += rt
-        timings_rt[mreg]['std'] = -1   # root mean square?
+                timings_rt[init_reg][key] += rt
+        timings_rt[init_reg]['std'] = -1   # root mean square?
 
     # Main time adjustment
     # (try to correct for oasis wait times due to initialization)
     if adjust_runtimes:
+        # Remove restart IO write time
+        io_reg = 'oasis_io_write_avfile'
+
+        for msub in ('atm', 'ice'):
+            if msub == 'atm':
+                cpl_regs = ['oasis3_puta2o']
+            elif msub == 'ice':
+                cpl_regs = ['into_atm', 'cice_run']
+            else:
+                print('oh no!')
+                sys.exit(-1)
+
+            io_rt = timings[expt][msub]['runtimes'][io_reg]['mean']
+            for key in ('mean', 'min', 'max'):
+                for creg in cpl_regs:
+                    main_rt = timings[expt][msub]['runtimes'][creg][key]
+                    timings[expt][msub]['runtimes'][creg][key] = main_rt - io_rt
+
+        # Get initialisation times
         init_rts = {sub: timings[expt][sub]['runtimes'][init_regions[sub]]['mean']
                     for sub in submodels}
         max_sub = max(init_rts, key=init_rts.get)
@@ -104,39 +126,29 @@ for expt in timings:
 
         a_rt, i_rt, o_rt = (init_rts[s] for s in ('atm', 'ice', 'ocn'))
 
-        # Remove restart IO write time
-        io_reg = 'oasis_io_write_avfile'
-
-        for msub in ('atm', 'ice'):
-            if msub == 'atm':
-                cpl_reg = 'oasis3_puta2o'
-            elif msub == 'ice':
-                cpl_reg = 'into_atm'
-            else:
-                print('oops')
-                sys.exit()
-
-            io_rt = timings[expt][msub]['runtimes'][io_reg]['mean']
-            for key in ('mean', 'min', 'max'):
-                main_rt = timings[expt][msub]['runtimes'][cpl_reg][key]
-                timings[expt][msub]['runtimes'][cpl_reg][key] = main_rt - io_rt
-
-        # Ocean adjust
+        # Ocean initialization lag adjust
         if o_rt < i_rt:
             d_rt = i_rt - o_rt
 
             reg = 'main_IP_external_coupler_sbc_after'
             o2i_rt = timings[expt]['ocn']['runtimes'][reg]['mean']
 
-            step_rt = timings[expt]['ocn']['runtimes']['update_ocean_model']['mean'] / 8.
+            # Ocn does 3 hrs of steps before receiving (1/8 of rt)
+            rt_steps = timings[expt]['ocn']['runtimes']['update_ocean_model']['mean']
+            step_rt = rt_steps / 8.
 
             # NOTE: The max(,0) check is most likely due to IO diff
             #       This only seems to occur when the diff is small (i.e. IO)
-            diff_rt = o2i_rt - d_rt + step_rt
+            diff_rt_raw = o2i_rt - d_rt + step_rt
+            if diff_rt_raw < 0:
+                print('warning: negative runtime')
+            diff_rt = max(diff_rt_raw, 0)
 
-            timings[expt]['ocn']['runtimes'][reg]['mean'] = max(diff_rt, 0)
-            if diff_rt < 0:
-                print(expt, diff_rt)
+            timings[expt]['ocn']['runtimes'][reg]['mean'] = diff_rt
+            for val in ('min', 'max'):
+                val_rt = timings[expt]['ocn']['runtimes'][reg][val]
+                new_val_rt = max(val_rt - d_rt + step_rt, 0)
+                timings[expt]['ocn']['runtimes'][reg][val] = new_val_rt
         else:
             reg = 'from_ocn'
             i2o_rt = timings[expt]['ice']['runtimes'][reg]['mean']
@@ -144,8 +156,11 @@ for expt in timings:
 
             diff_rt = i2o_rt - d_rt
             timings[expt]['ice']['runtimes'][reg]['mean'] = diff_rt
+            for val in ('min', 'max'):
+                val_rt = timings[expt]['ice']['runtimes'][reg][val]
+                timings[expt]['ice']['runtimes'][reg][val] = max(val_rt - d_rt, 0)
 
-        # Atm adjust
+        # Atm initialization lag adjust
         if a_rt < i_rt or a_rt < o_rt:
             reg = 'oasis3_geto2a'
             i2a_rt = timings[expt]['atm']['runtimes'][reg]['mean']
@@ -155,15 +170,17 @@ for expt in timings:
             else:
                 d_rt = i_rt - a_rt
 
-            # Do I include step??
+            # Atm does 3 hrs of steps before second recv (first is from file)
             step_rt = timings[expt]['atm']['runtimes']['atm_step_4a']['mean'] / 8.
 
-            diff_rt = i2a_rt - d_rt + step_rt
+            diff_rt = max(i2a_rt - d_rt + step_rt, 0)
 
             # Using max(,0) until actual differential is worked out...
-            timings[expt]['atm']['runtimes'][reg]['mean'] = max(diff_rt, 0)
-            if diff_rt < 0:
-                print(expt, diff_rt)
+            timings[expt]['atm']['runtimes'][reg]['mean'] = diff_rt
+            for val in ('min', 'max'):
+                val_rt = timings[expt]['atm']['runtimes'][reg][val]
+                new_val_rt = max(val_rt - d_rt + step_rt, 0)
+                timings[expt]['atm']['runtimes'][reg][val] = new_val_rt
 
     for sub in main_regions:
         timings_rt = timings[expt][sub]['runtimes']
