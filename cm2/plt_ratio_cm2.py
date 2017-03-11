@@ -98,7 +98,6 @@ for expt in timings:
         timings_rt[init_reg]['std'] = -1   # root mean square?
 
     # Main time adjustment
-    # (try to correct for oasis wait times due to initialization)
     if adjust_runtimes:
         # Remove restart IO write time
         io_reg = 'oasis_io_write_avfile'

@@ -9,7 +9,7 @@ import yaml
 
 cm2_file = 'cm2_oasis.yaml'
 formats = ('svg',)
-ctxt = 'k'
+ctxt = 'w'
 yrange = True
 ymin, ymax = 1e-1, 1e3
 submodels = ('atm', 'ocn', 'ice')
@@ -112,9 +112,10 @@ fn_ranges = {
         'ice_step':             (1e1, 1e3),
         'update_ocean_model':   (1e1, 1e3),
         'oasis3_geto2a':        (1e0, 1e3),
-        'main_IP_external_coupler_sbc_after':   (1e1, 1e3),
+        'main_IP_external_coupler_sbc_after':   (1e0, 1e3),
         'into_atm':             (1e0, 1e2),
-        'from_ocn':             (1e0, 1e2),
+        'from_ocn':             (1e0, 1e3),
+        'from_atm':             (1e-1, 1e3),
 }
 
 with open(cm2_file, 'r') as timings_file:
